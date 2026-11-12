@@ -1297,6 +1297,20 @@ function createTransitFilePath(): Record<string, unknown> {
           required: true,
           schema: jsonSchema.string({ description: "Opaque local transit file identifier." }),
         },
+        {
+          name: "exp",
+          in: "query",
+          required: false,
+          schema: jsonSchema.string({ description: "Unix expiry of a signed download URL, in seconds." }),
+          description: "Required when the server signs file URLs (`OOMOL_CONNECT_FILE_URL_SECRET`).",
+        },
+        {
+          name: "sig",
+          in: "query",
+          required: false,
+          schema: jsonSchema.string({ description: "HMAC signature of a signed download URL." }),
+          description: "Required when the server signs file URLs (`OOMOL_CONNECT_FILE_URL_SECRET`).",
+        },
       ],
       responses: {
         200: {
@@ -1307,6 +1321,10 @@ function createTransitFilePath(): Record<string, unknown> {
             },
           },
         },
+        403: jsonResponse(
+          { $ref: "#/components/schemas/ErrorResponse" },
+          "file_signature_required, file_signature_invalid or file_url_expired.",
+        ),
         404: jsonResponse({ $ref: "#/components/schemas/ErrorResponse" }),
       },
     },

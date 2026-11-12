@@ -1,5 +1,6 @@
 import type { TransitFileRead, TransitFileUpload } from "../../core/types.ts";
 import type { KVNamespaceBinding } from "../cloudflare/cloudflare-bindings.ts";
+import type { FileUrlSigner } from "./file-url-signing.ts";
 import type { ITransitFileService, TransitFileMetadata } from "./transit-file-store.ts";
 
 import {
@@ -26,6 +27,8 @@ const KV_MAX_VALUE_BYTES = 25 * 1024 * 1024;
 export interface KVTransitFileOptions {
   namespace: KVNamespaceBinding;
   publicOrigin: string;
+  /** Signs every `downloadUrl` when set; the route then rejects unsigned downloads. */
+  fileUrlSigner?: FileUrlSigner;
   // Requested TTL in seconds. Values below KV's 60s minimum are clamped up to 60.
   ttlSeconds: number;
   // Requested max upload size in bytes. Clamped down to KV's 25 MiB per-value limit.
@@ -35,12 +38,14 @@ export interface KVTransitFileOptions {
 export class KVTransitFileService implements ITransitFileService {
   private readonly namespace: KVNamespaceBinding;
   private readonly publicOrigin: string;
+  private readonly fileUrlSigner: FileUrlSigner | undefined;
   private readonly ttlSeconds: number;
   readonly maxBytes: number;
 
   constructor(options: KVTransitFileOptions) {
     this.namespace = options.namespace;
     this.publicOrigin = options.publicOrigin;
+    this.fileUrlSigner = options.fileUrlSigner;
     // This constructor is exported; a non-finite/fractional/non-positive value would slip
     // through the clamps below (NaN maxBytes silently disables the size check, NaN ttl yields
     // an invalid expirationTtl), so reject anything that is not a positive integer up front.
@@ -64,7 +69,7 @@ export class KVTransitFileService implements ITransitFileService {
     await this.namespace.put(metadataKey(fileId), JSON.stringify(metadata), {
       expirationTtl: this.ttlSeconds,
     });
-    return uploadResult(this.publicOrigin, fileId, metadata);
+    return uploadResult(this.publicOrigin, fileId, metadata, await this.fileUrlSigner?.sign(fileId));
   }
 
   async read(fileId: string): Promise<TransitFileRead> {

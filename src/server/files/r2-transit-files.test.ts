@@ -1,6 +1,8 @@
 import type { R2BucketBinding, R2ObjectBinding } from "../cloudflare/cloudflare-bindings.ts";
+import type { FileUrlSigner } from "./file-url-signing.ts";
 
 import { describe, expect, it } from "vitest";
+import { createFileUrlSigner } from "./file-url-signing.ts";
 import { R2TransitFileService } from "./r2-transit-files.ts";
 import { TransitFileError } from "./transit-file-store.ts";
 
@@ -60,17 +62,34 @@ describe("R2TransitFileService", () => {
 
     await expect(service.read(upload.fileId)).rejects.toMatchObject({ status: 404 });
   });
+  it("signs downloadUrl when a file URL signer is configured", async () => {
+    const fileUrlSigner = createFileUrlSigner("test-secret", 300);
+    const service = createService(new MemoryR2Bucket(), { fileUrlSigner });
+
+    const upload = await service.create(new File(["signed"], "note.txt"));
+
+    const url = new URL(upload.downloadUrl);
+    expect(url.pathname).toBe(`/api/files/${upload.fileId}`);
+    await expect(
+      fileUrlSigner.verify(
+        upload.fileId,
+        url.searchParams.get("exp") ?? undefined,
+        url.searchParams.get("sig") ?? undefined,
+      ),
+    ).resolves.toBe("ok");
+  });
 });
 
 function createService(
   bucket: MemoryR2Bucket,
-  options: { ttlSeconds?: number; maxBytes?: number } = {},
+  options: { ttlSeconds?: number; maxBytes?: number; fileUrlSigner?: FileUrlSigner } = {},
 ): R2TransitFileService {
   return new R2TransitFileService({
     bucket,
     publicOrigin: "http://localhost:3000",
     ttlSeconds: options.ttlSeconds ?? 60,
     maxBytes: options.maxBytes ?? 1024 * 1024,
+    fileUrlSigner: options.fileUrlSigner,
   });
 }
 

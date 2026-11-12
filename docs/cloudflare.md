@@ -217,10 +217,12 @@ Connections that supply their own CA certificate, such as a [Kubernetes](configu
 cluster with a private certificate authority, need a Node runtime: Workers cannot supply a custom
 trust store, so those requests fail with a clear error.
 
-The Worker also reads the connection-grant setting:
+The Worker also reads the connection-grant and signed file URL settings:
 
 | Variable                                 | Default | Meaning                                                                                                                                                                       |
 | ---------------------------------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `OOMOL_CONNECT_REQUIRE_CONNECTION_GRANT` | `false` | When true, a stored runtime token with an empty `allowedConnections` reaches no credential connection instead of all, and `/v1` + `/mcp` always require a runtime credential. |
+| `OOMOL_CONNECT_FILE_URL_SECRET`          | unset   | HMAC secret (at least 32 random bytes) that signs transit file `downloadUrl`s. Set it with `wrangler secret put`; when set, unsigned URLs answer 403.                         |
+| `OOMOL_CONNECT_FILE_URL_TTL_SECONDS`     | `300`   | Lifetime of a signed file URL, independent of the transit file lifetime.                                                                                                      |
 
 See [configuration.md](configuration.md) for all runtime environment variables.

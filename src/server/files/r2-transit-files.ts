@@ -1,5 +1,6 @@
 import type { TransitFileRead, TransitFileUpload } from "../../core/types.ts";
 import type { R2BucketBinding, R2ObjectBinding } from "../cloudflare/cloudflare-bindings.ts";
+import type { FileUrlSigner } from "./file-url-signing.ts";
 import type { ITransitFileService, TransitFileMetadata } from "./transit-file-store.ts";
 
 import {
@@ -21,6 +22,8 @@ import {
 export interface R2TransitFileOptions {
   bucket: R2BucketBinding;
   publicOrigin: string;
+  /** Signs every `downloadUrl` when set; the route then rejects unsigned downloads. */
+  fileUrlSigner?: FileUrlSigner;
   ttlSeconds: number;
   maxBytes: number;
 }
@@ -28,12 +31,14 @@ export interface R2TransitFileOptions {
 export class R2TransitFileService implements ITransitFileService {
   private readonly bucket: R2BucketBinding;
   private readonly publicOrigin: string;
+  private readonly fileUrlSigner: FileUrlSigner | undefined;
   private readonly ttlMs: number;
   readonly maxBytes: number;
 
   constructor(options: R2TransitFileOptions) {
     this.bucket = options.bucket;
     this.publicOrigin = options.publicOrigin;
+    this.fileUrlSigner = options.fileUrlSigner;
     this.ttlMs = options.ttlSeconds * 1000;
     this.maxBytes = options.maxBytes;
   }
@@ -52,7 +57,7 @@ export class R2TransitFileService implements ITransitFileService {
     });
     await this.bucket.put(metadataKey(fileId), JSON.stringify(metadata));
 
-    return uploadResult(this.publicOrigin, fileId, metadata);
+    return uploadResult(this.publicOrigin, fileId, metadata, await this.fileUrlSigner?.sign(fileId));
   }
 
   async read(fileId: string): Promise<TransitFileRead> {

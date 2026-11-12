@@ -18,6 +18,7 @@ import { loadCatalogFromAssets } from "./cloudflare/catalog-assets.ts";
 import { readNonNegativeInteger, readPositiveInteger, resolvePublicOrigin } from "./cloudflare/cloudflare-env.ts";
 import { createConnectApp } from "./connect-app.ts";
 import { preloadOptionalServerModules } from "./connect-server.ts";
+import { createFileUrlSigner } from "./files/file-url-signing.ts";
 import { KVTransitFileService } from "./files/kv-transit-files.ts";
 import { R2TransitFileService } from "./files/r2-transit-files.ts";
 import { parseMcpOutputMode } from "./mcp-settings.ts";
@@ -102,6 +103,10 @@ async function createCloudflareApp(env: CloudflareEnv, publicOrigin: string): Pr
   // is served the same way as every later one.
   await preloadOptionalServerModules();
   const secretCodec = await createSecretCodec(env.OOMOL_CONNECT_ENCRYPTION_KEY);
+  const fileUrlSecret = env.OOMOL_CONNECT_FILE_URL_SECRET?.trim();
+  const fileUrlSigner = fileUrlSecret
+    ? createFileUrlSigner(fileUrlSecret, readPositiveInteger(env.OOMOL_CONNECT_FILE_URL_TTL_SECONDS, 300))
+    : undefined;
   return await createConnectApp({
     network: {
       allowPrivateNetwork: parsePrivateNetworkAccessFlag(env.OOMOL_CONNECT_ALLOW_PRIVATE_NETWORK),
@@ -116,6 +121,7 @@ async function createCloudflareApp(env: CloudflareEnv, publicOrigin: string): Pr
     transitFiles: (() => {
       const transitFileOptions = {
         publicOrigin,
+        fileUrlSigner,
         ttlSeconds: readPositiveInteger(env.OOMOL_CONNECT_TRANSIT_FILE_TTL_SECONDS, 86_400),
         maxBytes: readPositiveInteger(env.OOMOL_CONNECT_TRANSIT_FILE_MAX_BYTES, 100 * 1024 * 1024),
       };
@@ -129,6 +135,7 @@ async function createCloudflareApp(env: CloudflareEnv, publicOrigin: string): Pr
             ...transitFileOptions,
           });
     })(),
+    fileUrlSigner,
     publicOrigin,
     configuredOrigin: env.OOMOL_CONNECT_ORIGIN,
     secretCodec,
@@ -221,6 +228,8 @@ function createCacheKey(env: CloudflareEnv, publicOrigin: string): string {
     oauthResultOrigins: env.OOMOL_CONNECT_OAUTH_RESULT_ORIGINS ?? "",
     transitFileTtlSeconds: env.OOMOL_CONNECT_TRANSIT_FILE_TTL_SECONDS ?? "",
     transitFileMaxBytes: env.OOMOL_CONNECT_TRANSIT_FILE_MAX_BYTES ?? "",
+    fileUrlSecret: env.OOMOL_CONNECT_FILE_URL_SECRET ?? "",
+    fileUrlTtlSeconds: env.OOMOL_CONNECT_FILE_URL_TTL_SECONDS ?? "",
     runLimit: env.OOMOL_CONNECT_RUN_LIMIT ?? "",
     oauthCloseDelaySeconds: env.OOMOL_CONNECT_OAUTH_CLOSE_DELAY_SECONDS ?? "",
   });

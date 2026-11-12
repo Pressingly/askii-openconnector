@@ -285,7 +285,12 @@ function readNonNegativeIntegerEnv(name: string, fallback: number): number {
 
 function readTransitFileOptions(): ConnectorTransitFileOptions {
   const backend = process.env.OOMOL_CONNECT_TRANSIT_FILE_BACKEND ?? "local";
-  const options: ConnectorTransitFileOptions = { ttlSeconds: transitFileTtlSeconds, maxBytes: transitFileMaxBytes };
+  const options: ConnectorTransitFileOptions = {
+    ttlSeconds: transitFileTtlSeconds,
+    maxBytes: transitFileMaxBytes,
+    urlSecret: optionalEnv("OOMOL_CONNECT_FILE_URL_SECRET"),
+    urlTtlSeconds: readPositiveIntegerEnv("OOMOL_CONNECT_FILE_URL_TTL_SECONDS", 300),
+  };
   if (backend === "local") return options;
   if (backend !== "s3") throw new Error(`Unsupported OOMOL_CONNECT_TRANSIT_FILE_BACKEND: ${backend}`);
   const accessKeyId = optionalEnv("OOMOL_CONNECT_S3_ACCESS_KEY_ID");

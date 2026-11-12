@@ -16,6 +16,7 @@ import type { TriggerMaintenance } from "../triggers/maintenance.ts";
 import type { TriggerRunner } from "../triggers/trigger-runner.ts";
 import type { LocalAuthOptions } from "./api/auth.ts";
 import type { PolicySnapshotProvider } from "./api/policy-snapshot.ts";
+import type { FileUrlSigner } from "./files/file-url-signing.ts";
 import type { ITransitFileService } from "./files/transit-file-store.ts";
 import type { McpOutputMode } from "./mcp-settings.ts";
 import type { OAuthServerSettings } from "./oauth/settings.ts";
@@ -98,6 +99,7 @@ export interface IConnectServerOptions {
   triggerMaintenance?: TriggerMaintenance;
   idempotency: IIdempotencyStore;
   transitFiles: ITransitFileService;
+  fileUrlSigner?: FileUrlSigner;
   uploadTransitFile?: (request: Request) => Promise<TransitFileUpload>;
   auth?: LocalAuthOptions;
   /** Inbound OAuth 2.1 authorization server settings; absent/`enabled: false` mounts nothing. */

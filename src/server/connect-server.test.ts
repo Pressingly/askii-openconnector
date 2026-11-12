@@ -16,6 +16,7 @@ import type { IOAuthStateStore, OAuthAuthorizationState } from "../oauth/oauth-f
 import type { IProviderLoader } from "../providers/provider-loader.ts";
 import type { RuntimeActionHttpResult } from "./api/runtime-api.ts";
 import type { RuntimeJwtVerifier } from "./api/runtime-jwt.ts";
+import type { FileUrlSigner } from "./files/file-url-signing.ts";
 import type { Logger } from "./logger.ts";
 import type { McpOutputMode } from "./mcp-settings.ts";
 import type { ISecretCodec } from "./secrets/secret-codec-core.ts";
@@ -49,6 +50,7 @@ import { actionInputMaxDepth, hashActionRequest, hashIdempotencyKey } from "./ac
 import { ActionRunner } from "./actions/action-runner.ts";
 import { registerStaticRoutes } from "./api/static-routes.ts";
 import { ConnectServer } from "./connect-server.ts";
+import { createFileUrlSigner } from "./files/file-url-signing.ts";
 import { TransitFileService } from "./files/transit-files.ts";
 import { AesGcmSecretCodec, PlainTextSecretCodec } from "./secrets/secret-codec.ts";
 import { decodeRunLogCursor, encodeRunLogCursor } from "./storage/runtime-store.ts";
@@ -4671,6 +4673,79 @@ describe("ConnectServer", () => {
     }
   });
 
+  it("serves a transit file only with a valid signature", async () => {
+    const rootDir = await createTempDir();
+    try {
+      const fileUrlSigner = createFileUrlSigner("test-secret", 300);
+      const app = createTestServer([apiKeyProvider], {
+        transitFiles: createTestTransitFiles(rootDir, { fileUrlSigner }),
+        fileUrlSigner,
+      }).createApp();
+      const upload = async (content: string): Promise<{ fileId: string; downloadUrl: string }> => {
+        const form = new FormData();
+        form.set("file", new File([content], "note.txt"));
+        const response = await app.request("/api/files", { method: "POST", body: form });
+        expect(response.status).toBe(200);
+        return (await response.json()) as { fileId: string; downloadUrl: string };
+      };
+      const first = await upload("signed content");
+      const second = await upload("other content");
+      const firstUrl = new URL(first.downloadUrl);
+      expect(firstUrl.searchParams.get("exp")).toMatch(/^\d+$/);
+      expect(firstUrl.searchParams.get("sig")).toBeTruthy();
+
+      const download = await app.request(`${firstUrl.pathname}${firstUrl.search}`);
+      expect(download.status).toBe(200);
+      await expect(download.text()).resolves.toBe("signed content");
+
+      const unsigned = await app.request(`/api/files/${first.fileId}`);
+      expect(unsigned.status).toBe(403);
+      await expect(unsigned.json()).resolves.toMatchObject({ error: { code: "file_signature_required" } });
+
+      const crossFile = await app.request(`/api/files/${second.fileId}${firstUrl.search}`);
+      expect(crossFile.status).toBe(403);
+      await expect(crossFile.json()).resolves.toMatchObject({ error: { code: "file_signature_invalid" } });
+
+      const extended = new URL(first.downloadUrl);
+      extended.searchParams.set("exp", String(Number(extended.searchParams.get("exp")) + 600));
+      const tampered = await app.request(`${extended.pathname}${extended.search}`);
+      expect(tampered.status).toBe(403);
+      await expect(tampered.json()).resolves.toMatchObject({ error: { code: "file_signature_invalid" } });
+
+      vi.useFakeTimers({ toFake: ["Date"] });
+      try {
+        vi.setSystemTime((Number(firstUrl.searchParams.get("exp")) + 1) * 1000);
+        const expired = await app.request(`${firstUrl.pathname}${firstUrl.search}`);
+        expect(expired.status).toBe(403);
+        await expect(expired.json()).resolves.toMatchObject({ error: { code: "file_url_expired" } });
+      } finally {
+        vi.useRealTimers();
+      }
+    } finally {
+      await rm(rootDir, { recursive: true, force: true });
+    }
+  });
+
+  it("keeps unsigned public files when no secret is configured", async () => {
+    const rootDir = await createTempDir();
+    try {
+      const app = createTestServer([apiKeyProvider], { transitFiles: createTestTransitFiles(rootDir) }).createApp();
+      const form = new FormData();
+      form.set("file", new File(["plain"], "note.txt"));
+      const upload = (await (await app.request("/api/files", { method: "POST", body: form })).json()) as {
+        fileId: string;
+        downloadUrl: string;
+      };
+      expect(upload.downloadUrl).toBe(`http://localhost:3000/api/files/${upload.fileId}`);
+
+      const download = await app.request(`/api/files/${upload.fileId}`);
+      expect(download.status).toBe(200);
+      await expect(download.text()).resolves.toBe("plain");
+    } finally {
+      await rm(rootDir, { recursive: true, force: true });
+    }
+  });
+
   it("rejects transit files over the configured local limit", async () => {
     const rootDir = await createTempDir();
     try {
@@ -4820,6 +4895,7 @@ interface CreateTestServerOptions {
   runs?: MemoryRunLogStore;
   staticRoot?: string | false;
   transitFiles?: TransitFileService;
+  fileUrlSigner?: FileUrlSigner;
   uploadTransitFile?: (request: Request) => Promise<TransitFileUpload>;
   secretCodec?: ISecretCodec;
   allowedCustomOAuth?: string[];
@@ -4903,6 +4979,7 @@ function createTestServer(providers: ProviderDefinition[], options: CreateTestSe
     actions: actionRunner,
     idempotency,
     transitFiles,
+    fileUrlSigner: options.fileUrlSigner,
     uploadTransitFile: options.uploadTransitFile,
     runtimeTokens,
     oauthClients: requestDatabase.oauthClientStore,
@@ -4963,12 +5040,16 @@ async function createTestStaticRoot(): Promise<string> {
   return root;
 }
 
-function createTestTransitFiles(rootDir: string, options: { maxBytes?: number } = {}): TransitFileService {
+function createTestTransitFiles(
+  rootDir: string,
+  options: { maxBytes?: number; fileUrlSigner?: FileUrlSigner } = {},
+): TransitFileService {
   return new TransitFileService({
     rootDir,
     publicOrigin: "http://localhost:3000",
     ttlSeconds: 60,
     maxBytes: options.maxBytes ?? 1024 * 1024,
+    fileUrlSigner: options.fileUrlSigner,
   });
 }
 
