@@ -46,6 +46,12 @@ export interface IConnectionStore {
     retirementGeneration: string,
   ): Promise<StoredLocalConnection | undefined>;
   set(service: string, connectionName: string, credential: ResolvedCredential): Promise<StoredLocalConnection>;
+  /** Stores a new connection; resolves undefined, writing nothing, when the name is already taken. */
+  create(
+    service: string,
+    connectionName: string,
+    credential: ResolvedCredential,
+  ): Promise<StoredLocalConnection | undefined>;
   updateCredential(input: StoredLocalConnection, refresh?: boolean): Promise<boolean>;
   /** When a target is supplied, reject changes to its identity or revision without retiring the replacement. */
   delete(service: string, connectionName: string, target?: Pick<StoredConnection, "id" | "revision">): Promise<void>;

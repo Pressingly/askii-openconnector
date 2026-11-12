@@ -61,4 +61,14 @@ export function connectionStoreTests(getDatabase: () => RuntimeDatabase): void {
     expect(await store.getRetirementGeneration("example", "work")).not.toBe(generation);
     await expect(database.oauthStateStore.take("pending-authorization")).resolves.toBeUndefined();
   });
+
+  it("creates a named connection only when the name is free", async () => {
+    const store = getDatabase().connectionStore;
+    const created = await store.create("example", "work", credential);
+    expect(created).toMatchObject({ service: "example", connectionName: "work", credential });
+    await expect(
+      store.create("example", "work", { ...credential, apiKey: "replacement-token" }),
+    ).resolves.toBeUndefined();
+    await expect(store.get("example", "work")).resolves.toEqual(created);
+  });
 }

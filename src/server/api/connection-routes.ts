@@ -79,11 +79,13 @@ export function createConnectionRoutes({ connections, oauthFlow, saasOAuth }: Co
       const { oauthConnectionInput } = await import("./connection-input.ts");
       const input = parseBody(oauthConnectionInput, await readJsonBody(context));
       const target = reconnect ? await connections.getStoredConnection(context.req.param("appId")!) : undefined;
+      const service = target?.service ?? context.req.param("service")!;
+      if (!target) await assertConnectionNameAvailable(connections, service, input.connectionName);
       return writeRuntimeSuccess(
         context,
         await oauthFlow.startConnectionRequest({
           ...input,
-          service: target?.service ?? context.req.param("service")!,
+          service,
           owner,
           signal: context.req.raw.signal,
           target,
@@ -103,27 +105,23 @@ export function createConnectionRoutes({ connections, oauthFlow, saasOAuth }: Co
           throw new ConnectionError("unsupported_auth_type", "The connection uses a different credential type.");
         }
         const service = target?.service ?? context.req.param("service")!;
+        const input =
+          authType === "api-key" ? parseBody(apiKeyConnectionInput, body) : parseBody(customConnectionInput, body);
+        if (!target) await assertConnectionNameAvailable(connections, service, input.connectionName);
         const options = {
-          connectionName: target?.connectionName ?? crypto.randomUUID(),
+          connectionName: target?.connectionName ?? input.connectionName ?? crypto.randomUUID(),
           expectedConnection: target,
+          createOnly: !target,
           signal: context.req.raw.signal,
+          comment: input.comment,
         };
-        let summary;
-        if (authType === "api-key") {
-          const input = parseBody(apiKeyConnectionInput, body);
-          summary = await connections.connectWithApiKey(service, {
-            ...options,
-            values: { ...input.extra, apiKey: input.apiKey },
-            comment: input.comment,
-          });
-        } else {
-          const input = parseBody(customConnectionInput, body);
-          summary = await connections.connectWithCustomCredential(service, {
-            ...options,
-            values: input.values,
-            comment: input.comment,
-          });
-        }
+        const summary =
+          "apiKey" in input
+            ? await connections.connectWithApiKey(service, {
+                ...options,
+                values: { ...input.extra, apiKey: input.apiKey },
+              })
+            : await connections.connectWithCustomCredential(service, { ...options, values: input.values });
         return writeRuntimeSuccess(
           context,
           serializeManagedConnection(await connections.getManagedConnection(summary.id)),
@@ -132,6 +130,20 @@ export function createConnectionRoutes({ connections, oauthFlow, saasOAuth }: Co
     }
   }
   return app;
+}
+
+/** Fast path that refuses a taken name before provider validation; the create itself is atomic. */
+async function assertConnectionNameAvailable(
+  connections: ConnectionService,
+  service: string,
+  connectionName: string | undefined,
+): Promise<void> {
+  if (connectionName !== undefined && (await connections.hasStoredConnection(service, connectionName)))
+    throw new HttpRequestError(
+      "connection_exists",
+      `A ${service} connection named ${connectionName} already exists.`,
+      409,
+    );
 }
 
 function parseBody<T>(schema: z.ZodType<T>, body: unknown): T {

@@ -71,6 +71,8 @@ export interface ConnectWithCredentialInput {
   signal?: AbortSignal;
   expectedConnection?: StoredConnection;
   comment?: string | null;
+  /** Refuse with `connection_exists` instead of replacing a connection already stored under the name. */
+  createOnly?: boolean;
 }
 
 export interface ConnectWithoutAuthInput {
@@ -446,6 +448,11 @@ export class ConnectionService {
     return this.store.getRetirementGeneration(service, normalizeConnectionName(connectionName));
   }
 
+  /** Whether a connection is already stored under this name; the store's write upserts, so callers check first. */
+  async hasStoredConnection(service: string, connectionName: string): Promise<boolean> {
+    return (await this.store.get(service, normalizeConnectionName(connectionName))) !== undefined;
+  }
+
   async prepareOAuthCredential(
     service: string,
     credential: OAuthCredential,
@@ -546,7 +553,7 @@ export class ConnectionService {
     this.assertNotCancelled(input.signal);
     const stored = expected
       ? await this.replaceCredential(expected, credential)
-      : await this.store.set(provider.service, normalizeConnectionName(input.connectionName), credential);
+      : await this.storeCredential(provider.service, normalizeConnectionName(input.connectionName), credential, input);
     await this.connectionSaved(stored.id);
     return this.createStoredConnectionSummary(provider, stored.id, stored.connectionName, credential);
   }
@@ -563,6 +570,19 @@ export class ConnectionService {
       stored.credential,
     );
     await this.onConnected(summary, stored.credential);
+  }
+
+  private async storeCredential(
+    service: string,
+    connectionName: string,
+    credential: ResolvedCredential,
+    input: ConnectWithCredentialInput,
+  ): Promise<StoredConnection> {
+    if (!input.createOnly) return this.store.set(service, connectionName, credential);
+    const created = await this.store.create(service, connectionName, credential);
+    if (!created)
+      throw new ConnectionError("connection_exists", `A ${service} connection named ${connectionName} already exists.`);
+    return created;
   }
 
   private async replaceCredential(

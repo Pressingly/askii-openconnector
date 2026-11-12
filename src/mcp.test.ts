@@ -1025,6 +1025,10 @@ class MemoryConnectionStore implements IConnectionStore {
     return this.set(service, connectionName, credential);
   }
 
+  async create(service: string, connectionName: string, credential: ResolvedCredential) {
+    return (await this.get(service, connectionName)) ? undefined : this.set(service, connectionName, credential);
+  }
+
   async set(service: string, connectionName: string, credential: ResolvedCredential) {
     const key = this.key(service, connectionName);
     const connection = {

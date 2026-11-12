@@ -1032,6 +1032,7 @@ describe("ConnectionService", () => {
       getRetirementGeneration: memory.getRetirementGeneration.bind(memory),
       setIfCurrentGeneration: memory.setIfCurrentGeneration.bind(memory),
       set: memory.set.bind(memory),
+      create: memory.create.bind(memory),
       updateCredential: memory.updateCredential.bind(memory),
       delete: memory.delete.bind(memory),
       list: memory.list.bind(memory),
@@ -1471,6 +1472,7 @@ describe("ConnectionService", () => {
         getRetirementGeneration: memory.getRetirementGeneration.bind(memory),
         setIfCurrentGeneration: memory.setIfCurrentGeneration.bind(memory),
         set: memory.set.bind(memory),
+        create: memory.create.bind(memory),
         updateCredential: async (input, refresh) => {
           updates++;
           // Every refresh write loses to a concurrent writer that keeps the spent credential.
@@ -2275,6 +2277,10 @@ class MemoryConnectionStore implements IConnectionStore {
   ) {
     if ((await this.getRetirementGeneration(service, connectionName)) !== retirementGeneration) return undefined;
     return this.set(service, connectionName, credential);
+  }
+
+  async create(service: string, connectionName: string, credential: ResolvedCredential) {
+    return (await this.get(service, connectionName)) ? undefined : this.set(service, connectionName, credential);
   }
 
   async set(service: string, connectionName: string, credential: ResolvedCredential) {
