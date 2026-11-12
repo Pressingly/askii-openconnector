@@ -391,7 +391,12 @@ export function connectionManagementFailure(error: { code: string; message: stri
           ? "request_key_conflict"
           : error.code;
   return {
-    status: errorCode === "app_not_found" ? 404 : errorCode === "request_key_conflict" ? 409 : 400,
+    status:
+      errorCode === "app_not_found"
+        ? 404
+        : errorCode === "request_key_conflict" || errorCode === "connection_exists"
+          ? 409
+          : 400,
     errorCode,
     message: error.message,
   };

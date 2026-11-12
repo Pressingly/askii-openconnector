@@ -229,6 +229,7 @@ describe("Trigger runtime HTTP boundary", () => {
       getRetirementGeneration: sql.getRetirementGeneration.bind(sql),
       setIfCurrentGeneration: sql.setIfCurrentGeneration.bind(sql),
       set: sql.set.bind(sql),
+      create: sql.create.bind(sql),
       updateCredential: sql.updateCredential.bind(sql),
       delete: sql.delete.bind(sql),
       list: sql.list.bind(sql),

@@ -204,6 +204,92 @@ describe("shared personal connection API", () => {
     ).toBe(200);
   });
 
+  it("names an api-key connection from the request and refuses a duplicate name", async () => {
+    const { call, database } = await setup();
+    const first = await call("/v1/connections/example/connect/api-key", { apiKey: "k1", connectionName: "u_123" });
+    expect(first.status).toBe(200);
+    expect((await first.json()).data.alias).toBe("u_123");
+    const duplicate = await call("/v1/connections/example/connect/api-key", { apiKey: "k2", connectionName: "u_123" });
+    expect(duplicate.status).toBe(409);
+    expect((await duplicate.json()).errorCode).toBe("connection_exists");
+    const custom = await call("/v1/connections/example/connect/custom-credential", {
+      values: { password: "p" },
+      connectionName: "u_123",
+    });
+    expect(custom.status).toBe(409);
+    expect((await database.connectionStore.get("example", "u_123"))?.credential).toMatchObject({ apiKey: "k1" });
+  });
+
+  it("refuses a name taken while the api key was being validated", async () => {
+    let takeName = async () => {};
+    const { call, database } = await setup(undefined, {}, provider, {
+      async apiKey() {
+        await takeName();
+      },
+    });
+    takeName = async () => {
+      await database.connectionStore.set("example", "u_x", {
+        authType: "api_key",
+        apiKey: "first",
+        values: {},
+        profile: { accountId: "account", displayName: "Account", grantedScopes: [] },
+        metadata: {},
+      });
+    };
+    const response = await call("/v1/connections/example/connect/api-key", { apiKey: "second", connectionName: "u_x" });
+    expect(response.status).toBe(409);
+    expect((await response.json()).errorCode).toBe("connection_exists");
+    expect((await database.connectionStore.get("example", "u_x"))?.credential).toMatchObject({ apiKey: "first" });
+  });
+
+  it("rejects an invalid connectionName", async () => {
+    const { call } = await setup();
+    for (const [path, body] of [
+      ["/connect", { connectionName: "-bad" }],
+      ["/connect/api-key", { apiKey: "k", connectionName: "-bad" }],
+    ] as const) {
+      const response = await call(`/v1/connections/example${path}`, body);
+      expect(response.status).toBe(400);
+      expect((await response.json()).errorCode).toBe("invalid_input");
+    }
+  });
+
+  it("starts an OAuth request under the given name and refuses an existing one", async () => {
+    const { call, database } = await setup();
+    const request = (await (await call("/v1/connections/example/connect", { connectionName: "u_1" })).json()).data;
+    expect((await call(`/oauth/callback?state=${request.stateHandle}&code=code`)).status).toBe(200);
+    const appId = (await (await call(`/v1/connection-requests/${request.connectionRequestId}`)).json()).data.appId;
+    expect((await database.connectionStore.get("example", "u_1"))?.id).toBe(appId);
+    await call("/v1/connections/example/connect/api-key", { apiKey: "k1", connectionName: "u_123" });
+    const refused = await call("/v1/connections/example/connect", {
+      connectionName: "u_123",
+      returnUri: "https://client.example/done",
+    });
+    expect(refused.status).toBe(409);
+    expect((await refused.json()).errorCode).toBe("connection_exists");
+  });
+
+  it("does not overwrite when another connection took the name before OAuth completed", async () => {
+    const { call, database } = await setup();
+    const request = (await (await call("/v1/connections/example/connect", { connectionName: "u_9" })).json()).data;
+    expect(
+      (await call("/v1/connections/example/connect/api-key", { apiKey: "k1", connectionName: "u_9" })).status,
+    ).toBe(200);
+    expect((await call(`/oauth/callback?state=${request.stateHandle}&code=code`)).status).toBe(400);
+    expect((await (await call(`/v1/connection-requests/${request.connectionRequestId}`)).json()).data).toMatchObject({
+      status: "failed",
+      errorCode: "connection_exists",
+    });
+    expect((await database.connectionStore.get("example", "u_9"))?.credential).toMatchObject({ apiKey: "k1" });
+    expect(await database.connectionStore.list()).toHaveLength(1);
+  });
+
+  it("keeps a random name when connectionName is omitted", async () => {
+    const { call } = await setup();
+    const created = (await (await call("/v1/connections/example/connect/api-key", { apiKey: "k" })).json()).data;
+    expect(created.alias).toMatch(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/);
+  });
+
   it("keeps the original app ID when OAuth is reconnected", async () => {
     const { call, start } = await setup();
     const first = await start();

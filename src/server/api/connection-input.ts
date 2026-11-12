@@ -2,9 +2,12 @@ import type { OAuthConnectionRequestInput } from "../../oauth/oauth-flow-service
 
 import { z } from "zod";
 
+const connectionNameInput = z.string().regex(/^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$/);
+
 export const oauthConnectionInput: z.ZodType<
-  Omit<OAuthConnectionRequestInput, "owner" | "service" | "target" | "signal" | "connectionName">
+  Omit<OAuthConnectionRequestInput, "owner" | "service" | "target" | "signal">
 > = z.strictObject({
+  connectionName: connectionNameInput.optional(),
   returnUri: z.string().optional(),
   authorizationOptionIds: z.array(z.string().trim().min(1)).optional(),
   extra: z.record(z.string(), z.unknown()).optional(),
@@ -19,7 +22,7 @@ export const consoleOAuthConnectionInput: z.ZodType<{
   returnUri?: string;
 }> = z.strictObject({
   service: z.string().trim().min(1),
-  connectionName: z.string().regex(/^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$/),
+  connectionName: connectionNameInput,
   appId: z.string().min(1).optional(),
   authorizationOptionIds: z.array(z.string().trim().min(1)).optional(),
   returnUri: z.string().optional(),
@@ -29,17 +32,24 @@ export const apiKeyConnectionInput: z.ZodType<{
   apiKey: string;
   extra?: Record<string, string>;
   comment?: string | null;
+  connectionName?: string;
 }> = z
   .object({
     apiKey: z.string(),
+    connectionName: connectionNameInput.optional(),
     extra: z.record(z.string(), z.string()).optional(),
     comment: z.string().nullable().optional(),
   })
   .strict();
 
-export const customConnectionInput: z.ZodType<{ values: Record<string, string>; comment?: string | null }> = z
+export const customConnectionInput: z.ZodType<{
+  values: Record<string, string>;
+  comment?: string | null;
+  connectionName?: string;
+}> = z
   .object({
     values: z.record(z.string(), z.string()),
+    connectionName: connectionNameInput.optional(),
     comment: z.string().nullable().optional(),
   })
   .strict();

@@ -69,6 +69,32 @@ export class SqlConnectionStore implements IConnectionStore {
     return stored;
   }
 
+  async create(
+    service: string,
+    connectionName: string,
+    credential: ResolvedCredential,
+  ): Promise<StoredLocalConnection | undefined> {
+    const value = await this.codec.encode(JSON.stringify(credential));
+    const [[row]] = await this.transaction([
+      {
+        sql: `insert into connections (id, revision, service, connection_name, value, updated_at, provider_account_id)
+          values (?, ?, ?, ?, ?, ?, ?) on conflict (service, connection_name) do nothing returning id, revision`,
+        values: [
+          crypto.randomUUID(),
+          crypto.randomUUID(),
+          service,
+          connectionName,
+          value,
+          new Date().toISOString(),
+          verifiedProviderAccountId(credential),
+        ],
+      },
+    ]);
+    return row
+      ? { id: row.id as string, revision: row.revision as string, service, connectionName, credential }
+      : undefined;
+  }
+
   async setIfCurrentGeneration(
     service: string,
     connectionName: string,
@@ -117,9 +143,7 @@ export class SqlConnectionStore implements IConnectionStore {
           connectionName,
           value,
           new Date().toISOString(),
-          credential.authType !== "no_auth" && credential.metadata.providerAccountVerified === true
-            ? credential.profile.accountId
-            : null,
+          verifiedProviderAccountId(credential),
           ...fence.values,
         ],
       },
@@ -235,4 +259,10 @@ export class SqlConnectionStore implements IConnectionStore {
         409,
       );
   }
+}
+
+function verifiedProviderAccountId(credential: ResolvedCredential): string | null {
+  return credential.authType !== "no_auth" && credential.metadata.providerAccountVerified === true
+    ? credential.profile.accountId
+    : null;
 }

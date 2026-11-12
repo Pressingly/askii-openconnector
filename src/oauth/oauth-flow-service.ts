@@ -401,6 +401,9 @@ export class OAuthFlowService {
           input.signal,
         );
         input.signal?.throwIfAborted();
+        // A named create can lose its name to another connect while the user is at the provider.
+        if (!request.target && (await this.connections.hasStoredConnection(request.service, request.connectionName)))
+          throw new OAuthFlowError("connection_exists", "Another connection took this name during authorization.");
         const appId = await this.requests.complete(request, credential, input.signal);
         if (!appId) {
           if (request.target) {
@@ -442,7 +445,8 @@ export class OAuthFlowService {
       }
       if (request) {
         const code =
-          error instanceof OAuthFlowError && ["app_not_found", "request_key_conflict"].includes(error.code)
+          error instanceof OAuthFlowError &&
+          ["app_not_found", "request_key_conflict", "connection_exists"].includes(error.code)
             ? error.code
             : "provider_error";
         const message = "OAuth connection failed.";
