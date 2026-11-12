@@ -366,6 +366,9 @@ export function parsePrivateNetworkAccessFlag(value: string | undefined): boolea
   return normalized === "1" || normalized === "true" || normalized === "yes" || normalized === "on";
 }
 
+/** Parse any boolean env flag with the same rule: only `1`, `true`, `yes` or `on` (trimmed, any case) enable it. */
+export const parseEnvFlag: (value: string | undefined) => boolean = parsePrivateNetworkAccessFlag;
+
 /**
  * Whether the active runtime trusts this hostname's private or VPN-mapped DNS answers.
  * No hosts are trusted outside a configured runtime context.

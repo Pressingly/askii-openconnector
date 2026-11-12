@@ -232,6 +232,9 @@ export async function createConnectorRuntime(options: ConnectorRuntimeOptions): 
       eventVerifyToken: options.eventVerifyToken,
       mcpOutputMode,
       verifyRuntimeJwt,
+      // A deployment that demands connection grants must also demand a credential: without this an
+      // empty runtime token table leaves `/v1` and `/mcp` open with no grant to check.
+      requireRuntimeAuth: options.actionPolicy?.requireConnectionGrant === true,
       actionPolicy: new ActionPolicyService(options.actionPolicy),
       allowedCustomOAuth: options.allowedCustomOAuth,
       logger: options.logger,

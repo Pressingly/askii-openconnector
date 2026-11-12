@@ -64,6 +64,15 @@ const apiKeyProvider: ProviderDefinition = {
   actions: [],
 };
 
+const noAuthProvider: ProviderDefinition = {
+  service: "open_example",
+  displayName: "Open Example",
+  categories: ["Developer Tools"],
+  authTypes: ["no_auth"],
+  auth: [{ type: "no_auth" }],
+  actions: [],
+};
+
 const requestDatabases: SqliteRuntimeDatabase[] = [];
 afterEach(() => {
   for (const database of requestDatabases.splice(0)) database.close();
@@ -2947,6 +2956,59 @@ describe("ConnectServer", () => {
     });
     expect(guide.status).toBe(200);
     expect(await guide.text()).toContain("## Current Connection");
+  });
+
+  it("denies stored connections to an empty-grant token but still runs no-auth actions", async () => {
+    const openEchoAction: ActionDefinition = { ...echoAction, id: "open_example.echo", service: "open_example" };
+    const providers = [
+      { ...apiKeyProvider, actions: [echoAction] },
+      { ...noAuthProvider, actions: [openEchoAction] },
+    ];
+    const app = createTestServer(providers, {
+      catalog: createCatalogStore(providers, { executableActionIds: [echoAction.id, openEchoAction.id] }),
+      actionPolicy: new LocalActionPolicyService({ requireConnectionGrant: true }),
+      providerLoader: new EchoProviderLoader(),
+    }).createApp();
+    for (const [connectionName, apiKey] of [
+      [undefined, "default-key"],
+      ["work", "work-key"],
+    ]) {
+      const stored = await app.request("/api/connections/example", {
+        method: "PUT",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ authType: "api_key", connectionName, values: { apiKey } }),
+      });
+      expect(stored.status).toBe(200);
+    }
+    const created = await app.request("/api/runtime-tokens", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        name: "No connections",
+        allowedActions: [],
+        blockedActions: [],
+        allowedProxies: [],
+        allowedConnections: [],
+      }),
+    });
+    expect(created.status).toBe(200);
+    const token = (await created.json()) as { token: string; record: { allowedConnections: string[] } };
+    expect(token.record.allowedConnections).toEqual([]);
+    const runAction = async (actionId: string, connectionName?: string): Promise<Response> =>
+      app.request(`/v1/actions/${actionId}`, {
+        method: "POST",
+        headers: { authorization: `Bearer ${token.token}`, "content-type": "application/json" },
+        body: JSON.stringify({ input: { message: "hello" }, connectionName }),
+      });
+
+    for (const connectionName of [undefined, "work", "ghost"]) {
+      const denied = await runAction("example.echo", connectionName);
+      expect(denied.status).toBe(403);
+      await expect(denied.json()).resolves.toMatchObject({ errorCode: "connection_not_allowed" });
+    }
+
+    const noAuth = await runAction("open_example.echo");
+    expect(noAuth.status).toBe(200);
   });
 
   it("preserves admin, bootstrap, JWT, and unrestricted token connection access", async () => {

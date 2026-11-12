@@ -349,6 +349,29 @@ describe("headless runtime", () => {
     expect(reference).not.toContain(`${publicOrigin}/openapi.json`);
   });
 
+  it.each([
+    [true, 401],
+    [false, 200],
+  ])(
+    "with requireConnectionGrant=%s and no runtime credential, an anonymous no-auth action answers %i",
+    async (requireConnectionGrant, status) => {
+      runtime = await createConnectorRuntime({
+        ...(await fixture(["quickchart"])),
+        runtimeToken: undefined,
+        actionPolicy: { requireConnectionGrant },
+      });
+      const response = await runtime.fetch(
+        new Request(`${publicOrigin}/v1/actions/quickchart.build_qr_url`, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ input: { text: "hello" } }),
+        }),
+      );
+      expect(response.status).toBe(status);
+      expect(runtime.runtimeAuthConfigured).toBe(requireConnectionGrant);
+    },
+  );
+
   it("derives the provider callback from the host URL and honors the host return URI", async () => {
     runtime = await createConnectorRuntime(await fixture());
     const setupResponse = await request("/v1/providers/github/setup");

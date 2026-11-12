@@ -99,6 +99,7 @@ async function main(): Promise<void> {
       blockedProxies: parseActionPolicyList(process.env.OOMOL_CONNECT_BLOCKED_PROXIES),
       allowedTriggers: parseActionPolicyList(process.env.OOMOL_CONNECT_ALLOWED_TRIGGERS),
       blockedTriggers: parseActionPolicyList(process.env.OOMOL_CONNECT_BLOCKED_TRIGGERS),
+      requireConnectionGrant: parseBooleanEnv("OOMOL_CONNECT_REQUIRE_CONNECTION_GRANT"),
     },
     allowedCustomOAuth: parseActionPolicyList(process.env.OOMOL_CONNECT_ALLOWED_CUSTOM_OAUTH),
     oauthResultOrigins: parseOAuthResultOrigins(process.env.OOMOL_CONNECT_OAUTH_RESULT_ORIGINS),

@@ -56,6 +56,8 @@ export interface ActionPolicyConfig {
   blockedProxies?: string[];
   allowedTriggers?: string[];
   blockedTriggers?: string[];
+  /** When true, a runtime token with an empty `allowedConnections` reaches no connection instead of every one. */
+  requireConnectionGrant?: boolean;
 }
 
 interface CompiledRule {
@@ -83,14 +85,23 @@ export class ActionPolicySnapshot {
   private readonly tokenProxyRules?: CompiledRule[];
   private readonly tokenTriggerRules?: CompiledRule[];
   private readonly allowedConnections: readonly string[];
+  private readonly emptyGrantAllowsAll: boolean;
 
-  constructor(deployment: PolicyRules, runtime: PolicyRules, token?: TokenPolicy, updatedAt?: string) {
+  constructor(
+    deployment: PolicyRules,
+    runtime: PolicyRules,
+    token?: TokenPolicy,
+    updatedAt?: string,
+    requireConnectionGrant = false,
+  ) {
     const deploymentRules = immutablePolicyRules(deployment);
     const runtimeRules = immutablePolicyRules(runtime);
     this.state = Object.freeze({ deployment: deploymentRules, runtime: runtimeRules, updatedAt });
     this.proxyLayers = [compileLayer("deployment", deploymentRules), compileLayer("runtime", runtimeRules)];
     this.layers = [...this.proxyLayers];
     this.allowedConnections = Object.freeze([...(token?.allowedConnections ?? [])]);
+    // Requests without a runtime token (admin, static or JWT auth) stay unrestricted either way.
+    this.emptyGrantAllowsAll = !(requireConnectionGrant && token !== undefined);
     if (token) {
       const tokenRules = immutablePolicyRules({
         allowedActions: token.allowedActions,
@@ -224,7 +235,7 @@ export class ActionPolicySnapshot {
   }
 
   evaluateConnection(connectionId?: string): ActionPolicyDecision {
-    if (this.allowedConnections.length === 0) {
+    if (this.allowedConnections.length === 0 && this.emptyGrantAllowsAll) {
       return { allowed: true, checks: [] };
     }
 
@@ -251,9 +262,11 @@ export class ActionPolicySnapshot {
  */
 export class ActionPolicyService {
   readonly rules: PolicyRules;
+  private readonly requireConnectionGrant: boolean;
 
   constructor(config: ActionPolicyConfig = {}) {
     this.rules = policyRules(config);
+    this.requireConnectionGrant = config.requireConnectionGrant ?? false;
   }
 
   createSnapshot(
@@ -261,7 +274,7 @@ export class ActionPolicyService {
     token?: TokenPolicy,
     updatedAt?: string,
   ): ActionPolicySnapshot {
-    return new ActionPolicySnapshot(this.rules, runtime, token, updatedAt);
+    return new ActionPolicySnapshot(this.rules, runtime, token, updatedAt, this.requireConnectionGrant);
   }
 }
 
