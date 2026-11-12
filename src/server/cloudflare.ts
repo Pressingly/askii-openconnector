@@ -8,7 +8,7 @@ import type { ISecretCodec } from "./secrets/secret-codec-core.ts";
 
 import { ActionPolicyService, parseActionPolicyList } from "../core/action-policy.ts";
 import { PromiseCache } from "../core/promise-cache.ts";
-import { parseEgressTrustedHosts, parsePrivateNetworkAccessFlag } from "../core/request.ts";
+import { parseEgressTrustedHosts, parseEnvFlag, parsePrivateNetworkAccessFlag } from "../core/request.ts";
 import { ProviderLoader } from "../providers/provider-loader.ts";
 import { executorModules } from "../providers/registry.cloudflare.generated.ts";
 import { SaasCleanupService } from "../saas/saas-cleanup-service.ts";
@@ -136,7 +136,7 @@ async function createCloudflareApp(env: CloudflareEnv, publicOrigin: string): Pr
     runtimeToken: env.OOMOL_CONNECT_RUNTIME_TOKEN,
     eventVerifyToken: env.OOMOL_CONNECT_EVENT_VERIFY_TOKEN,
     mcpOutputMode: parseMcpOutputMode(env.OOMOL_CONNECT_MCP_OUTPUT_MODE),
-    requireRuntimeAuth: Boolean(env.OAUTH_KV),
+    requireRuntimeAuth: Boolean(env.OAUTH_KV) || parseEnvFlag(env.OOMOL_CONNECT_REQUIRE_CONNECTION_GRANT),
     actionPolicy: new ActionPolicyService({
       allowedActions: parseActionPolicyList(env.OOMOL_CONNECT_ALLOWED_ACTIONS),
       blockedActions: parseActionPolicyList(env.OOMOL_CONNECT_BLOCKED_ACTIONS),
@@ -144,6 +144,7 @@ async function createCloudflareApp(env: CloudflareEnv, publicOrigin: string): Pr
       blockedProxies: parseActionPolicyList(env.OOMOL_CONNECT_BLOCKED_PROXIES),
       allowedTriggers: parseActionPolicyList(env.OOMOL_CONNECT_ALLOWED_TRIGGERS),
       blockedTriggers: parseActionPolicyList(env.OOMOL_CONNECT_BLOCKED_TRIGGERS),
+      requireConnectionGrant: parseEnvFlag(env.OOMOL_CONNECT_REQUIRE_CONNECTION_GRANT),
     }),
     allowedCustomOAuth: parseActionPolicyList(env.OOMOL_CONNECT_ALLOWED_CUSTOM_OAUTH),
     oauthResultOrigins: parseOAuthResultOrigins(env.OOMOL_CONNECT_OAUTH_RESULT_ORIGINS),
@@ -207,13 +208,14 @@ function createCacheKey(env: CloudflareEnv, publicOrigin: string): string {
     runtimeToken: env.OOMOL_CONNECT_RUNTIME_TOKEN ?? "",
     eventVerifyToken: env.OOMOL_CONNECT_EVENT_VERIFY_TOKEN ?? "",
     mcpOutputMode: env.OOMOL_CONNECT_MCP_OUTPUT_MODE ?? "",
-    requireRuntimeAuth: Boolean(env.OAUTH_KV),
+    requireRuntimeAuth: Boolean(env.OAUTH_KV) || parseEnvFlag(env.OOMOL_CONNECT_REQUIRE_CONNECTION_GRANT),
     encryptionKey: env.OOMOL_CONNECT_ENCRYPTION_KEY ?? "",
     allowedActions: env.OOMOL_CONNECT_ALLOWED_ACTIONS ?? "",
     blockedActions: env.OOMOL_CONNECT_BLOCKED_ACTIONS ?? "",
     allowedProxies: env.OOMOL_CONNECT_ALLOWED_PROXIES ?? "",
     allowedTriggers: env.OOMOL_CONNECT_ALLOWED_TRIGGERS ?? "",
     blockedTriggers: env.OOMOL_CONNECT_BLOCKED_TRIGGERS ?? "",
+    requireConnectionGrant: env.OOMOL_CONNECT_REQUIRE_CONNECTION_GRANT ?? "",
     blockedProxies: env.OOMOL_CONNECT_BLOCKED_PROXIES ?? "",
     allowedCustomOAuth: env.OOMOL_CONNECT_ALLOWED_CUSTOM_OAUTH ?? "",
     oauthResultOrigins: env.OOMOL_CONNECT_OAUTH_RESULT_ORIGINS ?? "",

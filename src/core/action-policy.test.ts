@@ -332,6 +332,43 @@ describe("ActionPolicyService", () => {
     }
   });
 
+  it("denies every connection to a token with an empty grant when a grant is required", () => {
+    const snapshot = new ActionPolicyService({ requireConnectionGrant: true }).createSnapshot(undefined, {
+      allowedActions: [],
+      blockedActions: [],
+      allowedProxies: [],
+      allowedConnections: [],
+    });
+
+    expect(snapshot.evaluateConnection(workConnectionId)).toMatchObject({
+      allowed: false,
+      code: "connection_not_allowed",
+    });
+    expect(snapshot.evaluateConnection()).toMatchObject({ allowed: false, code: "connection_not_allowed" });
+  });
+
+  it("keeps requests without a runtime token unrestricted when a grant is required", () => {
+    const snapshot = new ActionPolicyService({ requireConnectionGrant: true }).createSnapshot();
+
+    expect(snapshot.evaluateConnection(workConnectionId)).toEqual({ allowed: true, checks: [] });
+    expect(snapshot.evaluateConnection()).toEqual({ allowed: true, checks: [] });
+  });
+
+  it("still allows a granted connection when a grant is required", () => {
+    const snapshot = new ActionPolicyService({ requireConnectionGrant: true }).createSnapshot(undefined, {
+      allowedActions: [],
+      blockedActions: [],
+      allowedProxies: [],
+      allowedConnections: [workConnectionId],
+    });
+
+    expect(snapshot.evaluateConnection(workConnectionId).allowed).toBe(true);
+    expect(snapshot.evaluateConnection(otherConnectionId)).toMatchObject({
+      allowed: false,
+      code: "connection_not_allowed",
+    });
+  });
+
   it("matches restricted connections by exact stable IDs", () => {
     const snapshot = new ActionPolicyService().createSnapshot(undefined, {
       allowedActions: ["github.*"],

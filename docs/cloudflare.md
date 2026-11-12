@@ -217,4 +217,10 @@ Connections that supply their own CA certificate, such as a [Kubernetes](configu
 cluster with a private certificate authority, need a Node runtime: Workers cannot supply a custom
 trust store, so those requests fail with a clear error.
 
+The Worker also reads the connection-grant setting:
+
+| Variable                                 | Default | Meaning                                                                                                                                                                       |
+| ---------------------------------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `OOMOL_CONNECT_REQUIRE_CONNECTION_GRANT` | `false` | When true, a stored runtime token with an empty `allowedConnections` reaches no credential connection instead of all, and `/v1` + `/mcp` always require a runtime credential. |
+
 See [configuration.md](configuration.md) for all runtime environment variables.
