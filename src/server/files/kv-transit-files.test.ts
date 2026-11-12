@@ -1,6 +1,8 @@
 import type { KVNamespaceBinding } from "../cloudflare/cloudflare-bindings.ts";
+import type { FileUrlSigner } from "./file-url-signing.ts";
 
 import { describe, expect, it } from "vitest";
+import { createFileUrlSigner } from "./file-url-signing.ts";
 import { KVTransitFileService } from "./kv-transit-files.ts";
 import { TransitFileError } from "./transit-file-store.ts";
 
@@ -160,17 +162,34 @@ describe("KVTransitFileService", () => {
     // A valid-but-out-of-range value is still accepted and clamped, not rejected.
     expect(() => createService(new MemoryKVNamespace(), { ttlSeconds: 10, maxBytes: 500 * 1024 * 1024 })).not.toThrow();
   });
+  it("signs downloadUrl when a file URL signer is configured", async () => {
+    const fileUrlSigner = createFileUrlSigner("test-secret", 300);
+    const service = createService(new MemoryKVNamespace(), { fileUrlSigner });
+
+    const upload = await service.create(new File(["signed"], "note.txt"));
+
+    const url = new URL(upload.downloadUrl);
+    expect(url.pathname).toBe(`/api/files/${upload.fileId}`);
+    await expect(
+      fileUrlSigner.verify(
+        upload.fileId,
+        url.searchParams.get("exp") ?? undefined,
+        url.searchParams.get("sig") ?? undefined,
+      ),
+    ).resolves.toBe("ok");
+  });
 });
 
 function createService(
   namespace: MemoryKVNamespace,
-  options: { ttlSeconds?: number; maxBytes?: number } = {},
+  options: { ttlSeconds?: number; maxBytes?: number; fileUrlSigner?: FileUrlSigner } = {},
 ): KVTransitFileService {
   return new KVTransitFileService({
     namespace,
     publicOrigin: "http://localhost:3000",
     ttlSeconds: options.ttlSeconds ?? 60,
     maxBytes: options.maxBytes ?? 1024 * 1024,
+    fileUrlSigner: options.fileUrlSigner,
   });
 }
 

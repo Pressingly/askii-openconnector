@@ -1,4 +1,5 @@
 import type { TransitFileUpload } from "../../core/types.ts";
+import type { FileUrlSigner, FileUrlVerification } from "../files/file-url-signing.ts";
 import type { ITransitFileService } from "../files/transit-file-store.ts";
 import type { Context } from "hono";
 
@@ -8,8 +9,21 @@ import { jsonError } from "./http-utils.ts";
 
 export interface TransitFileRoutesOptions {
   transitFiles: ITransitFileService;
+  /** When set, `GET /files/:fileId` requires the `exp` and `sig` query parameters the signer issued. */
+  fileUrlSigner?: FileUrlSigner;
   uploadTransitFile?: (request: Request) => Promise<TransitFileUpload>;
 }
+
+interface SignatureError {
+  code: string;
+  message: string;
+}
+
+const signatureErrors: Record<Exclude<FileUrlVerification, "ok">, SignatureError> = {
+  missing: { code: "file_signature_required", message: "Transit file URL must carry exp and sig." },
+  invalid: { code: "file_signature_invalid", message: "Transit file URL signature is invalid." },
+  expired: { code: "file_url_expired", message: "Transit file URL has expired." },
+};
 
 function handleTransitFileError(context: Context, error: unknown): Response {
   if (error instanceof TransitFileError) {
@@ -19,7 +33,11 @@ function handleTransitFileError(context: Context, error: unknown): Response {
 }
 
 /** Transit file upload, retrieval and deletion routes. */
-export function createTransitFileRoutes({ transitFiles, uploadTransitFile }: TransitFileRoutesOptions): Hono {
+export function createTransitFileRoutes({
+  transitFiles,
+  fileUrlSigner,
+  uploadTransitFile,
+}: TransitFileRoutesOptions): Hono {
   const app = new Hono();
 
   app.post("/files", async (context) => {
@@ -42,7 +60,15 @@ export function createTransitFileRoutes({ transitFiles, uploadTransitFile }: Tra
 
   app.get("/files/:fileId", async (context) => {
     try {
-      return await transitFiles.response(context.req.param("fileId"));
+      const fileId = context.req.param("fileId");
+      if (fileUrlSigner) {
+        const verification = await fileUrlSigner.verify(fileId, context.req.query("exp"), context.req.query("sig"));
+        if (verification !== "ok") {
+          const { code, message } = signatureErrors[verification];
+          return jsonError(context, 403, code, message);
+        }
+      }
+      return await transitFiles.response(fileId);
     } catch (error) {
       return handleTransitFileError(context, error);
     }

@@ -18,6 +18,7 @@ import { DEFAULT_OAUTH_CLOSE_DELAY_SECONDS, normalizeOAuthResultOrigins } from "
 import { createRuntimeJwtVerifier } from "./api/runtime-jwt.ts";
 import { createConnectApp } from "./connect-app.ts";
 import { getConnectorAssetDirectory } from "./connector-assets.ts";
+import { createFileUrlSigner } from "./files/file-url-signing.ts";
 import { cleanupStagedTransitFiles, createNodeTransitFileUpload } from "./files/node-transit-file-upload.ts";
 import { TransitFileService } from "./files/transit-files.ts";
 import { parseMcpOutputMode } from "./mcp-settings.ts";
@@ -57,6 +58,10 @@ export interface ConnectorTransitFileOptions {
   maxBytes?: number;
   /** Omit to store transit files under dataDir/files. */
   s3?: ConnectorS3Options;
+  /** HMAC secret that signs download URLs; when set, `GET /api/files/:fileId` rejects unsigned or expired URLs. */
+  urlSecret?: string;
+  /** Lifetime of a signed download URL. Defaults to 300 seconds. */
+  urlTtlSeconds?: number;
 }
 
 /** Explicit configuration for one Node.js or Bun runtime. Environment variables are owned by the host. */
@@ -195,6 +200,10 @@ export async function createConnectorRuntime(options: ConnectorRuntimeOptions): 
   );
   let closeFiles = (): void => {};
   try {
+    const urlSecret = options.transitFiles?.urlSecret?.trim();
+    const fileUrlSigner = urlSecret
+      ? createFileUrlSigner(urlSecret, options.transitFiles?.urlTtlSeconds ?? 300)
+      : undefined;
     let transitFiles: IStagedTransitFileService;
     if (options.transitFiles?.s3) {
       const { createS3TransitClient, S3TransitFileService } = await import("./files/s3-transit-files.ts");
@@ -204,11 +213,18 @@ export async function createConnectorRuntime(options: ConnectorRuntimeOptions): 
         client,
         bucket: options.transitFiles.s3.bucket,
         publicOrigin,
+        fileUrlSigner,
         ttlSeconds,
         maxBytes,
       });
     } else {
-      transitFiles = new TransitFileService({ rootDir: join(dataDir, "files"), publicOrigin, ttlSeconds, maxBytes });
+      transitFiles = new TransitFileService({
+        rootDir: join(dataDir, "files"),
+        publicOrigin,
+        fileUrlSigner,
+        ttlSeconds,
+        maxBytes,
+      });
     }
     const tempDir = join(dataDir, "tmp/transit-files");
     await transitFiles.cleanupExpired();
@@ -220,6 +236,7 @@ export async function createConnectorRuntime(options: ConnectorRuntimeOptions): 
       providerHttpDispatch: options.providerHttpDispatch,
       runtimeDatabase: database,
       transitFiles,
+      fileUrlSigner,
       uploadTransitFile: createNodeTransitFileUpload({ transitFiles, tempDir }),
       publicOrigin,
       configuredOrigin: options.publicOriginConfigured === false ? undefined : publicOrigin,

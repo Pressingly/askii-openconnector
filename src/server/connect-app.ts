@@ -5,6 +5,7 @@ import type { ProviderNetworkPolicy } from "../core/provider-network-policy.ts";
 import type { RuntimeLogger, TransitFileUpload } from "../core/types.ts";
 import type { IProviderLoader } from "../providers/provider-loader.ts";
 import type { RuntimeJwtVerifier } from "./api/runtime-jwt.ts";
+import type { FileUrlSigner } from "./files/file-url-signing.ts";
 import type { ITransitFileService } from "./files/transit-file-store.ts";
 import type { McpOutputMode } from "./mcp-settings.ts";
 import type { OAuthServerSettings } from "./oauth/settings.ts";
@@ -44,6 +45,8 @@ export interface ConnectAppOptions {
   providerHttpDispatch?: ProviderHttpDispatchOptions;
   runtimeDatabase: RuntimeDatabase;
   transitFiles: ITransitFileService;
+  /** Must be the signer the transit file backend signs with, so the download route can verify its URLs. */
+  fileUrlSigner?: FileUrlSigner;
   uploadTransitFile?: (request: Request) => Promise<TransitFileUpload>;
   publicOrigin: string;
   configuredOrigin?: string;
@@ -228,6 +231,7 @@ export async function createConnectApp(options: ConnectAppOptions): Promise<Conn
       triggerMaintenance,
       idempotency: options.runtimeDatabase.idempotencyStore,
       transitFiles: options.transitFiles,
+      fileUrlSigner: options.fileUrlSigner,
       uploadTransitFile: options.uploadTransitFile,
       runtimeTokens,
       runtimePolicyStore: options.runtimeDatabase.runtimePolicyStore,

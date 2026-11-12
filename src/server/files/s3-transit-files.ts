@@ -1,4 +1,5 @@
 import type { TransitFileRead, TransitFileUpload } from "../../core/types.ts";
+import type { FileUrlSigner } from "./file-url-signing.ts";
 import type { IStagedTransitFileService, StagedTransitFile, TransitFileInfo } from "./transit-file-store.ts";
 import type { GetObjectCommandOutput } from "@aws-sdk/client-s3";
 
@@ -29,6 +30,8 @@ export interface S3TransitFileOptions {
   client: S3Client;
   bucket: string;
   publicOrigin: string;
+  /** Signs every `downloadUrl` when set; the route then rejects unsigned downloads. */
+  fileUrlSigner?: FileUrlSigner;
   ttlSeconds: number;
   maxBytes: number;
 }
@@ -67,6 +70,7 @@ export class S3TransitFileService implements IStagedTransitFileService {
   private readonly client: S3Client;
   private readonly bucket: string;
   private readonly publicOrigin: string;
+  private readonly fileUrlSigner: FileUrlSigner | undefined;
   private readonly ttlMs: number;
   readonly maxBytes: number;
 
@@ -74,6 +78,7 @@ export class S3TransitFileService implements IStagedTransitFileService {
     this.client = options.client;
     this.bucket = options.bucket;
     this.publicOrigin = options.publicOrigin;
+    this.fileUrlSigner = options.fileUrlSigner;
     this.ttlMs = options.ttlSeconds * 1000;
     this.maxBytes = options.maxBytes;
   }
@@ -97,7 +102,7 @@ export class S3TransitFileService implements IStagedTransitFileService {
       }),
     );
 
-    return uploadResult(this.publicOrigin, fileId, metadata);
+    return uploadResult(this.publicOrigin, fileId, metadata, await this.fileUrlSigner?.sign(fileId));
   }
 
   async createFromPath(file: StagedTransitFile): Promise<TransitFileUpload> {
@@ -119,7 +124,7 @@ export class S3TransitFileService implements IStagedTransitFileService {
       }),
     );
 
-    return uploadResult(this.publicOrigin, fileId, metadata);
+    return uploadResult(this.publicOrigin, fileId, metadata, await this.fileUrlSigner?.sign(fileId));
   }
 
   async read(fileId: string): Promise<TransitFileRead> {

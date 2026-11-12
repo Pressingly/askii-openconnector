@@ -1,3 +1,5 @@
+import type { FileUrlSigner } from "./file-url-signing.ts";
+
 import {
   DeleteObjectCommand,
   GetObjectCommand,
@@ -11,6 +13,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { Readable } from "node:stream";
 import { describe, expect, it, vi } from "vitest";
+import { createFileUrlSigner } from "./file-url-signing.ts";
 import { createS3TransitClient, S3TransitFileService } from "./s3-transit-files.ts";
 
 describe("S3TransitFileService", () => {
@@ -151,11 +154,27 @@ describe("createS3TransitClient", () => {
       client.destroy();
     }
   });
+  it("signs downloadUrl when a file URL signer is configured", async () => {
+    const fileUrlSigner = createFileUrlSigner("test-secret", 300);
+    const service = createService(new MemoryS3().client, { fileUrlSigner });
+
+    const upload = await service.create(new File(["signed"], "note.txt"));
+
+    const url = new URL(upload.downloadUrl);
+    expect(url.pathname).toBe(`/api/files/${upload.fileId}`);
+    await expect(
+      fileUrlSigner.verify(
+        upload.fileId,
+        url.searchParams.get("exp") ?? undefined,
+        url.searchParams.get("sig") ?? undefined,
+      ),
+    ).resolves.toBe("ok");
+  });
 });
 
 function createService(
   client: S3Client,
-  options: { ttlSeconds?: number; maxBytes?: number } = {},
+  options: { ttlSeconds?: number; maxBytes?: number; fileUrlSigner?: FileUrlSigner } = {},
 ): S3TransitFileService {
   return new S3TransitFileService({
     client,
@@ -163,6 +182,7 @@ function createService(
     publicOrigin: "http://localhost:3000",
     ttlSeconds: options.ttlSeconds ?? 60,
     maxBytes: options.maxBytes ?? 1024 * 1024,
+    fileUrlSigner: options.fileUrlSigner,
   });
 }
 

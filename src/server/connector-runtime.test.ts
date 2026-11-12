@@ -372,6 +372,33 @@ describe("headless runtime", () => {
     },
   );
 
+  it("signs transit file download URLs when built with a file URL secret", async () => {
+    runtime = await createConnectorRuntime({
+      ...(await fixture()),
+      transitFiles: { urlSecret: "fixture-file-secret", urlTtlSeconds: 60 },
+    });
+    const form = new FormData();
+    form.set("file", new File(["signed content"], "note.txt"));
+    const uploaded = await runtime.fetch(
+      new Request(`${publicOrigin}/api/files`, {
+        method: "POST",
+        headers: { authorization: "Bearer admin-token" },
+        body: form,
+      }),
+    );
+    expect(uploaded.status).toBe(200);
+    const { fileId, downloadUrl } = (await uploaded.json()) as { fileId: string; downloadUrl: string };
+    const url = new URL(downloadUrl);
+    expect(url.pathname).toBe(`/connector/api/files/${fileId}`);
+    expect(Number(url.searchParams.get("exp"))).toBeGreaterThan(Date.now() / 1000);
+    expect(url.searchParams.get("sig")).toBeTruthy();
+
+    const download = await runtime.fetch(new Request(downloadUrl));
+    expect(download.status).toBe(200);
+    await expect(download.text()).resolves.toBe("signed content");
+    expect((await runtime.fetch(new Request(`${publicOrigin}/api/files/${fileId}`))).status).toBe(403);
+  });
+
   it("derives the provider callback from the host URL and honors the host return URI", async () => {
     runtime = await createConnectorRuntime(await fixture());
     const setupResponse = await request("/v1/providers/github/setup");

@@ -1,4 +1,5 @@
 import type { TransitFileRead, TransitFileStream, TransitFileUpload } from "../../core/types.ts";
+import type { FileUrlSigner } from "./file-url-signing.ts";
 import type { IStagedTransitFileService, StagedTransitFile, TransitFileDescriptor } from "./transit-file-store.ts";
 import type { Stats } from "node:fs";
 import type { ReadableStream as NodeReadableStream } from "node:stream/web";
@@ -25,6 +26,8 @@ import {
 export interface TransitFileOptions {
   rootDir: string;
   publicOrigin: string;
+  /** Signs every `downloadUrl` when set; the route then rejects unsigned downloads. */
+  fileUrlSigner?: FileUrlSigner;
   ttlSeconds: number;
   maxBytes: number;
 }
@@ -37,6 +40,7 @@ const sweepConcurrency = 64;
 export class TransitFileService implements IStagedTransitFileService {
   private readonly rootDir: string;
   private readonly publicOrigin: string;
+  private readonly fileUrlSigner: FileUrlSigner | undefined;
   private readonly ttlMs: number;
   readonly maxBytes: number;
   private sweeping: Promise<void> | undefined;
@@ -46,6 +50,7 @@ export class TransitFileService implements IStagedTransitFileService {
   constructor(options: TransitFileOptions) {
     this.rootDir = options.rootDir;
     this.publicOrigin = options.publicOrigin;
+    this.fileUrlSigner = options.fileUrlSigner;
     this.ttlMs = options.ttlSeconds * 1000;
     this.maxBytes = options.maxBytes;
   }
@@ -72,7 +77,12 @@ export class TransitFileService implements IStagedTransitFileService {
       await writeFile(metadataPath(path), JSON.stringify(metadata), { flag: "wx", signal: file.signal });
       await rename(tempPath, path);
       file.signal?.throwIfAborted();
-      return uploadResult(this.publicOrigin, fileId, { ...metadata, sizeBytes });
+      return uploadResult(
+        this.publicOrigin,
+        fileId,
+        { ...metadata, sizeBytes },
+        await this.fileUrlSigner?.sign(fileId),
+      );
     } catch (error) {
       if (!file.body.locked) {
         await file.body.cancel(error).catch(() => undefined);
@@ -98,7 +108,12 @@ export class TransitFileService implements IStagedTransitFileService {
     });
     await writeFile(metadataPath(path), JSON.stringify(metadata), { flag: "wx" });
 
-    return uploadResult(this.publicOrigin, fileId, { ...metadata, sizeBytes: file.sizeBytes });
+    return uploadResult(
+      this.publicOrigin,
+      fileId,
+      { ...metadata, sizeBytes: file.sizeBytes },
+      await this.fileUrlSigner?.sign(fileId),
+    );
   }
 
   async read(fileId: string): Promise<TransitFileRead> {

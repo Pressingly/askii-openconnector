@@ -1,4 +1,5 @@
 import type { TransitFileRead, TransitFileStore, TransitFileUpload } from "../../core/types.ts";
+import type { FileUrlSignature } from "./file-url-signing.ts";
 
 import { extname } from "node:path";
 
@@ -73,11 +74,17 @@ export function transitFileRead(bytes: ArrayBuffer | Uint8Array<ArrayBuffer>, in
   };
 }
 
-/** Describe a stored transit file to its uploader, with a download URL rooted at `publicOrigin`. */
-export function uploadResult(publicOrigin: string, fileId: string, info: TransitFileInfo): TransitFileUpload {
+/** Describe a stored transit file to its uploader, with a download URL rooted at `publicOrigin`, signed when `signed` is given. */
+export function uploadResult(
+  publicOrigin: string,
+  fileId: string,
+  info: TransitFileInfo,
+  signed?: FileUrlSignature,
+): TransitFileUpload {
+  const query = signed ? `?exp=${signed.exp}&sig=${signed.sig}` : "";
   return {
     fileId,
-    downloadUrl: `${publicOrigin.replace(/\/+$/, "")}/api/files/${encodeURIComponent(fileId)}`,
+    downloadUrl: `${publicOrigin.replace(/\/+$/, "")}/api/files/${encodeURIComponent(fileId)}${query}`,
     sizeBytes: info.sizeBytes,
     name: info.name,
     mimeType: info.mimeType,
