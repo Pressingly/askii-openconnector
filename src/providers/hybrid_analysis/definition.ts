@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.hybrid-analysis.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/hybrid_analysis.svg",
   actions: hybridAnalysisActions,
 };

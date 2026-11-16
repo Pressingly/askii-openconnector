@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://imgbb.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/imgbb.png",
   actions: imgbbActions,
 };

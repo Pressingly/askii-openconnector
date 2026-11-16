@@ -35,5 +35,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ozon.ru",
+  iconUrl: "https://static.oomol.com/logo/third-party/ozon.png",
   actions: ozonActions,
 };

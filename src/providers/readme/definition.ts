@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://readme.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/readme.svg",
   actions: readmeActions,
 };

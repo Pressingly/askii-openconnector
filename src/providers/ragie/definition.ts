@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ragie.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/Ragie.svg",
   actions: ragieActions,
 };

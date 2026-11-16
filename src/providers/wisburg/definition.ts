@@ -24,5 +24,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.wisburg.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/wisburg.svg",
   actions: wisburgActions,
 };

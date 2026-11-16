@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.withassured.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/assured_platform.svg",
   actions: assuredPlatformActions,
 };

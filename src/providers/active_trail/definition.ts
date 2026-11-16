@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.activetrail.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/active_trail.svg",
   actions: activeTrailActions,
 };

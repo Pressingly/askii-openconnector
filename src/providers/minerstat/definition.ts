@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://minerstat.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/minerstat.png",
   actions: minerstatActions,
 };

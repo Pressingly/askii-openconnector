@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://kontent.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/kontent_ai.svg",
   actions: kontentAiActions,
 };

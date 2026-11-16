@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "finchina",
   displayName: "FinChina",
   homepageUrl: "https://mcp.finchina.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/finchina.svg",
   categories: ["Finance", "Data"],
   authTypes: ["api_key"],
   auth: [

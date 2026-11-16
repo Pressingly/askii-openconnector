@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.autom.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/autom.svg",
   actions: automActions,
 };

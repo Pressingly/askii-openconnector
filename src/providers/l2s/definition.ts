@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.l2s.is",
+  iconUrl: "https://static.oomol.com/logo/third-party/l2s.png",
   actions: l2sActions,
 };

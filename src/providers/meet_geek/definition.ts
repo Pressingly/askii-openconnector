@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://meetgeek.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/meet_geek.svg",
   actions: meetGeekActions,
 };

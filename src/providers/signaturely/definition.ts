@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://signaturely.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/signaturely.svg",
   actions: signaturelyActions,
 };

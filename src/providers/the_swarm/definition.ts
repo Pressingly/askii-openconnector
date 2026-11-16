@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.theswarm.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/the_swarm.svg",
   actions: theSwarmActions,
 };

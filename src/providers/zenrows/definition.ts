@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.zenrows.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/zenrows.svg",
   actions: zenrowsActions,
 };

@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "simpletexting",
   displayName: "SimpleTexting",
   homepageUrl: "https://simpletexting.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/simpletexting.svg",
   categories: ["Marketing"],
   authTypes: ["api_key"],
   auth: [

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://databar.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/databar_ai.svg",
   actions: databarAiActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://serpapi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/SerpApi.svg",
   actions: serpapiActions,
 };

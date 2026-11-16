@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.helcim.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/helcim.png",
   actions: helcimActions,
 };

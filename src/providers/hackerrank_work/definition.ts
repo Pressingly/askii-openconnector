@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.hackerrank.com/work",
+  iconUrl: "https://static.oomol.com/logo/third-party/HackerRank%20Work.svg",
   actions: hackerrankWorkActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.tpscheck.uk",
+  iconUrl: "https://static.oomol.com/logo/third-party/tpscheck.svg",
   actions: tpscheckActions,
 };

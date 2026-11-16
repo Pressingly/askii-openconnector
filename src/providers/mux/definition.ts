@@ -35,5 +35,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mux.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/mux.svg",
   actions: muxActions,
 };

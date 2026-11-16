@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://zenserp.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/zenserp.svg",
   actions: zenserpActions,
 };

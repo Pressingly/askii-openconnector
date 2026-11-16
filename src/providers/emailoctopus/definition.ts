@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://emailoctopus.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/EmailOctopus.svg",
   actions: emailoctopusActions,
 };

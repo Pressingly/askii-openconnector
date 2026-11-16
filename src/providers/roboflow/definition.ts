@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://roboflow.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/roboflow.svg",
   actions: roboflowActions,
 };

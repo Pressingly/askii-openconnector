@@ -9,5 +9,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["no_auth"],
   auth: [{ type: "no_auth" }],
   homepageUrl: "https://www.indiegogo.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/indiegogo.svg",
   actions: indiegogoActions,
 };

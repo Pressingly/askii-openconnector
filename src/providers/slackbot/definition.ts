@@ -49,5 +49,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://slack.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/slackbot.svg",
   actions: slackbotActions,
 };

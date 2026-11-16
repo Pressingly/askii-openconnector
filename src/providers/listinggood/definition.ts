@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "listinggood",
   displayName: "ListingGood",
   homepageUrl: "https://listinggood.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/listinggood.svg",
   categories: ["AI", "Cross-border E-commerce"],
   authTypes: ["api_key"],
   auth: [

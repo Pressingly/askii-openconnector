@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://templatefox.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/templatefox.png",
   actions: templatefoxActions,
 };

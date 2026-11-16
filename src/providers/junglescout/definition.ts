@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.junglescout.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/junglescout.svg",
   actions: jungleScoutActions,
 };

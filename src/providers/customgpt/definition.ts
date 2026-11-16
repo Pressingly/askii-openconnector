@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://customgpt.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/customgpt.svg",
   actions: customgptActions,
 };

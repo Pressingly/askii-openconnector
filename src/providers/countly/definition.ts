@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://countly.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/countly.svg",
   actions: countlyActions,
 };

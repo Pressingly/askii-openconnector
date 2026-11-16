@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "unirateapi",
   displayName: "UniRateAPI",
   homepageUrl: "https://unirateapi.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/unirateapi.png",
   categories: ["Finance", "Data & Analytics"],
   authTypes: ["api_key"],
   auth: [

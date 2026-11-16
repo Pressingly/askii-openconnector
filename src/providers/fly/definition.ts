@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fly.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/fly.svg",
   actions: flyActions,
 };

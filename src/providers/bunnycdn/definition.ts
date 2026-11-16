@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://bunny.net/",
+  iconUrl: "https://static.oomol.com/logo/third-party/BunnyCDN.svg",
   actions: bunnycdnActions,
 };

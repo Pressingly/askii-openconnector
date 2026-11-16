@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://currentsapi.services",
+  iconUrl: "https://static.oomol.com/logo/third-party/Currents%20API.svg",
   actions: currentsApiActions,
 };

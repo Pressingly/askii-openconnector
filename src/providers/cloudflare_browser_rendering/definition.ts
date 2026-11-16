@@ -39,5 +39,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://developers.cloudflare.com/browser-run/",
+  iconUrl: "https://static.oomol.com/logo/third-party/cloudflare_browser_rendering.svg",
   actions: cloudflareBrowserRenderingActions,
 };

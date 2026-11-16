@@ -65,6 +65,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://workspace.google.com/products/drive/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Google%20Drive.svg",
   actions: googledriveActions,
   triggers: [triggerSnapshot0_0, triggerSnapshot0_1, triggerSnapshot1_0],
   triggerPermissions,

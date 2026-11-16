@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://speedtest-tracker.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/speedtest_tracker.png",
   actions: speedtestTrackerActions,
 };

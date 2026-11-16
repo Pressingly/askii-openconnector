@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://hunter.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/hunter.png",
   actions: hunterActions,
 };

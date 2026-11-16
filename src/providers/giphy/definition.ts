@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://giphy.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/giphy.png",
   actions: giphyActions,
 };

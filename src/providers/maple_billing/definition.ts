@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://getmeasure.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/maple_billing.png",
   actions: mapleBillingActions,
 };

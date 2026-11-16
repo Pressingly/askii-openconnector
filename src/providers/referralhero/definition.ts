@@ -15,5 +15,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://referralhero.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/referralhero.svg",
   actions: referralheroActions,
 };

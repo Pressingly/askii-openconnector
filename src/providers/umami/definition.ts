@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://umami.is",
+  iconUrl: "https://static.oomol.com/logo/third-party/umami.svg",
   actions: umamiActions,
 };

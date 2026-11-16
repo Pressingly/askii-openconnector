@@ -44,5 +44,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cloudapi.fuxinsoft.cn",
+  iconUrl: "https://static.oomol.com/logo/third-party/fuxin.svg",
   actions: fuxinActions,
 };

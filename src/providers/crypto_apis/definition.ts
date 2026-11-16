@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cryptoapis.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/crypto_apis.svg",
   actions: cryptoApisActions,
 };

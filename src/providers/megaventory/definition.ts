@@ -15,5 +15,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.megaventory.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/megaventory.svg",
   actions: megaventoryActions,
 };

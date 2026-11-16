@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.iqair.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/iqair_airvisual.svg",
   actions: iqairAirvisualActions,
 };

@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://sheetdb.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/sheetdb.svg",
   actions: sheetDbActions,
 };

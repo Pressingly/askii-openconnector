@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.iplocate.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/iplocate.svg",
   actions: iplocateActions,
 };

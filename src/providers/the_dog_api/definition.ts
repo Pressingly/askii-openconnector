@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://thedogapi.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/the_dog_api.svg",
   actions: theDogApiActions,
 };

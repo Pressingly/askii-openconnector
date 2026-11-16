@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.zenventory.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/zenventory.png",
   actions: zenventoryActions,
 };

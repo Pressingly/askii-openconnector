@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.oncehub.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/oncehub.png",
   actions: oncehubActions,
 };

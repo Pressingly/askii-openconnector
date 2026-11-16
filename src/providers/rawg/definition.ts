@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://rawg.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/RAWG%20Video%20Games%20Database.svg",
   actions: rawgActions,
 };

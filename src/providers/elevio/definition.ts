@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://elev.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/elevio.png",
   actions: elevioActions,
 };

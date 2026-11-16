@@ -42,5 +42,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://homebox.software",
+  iconUrl: "https://static.oomol.com/logo/third-party/homebox.svg",
   actions: homeBoxActions,
 };

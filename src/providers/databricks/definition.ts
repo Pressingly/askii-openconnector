@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.databricks.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Databricks.svg",
   actions: databricksActions,
 };

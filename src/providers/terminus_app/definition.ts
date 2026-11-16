@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.terminusapp.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/terminus_app.svg",
   actions: terminusAppActions,
 };

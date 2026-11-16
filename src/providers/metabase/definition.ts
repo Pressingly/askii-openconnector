@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.metabase.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/metabase.svg",
   actions: [...metabaseActions, ...metabaseMcpActions],
 };

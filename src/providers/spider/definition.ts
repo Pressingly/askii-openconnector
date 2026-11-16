@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://spider.cloud",
+  iconUrl: "https://static.oomol.com/logo/third-party/spider.svg",
   actions: spiderActions,
 };

@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://typebot.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/typebot.svg",
   actions: typebotActions,
 };

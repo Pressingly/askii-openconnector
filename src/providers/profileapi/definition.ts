@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://profileapi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/profileapi.svg",
   actions: profileapiActions,
 };

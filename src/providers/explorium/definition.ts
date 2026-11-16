@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "explorium",
   displayName: "Explorium",
   homepageUrl: "https://www.explorium.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/explorium.svg",
   categories: ["Marketing", "Data & Analytics"],
   authTypes: ["api_key"],
   auth: [

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.lumos.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/lumos.svg",
   actions: lumosActions,
 };

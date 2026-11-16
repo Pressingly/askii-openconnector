@@ -7,6 +7,7 @@ const service = "web_of_science_expanded";
 export const provider: ProviderDefinition = {
   service,
   displayName: "Web of Science Expanded",
+  iconUrl: "https://static.oomol.com/logo/third-party/web_of_science_expanded.svg",
   description:
     "Search full Web of Science records, cited references, related documents, and citation reports through the paid Clarivate Expanded API.",
   categories: ["Data"],

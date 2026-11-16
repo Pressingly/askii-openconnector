@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://leadiq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/leadiq.svg",
   actions: leadiqActions,
 };

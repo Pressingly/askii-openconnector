@@ -38,5 +38,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://github.com/Tencent/openclaw-weixin",
+  iconUrl: "https://static.oomol.com/logo/third-party/weixin_bot.jpg",
   actions: weixinBotActions,
 };

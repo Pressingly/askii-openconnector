@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://owlprotocol.xyz",
+  iconUrl: "https://static.oomol.com/logo/third-party/owl_protocol.png",
   actions: owlProtocolActions,
 };

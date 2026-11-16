@@ -39,5 +39,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.livespace.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/livespace.svg",
   actions: livespaceActions,
 };

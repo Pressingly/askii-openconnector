@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.smugmug.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/SmugMug.svg",
   actions: smugmugActions,
 };

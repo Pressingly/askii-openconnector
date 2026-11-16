@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.detrack.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/detrack.svg",
   actions: detrackActions,
 };

@@ -25,5 +25,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mautic.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/mautic.svg",
   actions: mauticActions,
 };

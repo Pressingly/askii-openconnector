@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "greip",
   displayName: "Greip",
   homepageUrl: "https://greip.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/greip.svg",
   categories: ["Security & Identity", "Maps & Location"],
   authTypes: ["api_key"],
   auth: [

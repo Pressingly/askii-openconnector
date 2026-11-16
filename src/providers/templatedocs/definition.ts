@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://templatedocs.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/templatedocs.png",
   actions: templatedocsActions,
 };

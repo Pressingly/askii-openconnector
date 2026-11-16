@@ -21,6 +21,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tally.so",
+  iconUrl: "https://static.oomol.com/logo/third-party/tally.svg",
   actions: tallyActions,
   triggers: [snapshot],
   triggerPermissions,

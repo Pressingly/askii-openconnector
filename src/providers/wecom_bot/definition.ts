@@ -49,5 +49,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://work.weixin.qq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/wecom_bot.png",
   actions: wecomBotActions,
 };

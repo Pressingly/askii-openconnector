@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.flagsmith.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/flagsmith.svg",
   actions: flagsmithActions,
 };

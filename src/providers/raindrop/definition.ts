@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://raindrop.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/raindrop.svg",
   actions: raindropActions,
 };

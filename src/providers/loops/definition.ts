@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://loops.so",
+  iconUrl: "https://static.oomol.com/logo/third-party/loops.png",
   actions: loopsActions,
 };

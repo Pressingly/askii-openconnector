@@ -126,6 +126,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://github.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/github.svg",
   actions: githubActions,
   triggers: [triggerSnapshot0_0, triggerSnapshot1_0],
   triggerPermissions,

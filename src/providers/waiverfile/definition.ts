@@ -27,5 +27,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.waiverfile.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/waiverfile.png",
   actions: waiverFileActions,
 };

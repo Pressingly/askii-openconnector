@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://botpress.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/botpress.svg",
   actions: botpressActions,
 };

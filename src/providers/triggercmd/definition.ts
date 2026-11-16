@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.triggercmd.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/triggercmd.png",
   actions: triggercmdActions,
 };

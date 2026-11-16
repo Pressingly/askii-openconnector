@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ly.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/chengxin.png",
   actions: chengxinActions,
 };

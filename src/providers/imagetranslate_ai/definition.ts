@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://imagetranslate.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/imagetranslate_ai.png",
   actions: imagetranslateAiActions,
 };

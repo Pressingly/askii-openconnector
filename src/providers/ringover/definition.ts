@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ringover.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ringover.svg",
   actions: ringoverActions,
 };

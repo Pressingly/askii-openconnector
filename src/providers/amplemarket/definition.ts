@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.amplemarket.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/amplemarket.svg",
   actions: amplemarketActions,
 };

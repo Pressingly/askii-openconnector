@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://coolify.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/coolify.svg",
   actions: coolifyActions,
 };

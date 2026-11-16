@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.gleap.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/gleap.svg",
   actions: gleapActions,
 };

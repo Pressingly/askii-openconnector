@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.retable.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/retable.png",
   actions: retableActions,
 };

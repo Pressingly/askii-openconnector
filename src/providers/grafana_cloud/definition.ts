@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://grafana.com/products/cloud/",
+  iconUrl: "https://static.oomol.com/logo/third-party/grafana_cloud.svg",
   actions: grafanaCloudActions,
 };

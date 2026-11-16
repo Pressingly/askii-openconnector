@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.headout.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/headout.png",
   actions: headoutActions,
 };

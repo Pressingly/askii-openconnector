@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.veremark.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/veremark.svg",
   actions: veremarkActions,
 };

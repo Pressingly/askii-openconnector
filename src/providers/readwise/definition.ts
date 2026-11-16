@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://readwise.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/readwise.svg",
   actions: readwiseActions,
 };

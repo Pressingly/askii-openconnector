@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://landbot.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/landbot.svg",
   actions: landbotActions,
 };

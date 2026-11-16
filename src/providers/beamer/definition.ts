@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.getbeamer.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/beamer.webp",
   actions: beamerActions,
 };

@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://open.patsnap.com/marketplace/mcp-servers",
+  iconUrl: "https://static.oomol.com/logo/third-party/patsnap_mcp.svg",
   actions: patsnapMcpActions,
 };

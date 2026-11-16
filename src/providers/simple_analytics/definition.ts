@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://simpleanalytics.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/SimpleAnalytics.svg",
   actions: simpleAnalyticsActions,
 };

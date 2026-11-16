@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.lob.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/lob.svg",
   actions: lobActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://opencagedata.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Opencage.svg",
   actions: opencageActions,
 };

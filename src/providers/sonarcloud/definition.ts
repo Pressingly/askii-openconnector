@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.sonarsource.com/products/sonarqube/cloud/",
+  iconUrl: "https://static.oomol.com/logo/third-party/sonarcloud.svg",
   actions: sonarCloudActions,
 };

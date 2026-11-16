@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://bitbucket.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/bitbucket.svg",
   actions: bitbucketActions,
 };

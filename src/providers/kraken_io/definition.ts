@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://kraken.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Kraken.io.svg",
   actions: krakenIoActions,
 };

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.tickettailor.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ticket_tailor.svg",
   actions: ticketTailorActions,
 };

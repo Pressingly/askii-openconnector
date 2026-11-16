@@ -37,5 +37,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.favro.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/favro.svg",
   actions: favroActions,
 };

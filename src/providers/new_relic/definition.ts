@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://newrelic.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/New%20Relic.svg",
   actions: newRelicActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://unione.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/unione.svg",
   actions: unioneActions,
 };

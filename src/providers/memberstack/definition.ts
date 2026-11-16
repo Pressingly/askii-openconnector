@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.memberstack.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/memberstack.svg",
   actions: memberstackActions,
 };

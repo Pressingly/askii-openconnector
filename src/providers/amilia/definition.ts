@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.amilia.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/amilia.svg",
   actions: amiliaActions,
 };

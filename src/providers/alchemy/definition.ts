@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.alchemy.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/alchemy.svg",
   actions: alchemyActions,
 };

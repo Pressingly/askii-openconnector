@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cloudlayer.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/cloudlayer.svg",
   actions: cloudlayerActions,
 };

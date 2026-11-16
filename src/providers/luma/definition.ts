@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://lu.ma",
+  iconUrl: "https://static.oomol.com/logo/third-party/luma.png",
   actions: lumaActions,
 };

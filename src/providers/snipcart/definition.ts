@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://snipcart.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/snipcart.svg",
   actions: snipcartActions,
 };

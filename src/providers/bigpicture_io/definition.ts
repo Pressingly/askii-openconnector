@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://bigpicture.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/bigpicture_io.png",
   actions: bigpictureIoActions,
 };

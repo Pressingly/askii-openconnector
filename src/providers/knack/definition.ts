@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.knack.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/knack.png",
   actions: knackActions,
 };

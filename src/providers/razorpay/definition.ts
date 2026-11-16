@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://razorpay.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/razorpay.png",
   actions: razorpayActions,
 };

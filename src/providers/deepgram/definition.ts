@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://deepgram.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/deepgram.svg",
   actions: deepgramActions,
 };

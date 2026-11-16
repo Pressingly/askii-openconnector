@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.gohighlevel.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/high_level.svg",
   actions: highLevelActions,
 };

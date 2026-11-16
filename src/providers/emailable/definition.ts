@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://emailable.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Emailable.svg",
   actions: emailableActions,
 };

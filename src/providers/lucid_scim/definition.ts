@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://lucid.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/lucid_scim.svg",
   actions: lucidScimActions,
 };

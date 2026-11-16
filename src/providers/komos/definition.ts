@@ -6,6 +6,7 @@ export const provider: ProviderDefinition = {
   displayName: "Komos",
   description: "Run saved automations and inspect their status, outputs and execution logs",
   homepageUrl: "https://komos.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/komos.svg",
   categories: ["Productivity", "AI"],
   authTypes: ["api_key"],
   auth: [

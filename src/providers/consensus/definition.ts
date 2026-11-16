@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://consensus.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/consensus.png",
   actions: consensusActions,
 };

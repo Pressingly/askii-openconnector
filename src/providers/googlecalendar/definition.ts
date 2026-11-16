@@ -59,6 +59,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://workspace.google.com/products/calendar/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Google%20Calendar.svg",
   actions: googlecalendarActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

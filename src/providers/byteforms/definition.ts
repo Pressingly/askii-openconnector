@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://forms.bytesuite.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/byteforms.png",
   actions: byteformsActions,
 };

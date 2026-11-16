@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://payhip.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/payhip.svg",
   actions: payhipActions,
 };

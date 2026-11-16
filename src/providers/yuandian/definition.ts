@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://open.chineselaw.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/yuandian.svg",
   actions: yuandianActions,
 };

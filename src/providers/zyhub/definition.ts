@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://zyhub.finance.sina.cn/",
+  iconUrl: "https://static.oomol.com/logo/third-party/zyhub.png",
   actions: zyhubActions,
 };

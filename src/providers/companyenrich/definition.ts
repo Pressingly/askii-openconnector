@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://companyenrich.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Companyenrich.svg",
   actions: companyenrichActions,
 };

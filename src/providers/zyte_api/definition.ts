@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.zyte.com/zyte-api/",
+  iconUrl: "https://static.oomol.com/logo/third-party/zyte_api.svg",
   actions: zyteApiActions,
 };

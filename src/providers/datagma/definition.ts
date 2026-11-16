@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://datagma.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/datagma.png",
   actions: datagmaActions,
 };

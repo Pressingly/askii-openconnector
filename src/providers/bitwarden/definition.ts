@@ -45,5 +45,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://bitwarden.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/bitwarden.svg",
   actions: bitwardenActions,
 };

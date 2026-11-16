@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mails.so",
+  iconUrl: "https://static.oomol.com/logo/third-party/Mails.so.svg",
   actions: mailsSoActions,
 };

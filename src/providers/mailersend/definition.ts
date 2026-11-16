@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mailersend.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/MailerSend.svg",
   actions: mailersendActions,
 };

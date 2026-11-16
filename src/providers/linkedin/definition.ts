@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.linkedin.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/linkedin.svg",
   actions: linkedinActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.concord.app/",
+  iconUrl: "https://static.oomol.com/logo/third-party/concord.svg",
   actions: concordActions,
 };

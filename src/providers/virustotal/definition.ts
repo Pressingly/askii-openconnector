@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.virustotal.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Virustotal.webp",
   actions: virustotalActions,
 };

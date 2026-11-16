@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://bitly.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/bitly.svg",
   actions: bitlyActions,
 };

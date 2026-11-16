@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cratedb.com/database/cloud",
+  iconUrl: "https://static.oomol.com/logo/third-party/cratedb_cloud.svg",
   actions: cratedbCloudActions,
 };

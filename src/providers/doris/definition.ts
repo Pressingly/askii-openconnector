@@ -55,5 +55,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://doris.apache.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/doris.svg",
   actions: dorisActions,
 };

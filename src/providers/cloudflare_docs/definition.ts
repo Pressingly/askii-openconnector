@@ -11,5 +11,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["custom_credential"],
   auth: [{ type: "custom_credential", fields: [] }],
   homepageUrl: "https://developers.cloudflare.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/cloudflare_docs.svg",
   actions: cloudflareDocsActions,
 };

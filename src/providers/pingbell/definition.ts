@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pingbell.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/pingbell.png",
   actions: pingbellActions,
 };

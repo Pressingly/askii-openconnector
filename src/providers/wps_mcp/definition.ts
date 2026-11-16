@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.wps.cn",
+  iconUrl: "https://static.oomol.com/logo/third-party/wps_mcp.svg",
   actions: wpsMcpActions,
 };

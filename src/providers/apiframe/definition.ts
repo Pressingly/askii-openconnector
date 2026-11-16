@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://apiframe.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/apiframe.svg",
   actions: apiframeActions,
 };

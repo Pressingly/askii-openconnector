@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://eventee.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/eventee.png",
   actions: eventeeActions,
 };

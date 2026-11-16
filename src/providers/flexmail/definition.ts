@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://flexmail.be/en",
+  iconUrl: "https://static.oomol.com/logo/third-party/flexmail.svg",
   actions: flexmailActions,
 };

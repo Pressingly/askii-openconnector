@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://scrapegraphai.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/scrape_graph_ai.svg",
   actions: scrapeGraphAiActions,
 };

@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.iru.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/kandji.png",
   actions: kandjiActions,
 };

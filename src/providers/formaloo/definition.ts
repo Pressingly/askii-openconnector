@@ -27,5 +27,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.formaloo.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/formaloo.svg",
   actions: formalooActions,
 };

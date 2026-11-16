@@ -44,5 +44,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.microsoft.com/microsoft-teams/",
+  iconUrl: "https://static.oomol.com/logo/third-party/microsoft_teams.svg",
   actions: microsoftTeamsActions,
 };

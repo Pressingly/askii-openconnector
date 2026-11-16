@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://opensea.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/opensea.svg",
   actions: openseaActions,
 };

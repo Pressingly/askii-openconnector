@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tuskr.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/tuskr.svg",
   actions: tuskrActions,
 };

@@ -35,5 +35,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.alibabacloud.com/product/kubernetes",
+  iconUrl: "https://static.oomol.com/logo/third-party/aliyun_ack.svg",
   actions: aliyunAckActions,
 };

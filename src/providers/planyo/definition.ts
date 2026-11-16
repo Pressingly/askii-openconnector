@@ -6,6 +6,7 @@ export const provider: ProviderDefinition = {
   displayName: "Planyo",
   description: "Inspect booking sites, resources and resource settings",
   homepageUrl: "https://www.planyo.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/planyo.png",
   categories: ["Productivity"],
   authTypes: ["api_key"],
   auth: [

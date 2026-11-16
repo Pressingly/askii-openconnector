@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fixer.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Fixer.svg",
   actions: fixerActions,
 };

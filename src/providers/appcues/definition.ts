@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.appcues.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/appcues.svg",
   actions: appcuesActions,
 };

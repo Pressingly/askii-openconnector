@@ -58,6 +58,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://open.feishu.cn",
+  iconUrl: "https://static.oomol.com/logo/third-party/feishu_app_bot.svg",
   actions: feishuAppBotActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

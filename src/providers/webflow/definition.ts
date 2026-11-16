@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://webflow.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/webflow.svg",
   actions: webflowActions,
 };

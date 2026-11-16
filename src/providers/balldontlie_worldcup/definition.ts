@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fifa.balldontlie.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/balldontlie_worldcup.png",
   actions: balldontlieWorldcupActions,
 };

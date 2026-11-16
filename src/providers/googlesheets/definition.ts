@@ -61,6 +61,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://workspace.google.com/products/sheets/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Google%20Sheets.svg",
   actions: googlesheetsActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

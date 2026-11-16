@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://loyverse.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/loyverse.svg",
   actions: loyverseActions,
 };

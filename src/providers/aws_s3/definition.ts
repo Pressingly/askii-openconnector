@@ -67,5 +67,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://aws.amazon.com/s3/",
+  iconUrl: "https://static.oomol.com/logo/third-party/aws_s3.svg",
   actions: awsActions,
 };

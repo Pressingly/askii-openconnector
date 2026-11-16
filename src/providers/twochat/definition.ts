@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://2chat.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/twochat.png",
   actions: twochatActions,
 };

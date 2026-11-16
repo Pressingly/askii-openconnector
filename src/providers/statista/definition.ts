@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.statista.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/statista.svg",
   actions: statistaActions,
 };

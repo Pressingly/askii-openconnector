@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://render.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/render.svg",
   actions: renderActions,
 };

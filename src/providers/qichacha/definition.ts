@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://openapi.qcc.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/qichacha.png",
   actions: qichachaActions,
 };

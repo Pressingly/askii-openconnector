@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://api-ninjas.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/API%20Ninjas.svg",
   actions: apiNinjasActions,
 };

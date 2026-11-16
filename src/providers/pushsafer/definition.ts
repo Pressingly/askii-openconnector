@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.pushsafer.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/pushsafer.png",
   actions: pushsaferActions,
 };

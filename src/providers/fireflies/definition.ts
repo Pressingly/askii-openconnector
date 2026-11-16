@@ -25,5 +25,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.fireflies.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/Fireflies.svg",
   actions: firefliesActions,
 };

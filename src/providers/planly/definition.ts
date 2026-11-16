@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "planly",
   displayName: "Planly",
   homepageUrl: "https://planly.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/planly.svg",
   categories: ["Marketing"],
   authTypes: ["api_key"],
   auth: [

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://openrouter.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/Openrouter.svg",
   actions: openrouterActions,
 };

@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.joinsherpa.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/sherpa.svg",
   actions: sherpaActions,
 };

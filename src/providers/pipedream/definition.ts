@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pipedream.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/pipedream.png",
   actions: pipedreamActions,
 };

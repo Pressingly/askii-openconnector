@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.spyfu.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/spyfu.svg",
   actions: spyfuActions,
 };

@@ -9,5 +9,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["no_auth"],
   auth: [{ type: "no_auth" }],
   homepageUrl: "https://wttr.in/",
+  iconUrl: "https://static.oomol.com/logo/third-party/wttr_in.png",
   actions: wttrInActions,
 };

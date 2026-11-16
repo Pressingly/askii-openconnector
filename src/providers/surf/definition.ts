@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "surf",
   displayName: "Surf",
   homepageUrl: "https://asksurf.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/surf.svg",
   categories: ["Finance", "Data"],
   authTypes: ["api_key"],
   auth: [

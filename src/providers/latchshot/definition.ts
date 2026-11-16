@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://latchshot.fly.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/latchshot.svg",
   actions: latchshotActions,
 };

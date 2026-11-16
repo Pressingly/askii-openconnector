@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.worksnaps.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/worksnaps.png",
   actions: worksnapsActions,
 };

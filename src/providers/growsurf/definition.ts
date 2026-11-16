@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "growsurf",
   displayName: "GrowSurf",
   homepageUrl: "https://growsurf.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/growsurf.png",
   categories: ["Marketing"],
   authTypes: ["api_key"],
   auth: [

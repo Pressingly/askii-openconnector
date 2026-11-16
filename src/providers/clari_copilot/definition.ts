@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.clari.com/products/copilot/",
+  iconUrl: "https://static.oomol.com/logo/third-party/clari_copilot.png",
   actions: clariCopilotActions,
 };

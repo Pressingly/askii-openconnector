@@ -33,5 +33,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.freshworks.com/freshdesk/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Freshdesk.svg",
   actions: freshdeskActions,
 };

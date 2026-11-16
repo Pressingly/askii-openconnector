@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "SecurityScorecard",
   description: "Company cybersecurity ratings and third-party risk monitoring",
   homepageUrl: "https://securityscorecard.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/securityscorecard.svg",
   categories: ["Security & Identity"],
   authTypes: ["api_key"],
   auth: [

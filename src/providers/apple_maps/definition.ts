@@ -27,5 +27,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://developer.apple.com/maps/",
+  iconUrl: "https://static.oomol.com/logo/third-party/apple_maps.png",
   actions: appleMapsActions,
 };

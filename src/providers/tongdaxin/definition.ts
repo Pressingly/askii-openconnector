@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://vip.tdx.com.cn/site/app/pc-mall/main.html#/page_product_mcp",
+  iconUrl: "https://static.oomol.com/logo/third-party/tongdaxin.png",
   actions: tongdaxinActions,
 };

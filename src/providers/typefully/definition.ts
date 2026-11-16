@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://typefully.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/typefully.svg",
   actions: typefullyActions,
 };

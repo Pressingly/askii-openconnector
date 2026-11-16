@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://airfocus.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/airfocus.svg",
   actions: airfocusActions,
 };

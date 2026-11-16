@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://indexed.vc",
+  iconUrl: "https://static.oomol.com/logo/third-party/indexed.svg",
   actions: indexedActions,
 };

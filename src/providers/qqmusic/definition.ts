@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "qqmusic",
   displayName: "QQ Music",
   homepageUrl: "https://y.qq.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/qqmusic.png",
   categories: ["Design & Media"],
   authTypes: ["api_key"],
   auth: [

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://altoviz.com/en/",
+  iconUrl: "https://static.oomol.com/logo/third-party/altoviz.svg",
   actions: altovizActions,
 };

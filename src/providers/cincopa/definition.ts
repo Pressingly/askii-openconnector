@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.cincopa.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/cincopa.svg",
   actions: cincopaActions,
 };

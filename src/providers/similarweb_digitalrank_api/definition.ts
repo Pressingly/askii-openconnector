@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.similarweb.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/SimilarWeb%20Digital%20Rank%20API.svg",
   actions: similarwebDigitalRankApiActions,
 };

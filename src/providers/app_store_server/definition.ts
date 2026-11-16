@@ -63,5 +63,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://developer.apple.com/documentation/appstoreserverapi",
+  iconUrl: "https://static.oomol.com/logo/third-party/app_store_server.svg",
   actions: appStoreServerActions,
 };

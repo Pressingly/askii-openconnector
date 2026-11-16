@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.forem.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/forem.svg",
   actions: foremActions,
 };

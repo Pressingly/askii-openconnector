@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.docsumo.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/docsumo.svg",
   actions: docsumoActions,
 };

@@ -44,6 +44,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage",
+  iconUrl: "https://static.oomol.com/logo/third-party/OneDrive.svg",
   actions: oneDriveActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

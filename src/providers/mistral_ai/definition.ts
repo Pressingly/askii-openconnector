@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mistral.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/Mistral%20AI.svg",
   actions: mistralAiActions,
 };

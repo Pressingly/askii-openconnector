@@ -35,5 +35,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ocrwebservice.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/ocr_web_service.svg",
   actions: ocrWebServiceActions,
 };

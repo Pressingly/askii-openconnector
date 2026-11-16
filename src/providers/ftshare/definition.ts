@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "ftshare",
   displayName: "FTShare",
   homepageUrl: "https://ftai.chat/ftshare",
+  iconUrl: "https://static.oomol.com/logo/third-party/ftshare.svg",
   categories: ["Data & Analytics"],
   authTypes: ["api_key"],
   auth: [

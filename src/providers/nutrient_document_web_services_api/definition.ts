@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.nutrient.io/api/",
+  iconUrl: "https://static.oomol.com/logo/third-party/nutrient_document_web_services_api.svg",
   actions: nutrientDocumentWebServicesApiActions,
 };

@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.docugenerate.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/docugenerate.svg",
   actions: docugenerateActions,
 };

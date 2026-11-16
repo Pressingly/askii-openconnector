@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://betterstack.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Better%20Stack.svg",
   actions: betterStackActions,
 };

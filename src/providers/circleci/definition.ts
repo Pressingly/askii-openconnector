@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://circleci.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/CircleCI.svg",
   actions: circleciActions,
 };

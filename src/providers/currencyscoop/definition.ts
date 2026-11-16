@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://currencybeacon.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/currencyscoop.svg",
   actions: currencyscoopActions,
 };

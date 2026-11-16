@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.greenhouse.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/greenhouse.svg",
   actions: greenhouseActions,
 };

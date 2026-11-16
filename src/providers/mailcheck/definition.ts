@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.usercheck.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Mailcheck.svg",
   actions: mailcheckActions,
 };

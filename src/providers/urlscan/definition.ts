@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://urlscan.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/urlscan.png",
   actions: urlscanActions,
 };

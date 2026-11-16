@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://aroflo.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/aroflo.svg",
   actions: arofloActions,
 };

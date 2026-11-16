@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.geocod.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Geocodio.svg",
   actions: geocodioActions,
 };

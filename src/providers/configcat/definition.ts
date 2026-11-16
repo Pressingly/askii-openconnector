@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://configcat.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/configcat.svg",
   actions: configcatActions,
 };

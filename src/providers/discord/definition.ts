@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://discord.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Discord.svg",
   actions: discordActions,
 };

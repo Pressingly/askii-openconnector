@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://agiled.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/agiled.png",
   actions: agiledActions,
 };

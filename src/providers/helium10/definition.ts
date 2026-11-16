@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.helium10.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/helium10.svg",
   actions: helium10Actions,
 };

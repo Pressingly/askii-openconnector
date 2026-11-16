@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.jobnimbus.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/jobnimbus.png",
   actions: jobnimbusActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://safetyculture.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/safetyculture.png",
   actions: safetycultureActions,
 };

@@ -37,5 +37,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.moretrees.eco",
+  iconUrl: "https://static.oomol.com/logo/third-party/more_trees.svg",
   actions: moreTreesActions,
 };

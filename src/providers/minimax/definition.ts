@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.minimax.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/minimax.svg",
   actions: minimaxActions,
 };

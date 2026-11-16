@@ -42,5 +42,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://echotik.live/zh/api-service",
+  iconUrl: "https://static.oomol.com/logo/third-party/echotik.png",
   actions: echotikActions,
 };

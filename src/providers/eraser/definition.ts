@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.eraser.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/eraser.svg",
   actions: eraserActions,
 };

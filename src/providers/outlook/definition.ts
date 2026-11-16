@@ -44,6 +44,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.microsoft.com/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+  iconUrl: "https://static.oomol.com/logo/third-party/Outlook.webp",
   actions: outlookActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

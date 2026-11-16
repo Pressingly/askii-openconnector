@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.proworkflow.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/proworkflow.svg",
   actions: proworkflowActions,
 };

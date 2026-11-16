@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://developers.biz.moneyforward.com/mcp/",
+  iconUrl: "https://static.oomol.com/logo/third-party/moneyforward_mcp.svg",
   actions: moneyforwardActions,
 };

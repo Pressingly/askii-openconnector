@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://countdownapi.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/countdown_api.webp",
   actions: countdownApiActions,
 };

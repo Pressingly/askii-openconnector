@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "clay",
   displayName: "Clay",
   homepageUrl: "https://www.clay.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/clay.png",
   categories: ["Marketing", "Data & Analytics"],
   authTypes: ["api_key"],
   auth: [

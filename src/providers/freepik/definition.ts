@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.magnific.com/freepik",
+  iconUrl: "https://static.oomol.com/logo/third-party/freepik.svg",
   actions: freepikActions,
 };

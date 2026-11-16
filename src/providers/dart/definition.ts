@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.dartai.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/dart.png",
   actions: dartActions,
 };

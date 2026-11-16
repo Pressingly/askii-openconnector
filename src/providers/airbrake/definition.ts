@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://airbrake.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/airbrake.png",
   actions: airbrakeActions,
 };

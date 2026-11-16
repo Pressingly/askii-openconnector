@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.crunchbase.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/crunchbase.png",
   actions: crunchbaseActions,
 };

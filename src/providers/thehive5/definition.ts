@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://strangebee.com/thehive",
+  iconUrl: "https://static.oomol.com/logo/third-party/thehive5.svg",
   actions: theHive5Actions,
 };

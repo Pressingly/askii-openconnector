@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://marketplace.walmart.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/walmart_marketplace.png",
   actions: walmartMarketplaceActions,
 };

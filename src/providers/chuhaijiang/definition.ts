@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.chuhaijiang.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/chuhaijiang.svg",
   actions: chuhaijiangActions,
 };

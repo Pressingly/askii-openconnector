@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://wit.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/Wit.ai.svg",
   actions: witAiActions,
 };

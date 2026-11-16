@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://healthchecks.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/healthchecks_io.svg",
   actions: healthchecksIoActions,
 };

@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://habitica.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/habitica.png",
   actions: habiticaActions,
 };

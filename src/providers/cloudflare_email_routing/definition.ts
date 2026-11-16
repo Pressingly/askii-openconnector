@@ -54,5 +54,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.cloudflare.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/cloudflare_email_routing.svg",
   actions: cloudflareEmailRoutingActions,
 };

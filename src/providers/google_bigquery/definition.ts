@@ -55,5 +55,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cloud.google.com/bigquery",
+  iconUrl: "https://static.oomol.com/logo/third-party/google_bigquery.png",
   actions: googleBigQueryActions,
 };

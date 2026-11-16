@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://metatext.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/metatextai.svg",
   actions: metatextaiActions,
 };

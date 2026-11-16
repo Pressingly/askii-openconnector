@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.geoapify.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Geoapify.png",
   actions: geoapifyActions,
 };

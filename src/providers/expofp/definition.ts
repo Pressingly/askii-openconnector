@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://expofp.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/expofp.svg",
   actions: expofpActions,
 };

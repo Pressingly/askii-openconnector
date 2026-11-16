@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://karakeep.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/karakeep.svg",
   actions: karakeepActions,
 };

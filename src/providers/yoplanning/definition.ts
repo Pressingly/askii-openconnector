@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.yoplanning.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/yoplanning.svg",
   actions: yoplanningActions,
 };

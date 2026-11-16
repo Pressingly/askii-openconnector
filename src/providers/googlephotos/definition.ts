@@ -24,5 +24,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.google.com/photos/about/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Google%20Photos.svg",
   actions: googlePhotosActions,
 };

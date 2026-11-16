@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://lightfield.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/lightfield.svg",
   actions: lightfieldActions,
 };

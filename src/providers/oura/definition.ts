@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ouraring.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/oura.svg",
   actions: ouraActions,
 };

@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ably.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/ably.svg",
   actions: ablyActions,
 };

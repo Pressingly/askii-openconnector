@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://insites.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/insites.svg",
   actions: insitesActions,
 };

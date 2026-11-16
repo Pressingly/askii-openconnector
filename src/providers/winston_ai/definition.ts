@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://gowinston.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/winston_ai.svg",
   actions: winstonAiActions,
 };

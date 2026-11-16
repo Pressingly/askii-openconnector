@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.kadoa.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/kadoa.svg",
   actions: kadoaActions,
 };

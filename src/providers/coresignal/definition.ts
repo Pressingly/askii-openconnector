@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://coresignal.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/coresignal.svg",
   actions: coresignalActions,
 };

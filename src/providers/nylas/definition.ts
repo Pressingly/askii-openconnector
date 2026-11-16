@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.nylas.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/nylas.svg",
   actions: nylasActions,
 };

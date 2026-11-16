@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://kit.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/kit.svg",
   actions: kitActions,
 };

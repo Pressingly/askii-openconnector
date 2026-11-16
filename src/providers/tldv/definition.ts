@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tldv.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/tldv.png",
   actions: tldvActions,
 };

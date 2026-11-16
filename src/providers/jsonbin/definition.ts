@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://jsonbin.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/jsonbin.png",
   actions: jsonbinActions,
 };

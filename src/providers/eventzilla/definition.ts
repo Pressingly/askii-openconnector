@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.eventzilla.net",
+  iconUrl: "https://static.oomol.com/logo/third-party/eventzilla.svg",
   actions: eventzillaActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.loopreturns.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/loop_returns.svg",
   actions: loopReturnsActions,
 };

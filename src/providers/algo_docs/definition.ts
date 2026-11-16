@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://algodocs.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/algo_docs.png",
   actions: algoDocsActions,
 };

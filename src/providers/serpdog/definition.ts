@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://serpdog.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/serpdog.svg",
   actions: serpdogActions,
 };

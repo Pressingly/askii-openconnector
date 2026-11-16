@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "contextdev",
   displayName: "Context.dev",
   homepageUrl: "https://context.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/contextdev.svg",
   categories: ["Data", "AI"],
   authTypes: ["api_key"],
   auth: [

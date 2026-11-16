@@ -73,6 +73,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://woocommerce.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/woocommerce.svg",
   actions: woocommerceActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

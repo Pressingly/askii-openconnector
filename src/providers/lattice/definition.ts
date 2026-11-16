@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://lattice.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/lattice.svg",
   actions: latticeActions,
 };

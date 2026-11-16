@@ -21,5 +21,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://context7.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/context7.svg",
   actions: context7Actions,
 };

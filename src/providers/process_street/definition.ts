@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.process.st/",
+  iconUrl: "https://static.oomol.com/logo/third-party/process_street.png",
   actions: processStreetActions,
 };

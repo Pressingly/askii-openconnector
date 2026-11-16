@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://supermemory.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/supermemory.svg",
   actions: supermemoryActions,
 };

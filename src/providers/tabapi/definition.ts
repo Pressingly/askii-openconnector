@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tabapi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/tabapi.svg",
   actions: tabapiActions,
 };

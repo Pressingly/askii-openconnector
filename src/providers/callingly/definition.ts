@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://callingly.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/callingly.svg",
   actions: callinglyActions,
 };

@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://trello.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/trello.svg",
   actions: trelloActions,
 };

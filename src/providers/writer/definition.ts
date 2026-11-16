@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://writer.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/writer.svg",
   actions: writerActions,
 };

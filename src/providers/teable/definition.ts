@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://teable.cn",
+  iconUrl: "https://static.oomol.com/logo/third-party/teable.svg",
   actions: teableActions,
 };

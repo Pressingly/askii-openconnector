@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ringg.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/ringg_ai.svg",
   actions: ringgAiActions,
 };

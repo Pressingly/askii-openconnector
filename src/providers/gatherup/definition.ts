@@ -35,5 +35,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://gatherup.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/gatherup.svg",
   actions: gatherupActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.heyreach.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/heyreach.svg",
   actions: heyreachActions,
 };

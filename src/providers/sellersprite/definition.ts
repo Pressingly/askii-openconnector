@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.sellersprite.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/sellersprite.svg",
   actions: sellerspriteActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://thecolony.cc/",
+  iconUrl: "https://static.oomol.com/logo/third-party/the_colony.svg",
   actions: theColonyActions,
 };

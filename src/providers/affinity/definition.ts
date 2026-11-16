@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.affinity.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/affinity.svg",
   actions: affinityActions,
 };

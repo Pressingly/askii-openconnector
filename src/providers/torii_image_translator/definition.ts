@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://toriitranslate.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/torii_image_translator.png",
   actions: toriiImageTranslatorActions,
 };

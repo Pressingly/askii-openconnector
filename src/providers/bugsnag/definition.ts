@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.bugsnag.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Bugsnag.svg",
   actions: bugsnagActions,
 };

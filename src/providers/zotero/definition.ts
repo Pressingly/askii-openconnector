@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.zotero.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/zotero.png",
   actions: zoteroActions,
 };

@@ -33,5 +33,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://nethunt.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/nethunt.png",
   actions: nethuntActions,
 };

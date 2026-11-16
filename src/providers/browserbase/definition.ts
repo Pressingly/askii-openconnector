@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.browserbase.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Browserbase.svg",
   actions: browserbaseActions,
 };

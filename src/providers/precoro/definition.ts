@@ -39,5 +39,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://precoro.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/precoro.svg",
   actions: precoroActions,
 };

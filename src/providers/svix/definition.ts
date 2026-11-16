@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.svix.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Svix.svg",
   actions: svixActions,
 };

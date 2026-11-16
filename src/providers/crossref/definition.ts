@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.crossref.org/",
+  iconUrl: "https://static.oomol.com/logo/third-party/crossref.svg",
   actions: crossrefActions,
 };

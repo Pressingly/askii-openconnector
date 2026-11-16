@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tinypng.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/TinyPNG.svg",
   actions: tinypngActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://openexchangerates.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/open_exchange_rates.jpg",
   actions: openExchangeRatesActions,
 };

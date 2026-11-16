@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://scripture.api.bible/",
+  iconUrl: "https://static.oomol.com/logo/third-party/api_bible.svg",
   actions: apiBibleActions,
 };

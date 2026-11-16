@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://dida365.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/dida365.svg",
   actions: dida365Actions,
 };

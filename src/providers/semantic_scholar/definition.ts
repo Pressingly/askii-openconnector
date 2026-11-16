@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.semanticscholar.org/",
+  iconUrl: "https://static.oomol.com/logo/third-party/semantic_scholar.svg",
   actions: semanticScholarActions,
 };

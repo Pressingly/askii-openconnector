@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.getresponse.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/getresponse.svg",
   actions: getresponseActions,
 };

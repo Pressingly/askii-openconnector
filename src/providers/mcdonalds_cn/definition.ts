@@ -64,5 +64,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://open.mcd.cn",
+  iconUrl: "https://static.oomol.com/logo/third-party/mcdonalds_cn.png",
   actions: mcdonaldsCnActions,
 };

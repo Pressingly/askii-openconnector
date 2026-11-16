@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://anysearch.com/home",
+  iconUrl: "https://static.oomol.com/logo/third-party/anysearch.png",
   actions: anySearchActions,
 };

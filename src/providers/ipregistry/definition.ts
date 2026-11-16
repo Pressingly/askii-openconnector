@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ipregistry.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/ipregistry.png",
   actions: ipregistryActions,
 };

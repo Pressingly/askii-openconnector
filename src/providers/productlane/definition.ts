@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://productlane.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/productlane.svg",
   actions: productlaneActions,
 };

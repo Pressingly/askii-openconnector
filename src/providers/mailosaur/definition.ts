@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mailosaur.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/mailosaur.svg",
   actions: mailosaurActions,
 };

@@ -6,6 +6,7 @@ export const provider: ProviderDefinition = {
   displayName: "Rapid URL Indexer",
   description: "Submit URLs for indexing and track project progress, reports, and credits.",
   homepageUrl: "https://rapidurlindexer.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/rapid_url_indexer.png",
   categories: ["Marketing"],
   authTypes: ["api_key"],
   auth: [

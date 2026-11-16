@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.whatsapp.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/whatsapp.svg",
   actions: whatsappActions,
 };

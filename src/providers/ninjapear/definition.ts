@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://nubela.co/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ninjapear.svg",
   actions: ninjapearActions,
 };

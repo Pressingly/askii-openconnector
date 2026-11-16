@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.passslot.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/passslot.png",
   actions: passslotActions,
 };

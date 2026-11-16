@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "defillama",
   displayName: "DeFiLlama",
   homepageUrl: "https://defillama.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/defillama.svg",
   categories: ["Finance", "Data"],
   authTypes: ["no_auth", "api_key"],
   auth: [

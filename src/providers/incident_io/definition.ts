@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://incident.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/incident_io.svg",
   actions: incidentIoActions,
 };

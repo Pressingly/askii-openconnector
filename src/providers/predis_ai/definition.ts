@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://predis.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/predis_ai.svg",
   actions: predisAiActions,
 };

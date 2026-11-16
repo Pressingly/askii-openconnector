@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://sslmate.com/certspotter/",
+  iconUrl: "https://static.oomol.com/logo/third-party/SSLMate%20Cert%20Spotter%20API.svg",
   actions: certSpotterActions,
 };

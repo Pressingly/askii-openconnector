@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://textcortex.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/textcortex.svg",
   actions: textcortexActions,
 };

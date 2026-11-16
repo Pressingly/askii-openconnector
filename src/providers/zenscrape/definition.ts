@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://zenscrape.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/zenscrape.svg",
   actions: zenscrapeActions,
 };

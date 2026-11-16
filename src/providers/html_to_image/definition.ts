@@ -21,5 +21,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://html2img.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/html_to_image.svg",
   actions: htmlToImageActions,
 };

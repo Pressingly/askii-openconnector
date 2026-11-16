@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://moonclerk.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/moonclerk.svg",
   actions: moonclerkActions,
 };

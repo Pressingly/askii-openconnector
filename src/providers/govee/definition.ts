@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.govee.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/govee.svg",
   actions: goveeActions,
 };

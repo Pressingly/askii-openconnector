@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.accuweather.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/accuweather.svg",
   actions: accuweatherActions,
 };

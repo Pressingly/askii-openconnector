@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.splunk.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/splunk_http_event_collector.png",
   actions: splunkHttpEventCollectorActions,
 };

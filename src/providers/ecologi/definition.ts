@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ecologi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/ecologi.png",
   actions: ecologiActions,
 };

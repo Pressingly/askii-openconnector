@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "smooth",
   displayName: "Smooth",
   homepageUrl: "https://smooth.sh",
+  iconUrl: "https://static.oomol.com/logo/third-party/smooth.svg",
   categories: ["AI", "Developer Tools"],
   authTypes: ["api_key"],
   auth: [

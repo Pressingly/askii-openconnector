@@ -46,5 +46,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://z-lib.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/zlibrary.svg",
   actions: zlibraryActions,
 };

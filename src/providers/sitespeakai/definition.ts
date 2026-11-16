@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://sitespeak.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/sitespeakai.png",
   actions: sitespeakaiActions,
 };

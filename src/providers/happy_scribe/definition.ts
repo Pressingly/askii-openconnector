@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.happyscribe.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/happy_scribe.svg",
   actions: happyScribeActions,
 };

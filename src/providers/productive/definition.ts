@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://productive.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/productive.svg",
   actions: productiveActions,
 };

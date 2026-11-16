@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.shipday.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/shipday.png",
   actions: shipdayActions,
 };

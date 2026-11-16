@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.featurebase.app/",
+  iconUrl: "https://static.oomol.com/logo/third-party/featurebase.svg",
   actions: featurebaseActions,
 };

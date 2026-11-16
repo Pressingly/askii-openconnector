@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://alttextgeneratorai.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/alt_text_generator_ai.png",
   actions: altTextGeneratorAiActions,
 };

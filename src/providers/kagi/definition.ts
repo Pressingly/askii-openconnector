@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "kagi",
   displayName: "Kagi Universal Summarizer",
   homepageUrl: "https://kagi.com/summarizer/",
+  iconUrl: "https://static.oomol.com/logo/third-party/kagi.svg",
   categories: ["AI", "Documents & Content"],
   authTypes: ["api_key"],
   auth: [

@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://clearout.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Clearout.svg",
   actions: clearoutActions,
 };

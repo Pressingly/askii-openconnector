@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://wandb.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/wandb.svg",
   actions: wandbActions,
 };

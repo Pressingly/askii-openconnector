@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pretix.eu",
+  iconUrl: "https://static.oomol.com/logo/third-party/pretix.svg",
   actions: pretixActions,
 };

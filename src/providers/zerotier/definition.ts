@@ -52,5 +52,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.zerotier.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/zerotier.svg",
   actions: zerotierActions,
 };

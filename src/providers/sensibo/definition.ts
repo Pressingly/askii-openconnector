@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://home.sensibo.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/sensibo.svg",
   actions: sensiboActions,
 };

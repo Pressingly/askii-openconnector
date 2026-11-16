@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://leonardo.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/leonardo_ai.png",
   actions: leonardoAiActions,
 };

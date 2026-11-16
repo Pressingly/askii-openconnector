@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.projectmanager.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/projectmanager.svg",
   actions: projectmanagerActions,
 };

@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.juniper.net/us/en/products/networking/mist-ai.html",
+  iconUrl: "https://static.oomol.com/logo/third-party/juniper_mist.png",
   actions: juniperMistActions,
 };

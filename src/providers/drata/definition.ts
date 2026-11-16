@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://drata.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/drata.png",
   actions: drataActions,
 };

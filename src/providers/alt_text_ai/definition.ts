@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://alttext.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/alt_text_ai.svg",
   actions: altTextAiActions,
 };

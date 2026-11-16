@@ -33,5 +33,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.surveymonkey.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/survey_monkey.svg",
   actions: surveyMonkeyActions,
 };

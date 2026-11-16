@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.neeto.com/neetodesk",
+  iconUrl: "https://static.oomol.com/logo/third-party/neetodesk.svg",
   actions: neetodeskActions,
 };

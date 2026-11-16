@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://skio.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/skio.png",
   actions: skioActions,
 };

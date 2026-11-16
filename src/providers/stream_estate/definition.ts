@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://stream.estate",
+  iconUrl: "https://static.oomol.com/logo/third-party/stream_estate.svg",
   actions: streamEstateActions,
 };

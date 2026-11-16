@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pulsetic.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/pulsetic.svg",
   actions: pulseticActions,
 };

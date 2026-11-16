@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://auth0.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/auth0_management.svg",
   actions: auth0ManagementActions,
 };

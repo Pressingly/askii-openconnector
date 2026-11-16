@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mattermost.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/mattermost.svg",
   actions: mattermostActions,
 };

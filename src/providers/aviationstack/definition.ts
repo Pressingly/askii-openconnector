@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://aviationstack.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/aviationstack.png",
   actions: aviationstackActions,
 };

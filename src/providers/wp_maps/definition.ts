@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://wpmaps.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/wp_maps.svg",
   actions: wpMapsActions,
 };

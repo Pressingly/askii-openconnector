@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://platform.deepseek.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/DeepSeek.svg",
   actions: deepseekActions,
 };

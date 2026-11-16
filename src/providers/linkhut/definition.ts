@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ln.ht",
+  iconUrl: "https://static.oomol.com/logo/third-party/Linkhut.svg",
   actions: linkhutActions,
 };

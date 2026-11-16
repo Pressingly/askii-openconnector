@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://breezy.hr/",
+  iconUrl: "https://static.oomol.com/logo/third-party/breezy_hr.png",
   actions: breezyHrActions,
 };

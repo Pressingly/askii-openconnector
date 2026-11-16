@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://datalust.co/seq",
+  iconUrl: "https://static.oomol.com/logo/third-party/datalust.svg",
   actions: datalustActions,
 };

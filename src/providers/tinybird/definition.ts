@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.tinybird.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/tinybird.svg",
   actions: tinybirdActions,
 };

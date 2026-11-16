@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.waiverforever.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/waiverforever.svg",
   actions: waiverforeverActions,
 };

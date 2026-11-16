@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.placekey.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Placekey.svg",
   actions: placekeyActions,
 };

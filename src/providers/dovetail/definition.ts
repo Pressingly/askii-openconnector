@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://dovetail.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Dovetail.svg",
   actions: dovetailActions,
 };

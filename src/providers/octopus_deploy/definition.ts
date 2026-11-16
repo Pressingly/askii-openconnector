@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://octopus.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/octopus_deploy.svg",
   actions: octopusDeployActions,
 };

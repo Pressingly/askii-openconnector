@@ -24,5 +24,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://neon.com/docs/storage/overview",
+  iconUrl: "https://static.oomol.com/logo/third-party/neon_object_storage.svg",
   actions: neonObjectStorageActions,
 };

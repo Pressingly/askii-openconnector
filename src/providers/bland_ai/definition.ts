@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.bland.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/bland_ai.svg",
   actions: blandAiActions,
 };

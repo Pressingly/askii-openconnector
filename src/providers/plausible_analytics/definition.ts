@@ -37,5 +37,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://plausible.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Plausible%20Analytics.svg",
   actions: plausibleAnalyticsActions,
 };

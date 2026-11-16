@@ -37,5 +37,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://saucelabs.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/saucelabs.svg",
   actions: saucelabsActions,
 };

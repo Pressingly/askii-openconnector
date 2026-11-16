@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.classmarker.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/classmarker.png",
   actions: classmarkerActions,
 };

@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.unipile.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/unipile.svg",
   actions: unipileActions,
 };

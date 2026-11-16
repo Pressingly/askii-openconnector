@@ -49,5 +49,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://alpaca.markets/",
+  iconUrl: "https://static.oomol.com/logo/third-party/alpaca.svg",
   actions: alpacaActions,
 };

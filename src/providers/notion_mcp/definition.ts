@@ -36,5 +36,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.notion.so",
+  iconUrl: "https://static.oomol.com/logo/third-party/notion_mcp.svg",
   actions: notionMcpActions,
 };

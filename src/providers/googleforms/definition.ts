@@ -52,5 +52,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://workspace.google.com/products/forms/",
+  iconUrl: "https://static.oomol.com/logo/third-party/googleforms.svg",
   actions: googleFormsActions,
 };

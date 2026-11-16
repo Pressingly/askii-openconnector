@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.vbout.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/vbout.png",
   actions: vboutActions,
 };

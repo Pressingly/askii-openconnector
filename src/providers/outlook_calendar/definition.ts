@@ -45,5 +45,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.microsoft.com/microsoft-365/outlook/outlook-calendar",
+  iconUrl: "https://static.oomol.com/logo/third-party/outlook_calendar.svg",
   actions: outlookCalendarActions,
 };

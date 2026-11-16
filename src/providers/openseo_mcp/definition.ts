@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "OpenSEO MCP",
   description: "Research keywords, track search rankings, and review site audits and reports",
   homepageUrl: "https://openseo.so",
+  iconUrl: "https://static.oomol.com/logo/third-party/openseo_mcp.png",
   categories: ["Marketing", "Data"],
   authTypes: ["api_key"],
   auth: [

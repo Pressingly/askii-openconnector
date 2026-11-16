@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.npmjs.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/npm.svg",
   actions: npmActions,
 };

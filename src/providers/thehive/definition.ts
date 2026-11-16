@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://thehive-project.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/thehive.svg",
   actions: theHiveActions,
 };

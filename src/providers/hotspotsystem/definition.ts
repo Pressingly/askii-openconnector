@@ -21,5 +21,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.hotspotsystem.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/hotspotsystem.png",
   actions: hotspotsystemActions,
 };

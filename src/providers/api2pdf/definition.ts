@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.api2pdf.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/api2pdf.jpg",
   actions: api2pdfActions,
 };

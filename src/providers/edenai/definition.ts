@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.edenai.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/edenai.png",
   actions: edenaiActions,
 };

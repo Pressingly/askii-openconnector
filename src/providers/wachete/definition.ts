@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.wachete.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/wachete.svg",
   actions: wacheteActions,
 };

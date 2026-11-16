@@ -6,6 +6,7 @@ export const provider: ProviderDefinition = {
   displayName: "Rakuraku Seisan",
   categories: ["Finance"],
   homepageUrl: "https://www.rakus.co.jp/rakurakucloud/seisan/",
+  iconUrl: "https://static.oomol.com/logo/third-party/rakuraku_seisan.svg",
   authTypes: ["api_key"],
   auth: [
     {

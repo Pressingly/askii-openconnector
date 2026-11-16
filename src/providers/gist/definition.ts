@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://gist.github.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/github.svg",
   actions: gistActions,
 };

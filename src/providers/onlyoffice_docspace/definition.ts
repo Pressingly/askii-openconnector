@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.onlyoffice.com/docspace.aspx",
+  iconUrl: "https://static.oomol.com/logo/third-party/onlyoffice_docspace.png",
   actions: onlyofficeDocspaceActions,
 };

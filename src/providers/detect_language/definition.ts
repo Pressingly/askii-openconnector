@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://detectlanguage.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/detect_language.png",
   actions: detectLanguageActions,
 };

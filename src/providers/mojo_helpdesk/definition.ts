@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mojohelpdesk.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/mojo_helpdesk.png",
   actions: mojoHelpdeskActions,
 };

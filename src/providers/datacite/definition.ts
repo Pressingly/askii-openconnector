@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://datacite.org/",
+  iconUrl: "https://static.oomol.com/logo/third-party/datacite.svg",
   actions: dataciteActions,
 };

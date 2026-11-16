@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://klingai.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/kling.svg",
   actions: klingActions,
 };

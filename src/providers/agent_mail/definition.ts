@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://agentmail.to",
+  iconUrl: "https://static.oomol.com/logo/third-party/agent_mail.svg",
   actions: agentMailActions,
 };

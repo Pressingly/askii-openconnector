@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://realphonevalidation.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/realphonevalidation.jpg",
   actions: realPhoneValidationActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.themoviedb.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/tmdb.svg",
   actions: tmdbActions,
 };

@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.stealthgpt.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/stealthgpt.svg",
   actions: stealthgptActions,
 };

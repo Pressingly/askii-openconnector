@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.monicahq.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/monica_crm.png",
   actions: monicaCrmActions,
 };

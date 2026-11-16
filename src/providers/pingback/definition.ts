@@ -6,6 +6,7 @@ export const provider: ProviderDefinition = {
   displayName: "Pingback",
   description: "Manage newsletter subscribers and segmentation memberships",
   homepageUrl: "https://pingback.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/pingback.png",
   categories: ["Marketing", "Communication"],
   authTypes: ["api_key"],
   auth: [

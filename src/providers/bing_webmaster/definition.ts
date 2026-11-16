@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.bing.com/webmasters/",
+  iconUrl: "https://static.oomol.com/logo/third-party/bing_webmaster.png",
   actions: bingWebmasterActions,
 };

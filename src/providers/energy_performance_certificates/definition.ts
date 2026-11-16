@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://get-energy-performance-data.communities.gov.uk",
+  iconUrl: "https://static.oomol.com/logo/third-party/energy_performance_certificates.svg",
   actions: energyPerformanceCertificatesActions,
 };

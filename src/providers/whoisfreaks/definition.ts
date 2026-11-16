@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://whoisfreaks.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/whoisfreaks.svg",
   actions: whoisfreaksActions,
 };

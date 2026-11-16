@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://phantombuster.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/phantombuster.svg",
   actions: phantombusterActions,
 };

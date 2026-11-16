@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://aisa.one",
+  iconUrl: "https://static.oomol.com/logo/third-party/aisa.svg",
   actions: aisaActions,
 };

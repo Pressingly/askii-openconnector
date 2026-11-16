@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.rebrandly.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/rebrandly.png",
   actions: rebrandlyActions,
 };

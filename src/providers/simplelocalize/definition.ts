@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://simplelocalize.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/simplelocalize.svg",
   actions: simpleLocalizeActions,
 };

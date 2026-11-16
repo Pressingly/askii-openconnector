@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.hrpartner.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/hr_partner.png",
   actions: hrPartnerActions,
 };

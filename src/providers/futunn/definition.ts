@@ -45,5 +45,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://open.futunn.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/futunn.svg",
   actions: futunnActions,
 };

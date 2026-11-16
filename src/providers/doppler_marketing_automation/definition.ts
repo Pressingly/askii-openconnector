@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.fromdoppler.com/en/",
+  iconUrl: "https://static.oomol.com/logo/third-party/doppler_marketing_automation.png",
   actions: dopplerMarketingAutomationActions,
 };

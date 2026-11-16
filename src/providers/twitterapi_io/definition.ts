@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://twitterapi.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/twitterapi_io.svg",
   actions: twitterapiIoActions,
 };

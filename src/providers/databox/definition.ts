@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://databox.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/databox.svg",
   actions: databoxActions,
 };

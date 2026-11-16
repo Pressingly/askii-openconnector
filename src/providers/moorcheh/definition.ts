@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.moorcheh.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/moorcheh.png",
   actions: moorchehActions,
 };

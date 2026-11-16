@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.usebouncer.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Bouncer.svg",
   actions: bouncerActions,
 };

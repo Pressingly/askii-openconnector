@@ -38,5 +38,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.discourse.org/",
+  iconUrl: "https://static.oomol.com/logo/third-party/discourse.svg",
   actions: discourseActions,
 };

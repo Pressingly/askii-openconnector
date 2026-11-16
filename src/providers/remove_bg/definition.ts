@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.remove.bg",
+  iconUrl: "https://static.oomol.com/logo/third-party/Remove.bg.svg",
   actions: removeBgActions,
 };

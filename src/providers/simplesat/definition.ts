@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.simplesat.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/simplesat.svg",
   actions: simplesatActions,
 };

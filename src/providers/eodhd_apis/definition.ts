@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://eodhd.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/eodhd_apis.svg",
   actions: eodhdApisActions,
 };

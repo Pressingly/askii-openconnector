@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "octen",
   displayName: "Octen",
   homepageUrl: "https://octen.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/octen.svg",
   categories: ["AI", "Data"],
   authTypes: ["api_key"],
   auth: [

@@ -53,5 +53,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.shopee.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/shopee.svg",
   actions: shopeeActions,
 };

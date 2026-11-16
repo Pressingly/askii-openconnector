@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.softr.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/softr.svg",
   actions: softrActions,
 };

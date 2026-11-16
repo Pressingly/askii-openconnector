@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://app.gladia.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/gladia.svg",
   actions: gladiaActions,
 };

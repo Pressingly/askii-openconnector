@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://anchorbrowser.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/anchor_browser.svg",
   actions: anchorBrowserActions,
 };

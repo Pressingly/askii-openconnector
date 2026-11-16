@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "litescrape",
   displayName: "Litescrape",
   homepageUrl: "https://litescrape.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/litescrape.svg",
   categories: ["Data"],
   authTypes: ["api_key"],
   auth: [

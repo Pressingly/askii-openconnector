@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.elsevier.com/products/embase",
+  iconUrl: "https://static.oomol.com/logo/third-party/embase.png",
   actions: embaseActions,
 };

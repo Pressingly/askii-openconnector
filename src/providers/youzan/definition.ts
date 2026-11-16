@@ -46,5 +46,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.youzan.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/youzan.png",
   actions: youzanActions,
 };

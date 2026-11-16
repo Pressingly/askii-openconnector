@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.parsehub.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/parsehub.svg",
   actions: parsehubActions,
 };

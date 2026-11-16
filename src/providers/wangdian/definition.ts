@@ -50,5 +50,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.wangdian.cn",
+  iconUrl: "https://static.oomol.com/logo/third-party/wangdian.png",
   actions: wangdianActions,
 };

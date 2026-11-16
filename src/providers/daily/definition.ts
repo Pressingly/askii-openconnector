@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.daily.co/",
+  iconUrl: "https://static.oomol.com/logo/third-party/daily.svg",
   actions: dailyActions,
 };

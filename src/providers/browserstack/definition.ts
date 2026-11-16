@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.browserstack.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/browserstack.svg",
   actions: browserstackActions,
 };

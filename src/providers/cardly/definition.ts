@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.card.ly",
+  iconUrl: "https://static.oomol.com/logo/third-party/cardly.png",
   actions: cardlyActions,
 };

@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://qlty.sh",
+  iconUrl: "https://static.oomol.com/logo/third-party/qlty.svg",
   actions: qltyActions,
 };

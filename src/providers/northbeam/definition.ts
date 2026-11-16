@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.northbeam.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/northbeam.svg",
   actions: northbeamActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.meituan.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/meituan.svg",
   actions: meituanActions,
 };

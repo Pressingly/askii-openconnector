@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://gptzero.me",
+  iconUrl: "https://static.oomol.com/logo/third-party/gptzero.svg",
   actions: gptzeroActions,
 };

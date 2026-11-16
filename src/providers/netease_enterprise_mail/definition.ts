@@ -39,5 +39,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://qiye.163.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/netease_enterprise_mail.png",
   actions: neteaseEnterpriseMailActions,
 };

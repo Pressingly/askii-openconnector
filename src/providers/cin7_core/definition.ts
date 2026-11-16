@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.cin7.com/solutions/core/",
+  iconUrl: "https://static.oomol.com/logo/third-party/cin7_core.svg",
   actions: cin7CoreActions,
 };

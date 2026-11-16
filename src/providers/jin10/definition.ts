@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.jin10.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/jin10.png",
   actions: jin10Actions,
 };

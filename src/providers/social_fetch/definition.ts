@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.socialfetch.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/social_fetch.svg",
   actions: socialFetchActions,
 };

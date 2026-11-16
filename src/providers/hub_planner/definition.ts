@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.milientsoftware.com/hub-planner",
+  iconUrl: "https://static.oomol.com/logo/third-party/hub_planner.svg",
   actions: hubPlannerActions,
 };

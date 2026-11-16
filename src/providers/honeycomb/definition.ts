@@ -33,5 +33,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.honeycomb.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/honeycomb.svg",
   actions: honeycombActions,
 };

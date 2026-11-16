@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://the-odds-api.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/the_odds_api.svg",
   actions: theOddsApiActions,
 };

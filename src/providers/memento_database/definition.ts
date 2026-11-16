@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "memento_database",
   displayName: "Memento Database",
   homepageUrl: "https://mementodatabase.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/memento_database.svg",
   categories: ["Data & Analytics", "Productivity"],
   authTypes: ["api_key"],
   auth: [

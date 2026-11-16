@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://langbase.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/langbase.svg",
   actions: langbaseActions,
 };

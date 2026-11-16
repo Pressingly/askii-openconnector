@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.data247.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/data247.png",
   actions: data247Actions,
 };

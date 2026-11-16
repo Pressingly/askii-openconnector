@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.aftership.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/aftership.svg",
   actions: aftershipActions,
 };

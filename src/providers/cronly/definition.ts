@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cronly.app/",
+  iconUrl: "https://static.oomol.com/logo/third-party/cronly.svg",
   actions: cronlyActions,
 };

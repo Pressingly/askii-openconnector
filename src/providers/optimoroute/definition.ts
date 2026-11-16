@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://optimoroute.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/optimoroute.svg",
   actions: optimorouteActions,
 };

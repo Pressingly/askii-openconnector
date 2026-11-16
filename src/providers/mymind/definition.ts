@@ -49,5 +49,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mymind.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/mymind.svg",
   actions: myMindActions,
 };

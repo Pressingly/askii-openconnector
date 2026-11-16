@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://urlhaus.abuse.ch",
+  iconUrl: "https://static.oomol.com/logo/third-party/urlhaus.svg",
   actions: urlhausActions,
 };

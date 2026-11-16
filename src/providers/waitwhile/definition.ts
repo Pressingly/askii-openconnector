@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://waitwhile.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/waitwhile.svg",
   actions: waitwhileActions,
 };

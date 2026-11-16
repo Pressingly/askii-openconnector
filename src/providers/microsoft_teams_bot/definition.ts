@@ -61,5 +61,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://learn.microsoft.com/en-us/azure/bot-service/",
+  iconUrl: "https://static.oomol.com/logo/third-party/microsoft_teams_bot.svg",
   actions: microsoftTeamsBotActions,
 };

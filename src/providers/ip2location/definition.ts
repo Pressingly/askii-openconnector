@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ip2location.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/ip2location.png",
   actions: ip2locationActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://dune.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/dune.svg",
   actions: duneActions,
 };

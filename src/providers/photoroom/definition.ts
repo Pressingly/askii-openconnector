@@ -21,5 +21,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.photoroom.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/photoroom.svg",
   actions: photoroomActions,
 };

@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://recurly.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/recurly.svg",
   actions: recurlyActions,
 };

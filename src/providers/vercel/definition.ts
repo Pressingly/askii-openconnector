@@ -48,5 +48,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://vercel.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Vercel.svg",
   actions: vercelActions,
 };

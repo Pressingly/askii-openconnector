@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.slicktext.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/slicktext.svg",
   actions: slicktextActions,
 };

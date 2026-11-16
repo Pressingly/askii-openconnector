@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://controld.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Control%20D.svg",
   actions: controlDActions,
 };

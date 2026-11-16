@@ -53,5 +53,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.instagram.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/instagram.png",
   actions: instagramActions,
 };

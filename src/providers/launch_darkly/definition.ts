@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://launchdarkly.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/LaunchDarkly.svg",
   actions: launchDarklyActions,
 };

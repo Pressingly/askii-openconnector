@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.gorgias.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/gorgias.png",
   actions: gorgiasActions,
 };

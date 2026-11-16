@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.signwell.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/signwell.svg",
   actions: signwellActions,
 };

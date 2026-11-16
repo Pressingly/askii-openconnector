@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://peec.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/peec.svg",
   actions: peecActions,
 };

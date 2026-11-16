@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "zhiliaobiaoxun",
   displayName: "Zhiliao Biaoxun",
   homepageUrl: "https://www.zhiliaobiaoxun.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/zhiliaobiaoxun.png",
   categories: ["Data & Analytics"],
   authTypes: ["api_key"],
   auth: [

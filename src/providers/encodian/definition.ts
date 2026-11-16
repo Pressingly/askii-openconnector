@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.encodian.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Encodian.svg",
   actions: encodianActions,
 };

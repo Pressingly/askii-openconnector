@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://contactout.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/contactout.svg",
   actions: contactoutActions,
 };

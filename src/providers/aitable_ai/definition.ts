@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://aitable.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/aitable_ai.png",
   actions: aitableAiActions,
 };

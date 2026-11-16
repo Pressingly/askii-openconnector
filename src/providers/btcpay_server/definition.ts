@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://btcpayserver.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/btcpay_server.svg",
   actions: btcpayServerActions,
 };

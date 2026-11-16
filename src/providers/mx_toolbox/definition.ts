@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mxtoolbox.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/mx_toolbox.svg",
   actions: mxToolboxActions,
 };

@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://zenkit.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/zenkit.svg",
   actions: zenkitActions,
 };

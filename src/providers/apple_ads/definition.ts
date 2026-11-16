@@ -68,5 +68,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ads.apple.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/apple_ads.svg",
   actions: appleAdsActions,
 };

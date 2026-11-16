@@ -44,5 +44,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pi-hole.net",
+  iconUrl: "https://static.oomol.com/logo/third-party/pi_hole.svg",
   actions: piHoleActions,
 };

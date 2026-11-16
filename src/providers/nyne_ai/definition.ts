@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://nyne.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/nyne_ai.png",
   actions: nyneAiActions,
 };

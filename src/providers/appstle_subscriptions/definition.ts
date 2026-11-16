@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://appstle.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/appstle_subscriptions.png",
   actions: appstleSubscriptionsActions,
 };

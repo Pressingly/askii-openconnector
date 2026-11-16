@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://api.kuaidi100.com/product/mcp",
+  iconUrl: "https://static.oomol.com/logo/third-party/kuaidi100.png",
   actions: kuaidi100Actions,
 };

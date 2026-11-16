@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://formspree.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/formspree.svg",
   actions: formspreeActions,
 };

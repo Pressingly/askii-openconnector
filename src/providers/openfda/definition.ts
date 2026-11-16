@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://open.fda.gov/",
+  iconUrl: "https://static.oomol.com/logo/third-party/openfda.png",
   actions: openfdaActions,
 };

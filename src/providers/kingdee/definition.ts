@@ -72,5 +72,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.kingdee.com/cn",
+  iconUrl: "https://static.oomol.com/logo/third-party/kingdee.svg",
   actions: kingdeeActions,
 };

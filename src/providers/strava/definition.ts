@@ -33,5 +33,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.strava.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Strava.svg",
   actions: stravaActions,
 };

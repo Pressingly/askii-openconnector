@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.gosquared.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/gosquared.png",
   actions: gosquaredActions,
 };

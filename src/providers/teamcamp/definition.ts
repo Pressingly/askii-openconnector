@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.teamcamp.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/teamcamp.png",
   actions: teamcampActions,
 };

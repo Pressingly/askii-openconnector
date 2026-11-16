@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://short.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/short_io.svg",
   actions: shortIoActions,
 };

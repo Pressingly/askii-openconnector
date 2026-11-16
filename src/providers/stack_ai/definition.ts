@@ -49,5 +49,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.stack-ai.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/stack_ai.png",
   actions: stackAiActions,
 };

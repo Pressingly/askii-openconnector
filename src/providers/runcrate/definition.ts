@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.runcrate.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/runcrate.png",
   actions: runcrateActions,
 };

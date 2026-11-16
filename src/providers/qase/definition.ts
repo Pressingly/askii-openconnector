@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://qase.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/qase.svg",
   actions: qaseActions,
 };

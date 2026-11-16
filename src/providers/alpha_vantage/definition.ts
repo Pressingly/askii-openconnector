@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.alphavantage.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/Alpha%20Vantage.svg",
   actions: alphaVantageActions,
 };

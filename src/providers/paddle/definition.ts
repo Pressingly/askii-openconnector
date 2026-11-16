@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.paddle.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/paddle.svg",
   actions: paddleActions,
 };

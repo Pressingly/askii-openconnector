@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://drimify.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/drimify.svg",
   actions: drimifyActions,
 };

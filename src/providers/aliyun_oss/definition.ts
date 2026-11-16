@@ -67,5 +67,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.alibabacloud.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/aliyun_oss.svg",
   actions: aliyunOssActions,
 };

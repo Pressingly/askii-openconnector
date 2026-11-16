@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://developers.google.com/maps/documentation/address-validation",
+  iconUrl: "https://static.oomol.com/logo/third-party/Google%20Address%20Validation.svg",
   actions: googleAddressValidationActions,
 };

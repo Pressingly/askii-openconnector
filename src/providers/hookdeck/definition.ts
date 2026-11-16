@@ -21,5 +21,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://hookdeck.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/hookdeck.svg",
   actions: hookdeckActions,
 };

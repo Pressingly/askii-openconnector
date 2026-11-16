@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://trawlingweb.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/trawlingweb.png",
   actions: trawlingwebActions,
 };

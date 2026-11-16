@@ -51,5 +51,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://quickbooks.intuit.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/quickbooks.svg",
   actions: quickbooksActions,
 };

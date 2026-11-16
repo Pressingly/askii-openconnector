@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://businessmap.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/businessmap.svg",
   actions: businessmapActions,
 };

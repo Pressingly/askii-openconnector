@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://azure.microsoft.com/en-us/products/ai-services/ai-translator",
+  iconUrl: "https://static.oomol.com/logo/third-party/microsoft_text_translate.svg",
   actions: microsoftTextTranslateActions,
 };

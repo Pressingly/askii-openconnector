@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.searchapi.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Search%20api.svg",
   actions: searchApiActions,
 };

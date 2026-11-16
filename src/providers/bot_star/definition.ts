@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://botstar.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/bot_star.svg",
   actions: botStarActions,
 };

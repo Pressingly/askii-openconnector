@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://keyword.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/keyword.svg",
   actions: keywordActions,
 };

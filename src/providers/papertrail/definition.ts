@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.papertrail.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/papertrail.svg",
   actions: papertrailActions,
 };

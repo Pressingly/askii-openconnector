@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "chaport",
   displayName: "Chaport",
   homepageUrl: "https://www.chaport.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/chaport.png",
   categories: ["Communication"],
   authTypes: ["api_key"],
   auth: [

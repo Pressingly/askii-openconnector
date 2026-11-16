@@ -52,5 +52,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tasks.google.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Google%20Tasks.svg",
   actions: googleTasksActions,
 };

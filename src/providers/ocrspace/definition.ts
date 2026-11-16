@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ocr.space",
+  iconUrl: "https://static.oomol.com/logo/third-party/ocrspace.svg",
   actions: ocrspaceActions,
 };

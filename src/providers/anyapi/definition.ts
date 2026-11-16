@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "AnyAPI",
   description: "Public commerce, social, travel and business data through your AnyAPI account",
   homepageUrl: "https://getanyapi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/anyapi.svg",
   categories: ["Data & Analytics", "Developer Tools"],
   authTypes: ["api_key"],
   auth: [

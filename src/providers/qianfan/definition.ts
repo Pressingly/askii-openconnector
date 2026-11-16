@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://qianfan.cloud.baidu.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Qianfan.png",
   actions: qianfanActions,
 };

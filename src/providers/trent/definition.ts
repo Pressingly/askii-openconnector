@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://trent.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/trent.svg",
   actions: trentActions,
 };

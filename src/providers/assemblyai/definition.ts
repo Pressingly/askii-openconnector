@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.assemblyai.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/assemblyai.svg",
   actions: assemblyaiActions,
 };

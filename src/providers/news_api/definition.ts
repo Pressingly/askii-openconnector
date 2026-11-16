@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://newsapi.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/NewsAPI.svg",
   actions: newsApiActions,
 };

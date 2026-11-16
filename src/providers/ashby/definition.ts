@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ashbyhq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/ashby.png",
   actions: ashbyActions,
 };

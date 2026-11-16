@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.conductor.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/conductor.svg",
   actions: conductorActions,
 };

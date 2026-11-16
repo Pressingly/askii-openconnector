@@ -26,5 +26,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://crowdin.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Crowdin.svg",
   actions: crowdinActions,
 };

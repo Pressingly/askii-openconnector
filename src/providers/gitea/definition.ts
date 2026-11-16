@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://about.gitea.com/products/gitea/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Gitea.svg",
   actions: giteaActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://spotify.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/spotify.svg",
   actions: spotifyActions,
 };

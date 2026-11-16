@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://getprospect.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/getprospect.svg",
   actions: getprospectActions,
 };

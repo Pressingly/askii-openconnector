@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.v2ex.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/v2ex.png",
   actions: v2exActions,
 };

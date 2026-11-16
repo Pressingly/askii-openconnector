@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://chat-api.com/en/",
+  iconUrl: "https://static.oomol.com/logo/third-party/chat_api_for_whatsapp.png",
   actions: chatApiForWhatsappActions,
 };

@@ -37,5 +37,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.hotjar.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/hotjar.svg",
   actions: hotjarActions,
 };

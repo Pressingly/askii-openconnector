@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.buildium.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/buildium.svg",
   actions: buildiumActions,
 };

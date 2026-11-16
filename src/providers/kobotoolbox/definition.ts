@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.kobotoolbox.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/kobotoolbox.svg",
   actions: koboToolboxActions,
 };

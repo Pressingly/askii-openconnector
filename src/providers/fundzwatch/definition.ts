@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fundzwatch.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/fundzwatch.svg",
   actions: fundzwatchActions,
 };

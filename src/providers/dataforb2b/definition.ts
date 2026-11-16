@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://dataforb2b.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/dataforb2b.png",
   actions: dataForB2BActions,
 };

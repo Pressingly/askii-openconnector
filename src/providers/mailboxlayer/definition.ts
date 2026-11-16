@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mailboxlayer.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Mailboxlayer.svg",
   actions: mailboxlayerActions,
 };

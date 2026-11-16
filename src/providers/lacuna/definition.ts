@@ -13,5 +13,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["no_auth"],
   auth: [{ type: "no_auth" }],
   homepageUrl: "https://lacuna.tiptreesystems.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/lacuna.svg",
   actions: lacunaActions,
 };

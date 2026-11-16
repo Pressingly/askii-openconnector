@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://needle.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/Needle.svg",
   actions: needleActions,
 };

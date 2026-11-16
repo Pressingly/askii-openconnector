@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "justoneapi",
   displayName: "Just One API",
   homepageUrl: "https://justoneapi.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/justoneapi.png",
   categories: ["Data & Analytics", "Marketing"],
   authTypes: ["api_key"],
   auth: [

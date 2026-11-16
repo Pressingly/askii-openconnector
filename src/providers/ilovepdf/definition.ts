@@ -6,6 +6,7 @@ export const provider: ProviderDefinition = {
   displayName: "iLovePDF",
   description: "PDF processing, OCR, text extraction, password protection, and PDF/A validation",
   homepageUrl: "https://www.ilovepdf.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ilovepdf.svg",
   categories: ["Productivity", "Design & Media"],
   authTypes: ["api_key"],
   auth: [

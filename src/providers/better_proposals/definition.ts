@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://betterproposals.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/better_proposals.svg",
   actions: betterProposalsActions,
 };

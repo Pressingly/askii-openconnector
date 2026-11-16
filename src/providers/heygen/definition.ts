@@ -38,5 +38,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.heygen.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/HeyGen.svg",
   actions: heygenActions,
 };

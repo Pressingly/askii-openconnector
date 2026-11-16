@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.genpage.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/genpage.svg",
   actions: genpageActions,
 };

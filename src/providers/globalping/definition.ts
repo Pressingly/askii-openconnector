@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://globalping.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/globalping.svg",
   actions: globalpingActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://felt.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/felt.png",
   actions: feltActions,
 };

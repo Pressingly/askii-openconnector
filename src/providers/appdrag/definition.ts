@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://appdrag.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/appdrag.svg",
   actions: appdragActions,
 };

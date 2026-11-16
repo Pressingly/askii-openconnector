@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://timelink.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/timelink.svg",
   actions: timelinkActions,
 };

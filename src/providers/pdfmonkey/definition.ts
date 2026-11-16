@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pdfmonkey.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/pdfmonkey.svg",
   actions: pdfmonkeyActions,
 };

@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.gupshup.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/gupshup.svg",
   actions: gupshupActions,
 };

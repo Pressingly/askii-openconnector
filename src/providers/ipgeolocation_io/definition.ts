@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ipgeolocation.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ipgeolocation_io.svg",
   actions: ipgeolocationIoActions,
 };

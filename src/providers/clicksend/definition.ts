@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.clicksend.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/clicksend.png",
   actions: clicksendActions,
 };

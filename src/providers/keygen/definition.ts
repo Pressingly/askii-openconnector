@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://keygen.sh",
+  iconUrl: "https://static.oomol.com/logo/third-party/keygen.svg",
   actions: keygenActions,
 };

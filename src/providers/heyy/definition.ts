@@ -21,5 +21,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://heyy.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/heyy.svg",
   actions: heyyActions,
 };

@@ -25,5 +25,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pubmed.ncbi.nlm.nih.gov/",
+  iconUrl: "https://static.oomol.com/logo/third-party/pubmed.svg",
   actions: pubmedActions,
 };

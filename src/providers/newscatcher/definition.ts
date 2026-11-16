@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.newscatcherapi.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/newscatcher.svg",
   actions: newscatcherActions,
 };

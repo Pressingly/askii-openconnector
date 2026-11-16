@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://woodpecker.co/",
+  iconUrl: "https://static.oomol.com/logo/third-party/woodpecker_co.svg",
   actions: woodpeckerCoActions,
 };

@@ -21,5 +21,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://discord.com/developers/docs",
+  iconUrl: "https://static.oomol.com/logo/third-party/Discord%20Bot.svg",
   actions: [...discordbotActions, ...discordbotGuildActions],
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://linklyhq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/linkly.svg",
   actions: linklyActions,
 };

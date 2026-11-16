@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://storeleads.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/store_leads.png",
   actions: storeLeadsActions,
 };

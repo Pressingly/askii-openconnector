@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://givebutter.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/givebutter.svg",
   actions: givebutterActions,
 };

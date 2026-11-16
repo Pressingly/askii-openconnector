@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.callrail.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/callrail.png",
   actions: callrailActions,
 };

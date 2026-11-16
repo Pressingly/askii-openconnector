@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://postiz.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/postiz.svg",
   actions: postizActions,
 };

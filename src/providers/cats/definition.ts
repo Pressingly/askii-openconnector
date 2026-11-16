@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://catsone.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/cats.svg",
   actions: catsActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.octavehq.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/octave.png",
   actions: octaveActions,
 };

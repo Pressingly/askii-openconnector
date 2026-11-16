@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://shortpixel.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/shortpixel.png",
   actions: shortpixelActions,
 };

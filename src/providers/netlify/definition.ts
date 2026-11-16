@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.netlify.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/netlify.svg",
   actions: netlifyActions,
 };

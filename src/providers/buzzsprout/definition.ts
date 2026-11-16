@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.buzzsprout.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/buzzsprout.svg",
   actions: buzzsproutActions,
 };

@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "Baizhi Cloud Agent Toolkit",
   description: "Search and read public webpages through Baizhi Cloud's hosted MCP service.",
   homepageUrl: "https://baizhi.cloud/landing/agent-toolkit",
+  iconUrl: "https://static.oomol.com/logo/third-party/baizhi_mcp.png",
   categories: ["Search", "Data"],
   authTypes: ["api_key"],
   auth: [

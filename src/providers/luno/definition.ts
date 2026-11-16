@@ -27,5 +27,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.luno.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/luno.png",
   actions: lunoActions,
 };

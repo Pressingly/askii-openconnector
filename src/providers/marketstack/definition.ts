@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://marketstack.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Marketstack.svg",
   actions: marketstackActions,
 };

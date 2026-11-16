@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://shorten.rest",
+  iconUrl: "https://static.oomol.com/logo/third-party/shorten_rest.jpg",
   actions: shortenRestActions,
 };

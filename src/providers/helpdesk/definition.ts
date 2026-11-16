@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.helpdesk.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/helpdesk.svg",
   actions: helpdeskActions,
 };

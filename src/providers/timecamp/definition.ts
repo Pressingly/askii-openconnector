@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.timecamp.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/timecamp.svg",
   actions: timecampActions,
 };

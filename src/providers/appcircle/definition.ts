@@ -37,5 +37,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://appcircle.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/appcircle.svg",
   actions: appcircleActions,
 };

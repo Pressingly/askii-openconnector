@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "kolsprite_mcp",
   displayName: "KOLSprite MCP",
   homepageUrl: "https://www.kolsprite.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/kolsprite_mcp.png",
   categories: ["E-commerce", "Data", "Marketing"],
   authTypes: ["api_key"],
   auth: [

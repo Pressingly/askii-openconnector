@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://motherduck.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/mother_duck.svg",
   actions: motherDuckActions,
 };

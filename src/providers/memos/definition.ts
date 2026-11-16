@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://usememos.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/memos.webp",
   actions: memosActions,
 };

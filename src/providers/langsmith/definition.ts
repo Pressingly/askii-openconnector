@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.langchain.com/langsmith",
+  iconUrl: "https://static.oomol.com/logo/third-party/langsmith.svg",
   actions: langSmithActions,
 };

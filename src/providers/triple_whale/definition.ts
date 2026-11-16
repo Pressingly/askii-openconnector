@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.triplewhale.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/triple_whale.svg",
   actions: tripleWhaleActions,
 };

@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://jina.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/jina_ai.svg",
   actions: jinaAiActions,
 };

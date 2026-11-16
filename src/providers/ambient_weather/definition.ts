@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ambientweather.net/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Ambient%20Weather.svg",
   actions: ambientWeatherActions,
 };

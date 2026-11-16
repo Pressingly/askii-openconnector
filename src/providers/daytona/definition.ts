@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.daytona.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/daytona.svg",
   actions: daytonaActions,
 };

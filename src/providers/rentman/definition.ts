@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://rentman.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/rentman.svg",
   actions: rentmanActions,
 };

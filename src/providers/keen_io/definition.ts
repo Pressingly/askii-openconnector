@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://keen.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/keen_io.svg",
   actions: keenIoActions,
 };

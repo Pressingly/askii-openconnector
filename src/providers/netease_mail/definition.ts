@@ -42,5 +42,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mail.163.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/netease_mail.png",
   actions: neteaseMailActions,
 };

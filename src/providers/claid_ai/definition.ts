@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://claid.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/claid_ai.svg",
   actions: claidAiActions,
 };

@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://gender-api.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/gender_api.svg",
   actions: genderApiActions,
 };

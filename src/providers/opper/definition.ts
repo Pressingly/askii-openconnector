@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://opper.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/opper.svg",
   actions: opperActions,
 };

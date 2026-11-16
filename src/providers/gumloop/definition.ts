@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.gumloop.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/gumloop.svg",
   actions: gumloopActions,
 };

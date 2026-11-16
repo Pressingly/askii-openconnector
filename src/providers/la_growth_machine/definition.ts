@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://lagrowthmachine.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/la_growth_machine.svg",
   actions: laGrowthMachineActions,
 };

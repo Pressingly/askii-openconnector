@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tapfiliate.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/tapfiliate.svg",
   actions: tapfiliateActions,
 };

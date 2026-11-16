@@ -6,6 +6,7 @@ export const provider: ProviderDefinition = {
   displayName: "AgentLine",
   description: "Voice agent, contact and account voice configuration",
   homepageUrl: "https://agentline.cloud",
+  iconUrl: "https://static.oomol.com/logo/third-party/agentline.png",
   categories: ["Communication", "AI"],
   authTypes: ["api_key"],
   auth: [

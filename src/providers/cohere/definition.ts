@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cohere.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/cohere.svg",
   actions: cohereActions,
 };

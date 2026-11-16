@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://eversign.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/eversign.svg",
   actions: eversignActions,
 };

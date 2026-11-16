@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://otter.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/otter_ai.png",
   actions: otterAiActions,
 };

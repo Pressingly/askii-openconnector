@@ -21,5 +21,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.pixellab.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/pixellab.png",
   actions: pixellabActions,
 };

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://redfox.hk",
+  iconUrl: "https://static.oomol.com/logo/third-party/redfox.png",
   actions: redfoxActions,
 };

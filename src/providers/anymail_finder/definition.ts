@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://anymailfinder.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/anymail_finder.svg",
   actions: anymailFinderActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ahrefs.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ahrefs.svg",
   actions: ahrefsActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mailerlite.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/MailerLite.svg",
   actions: mailerliteActions,
 };

@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://membervault.co/",
+  iconUrl: "https://static.oomol.com/logo/third-party/membervault.svg",
   actions: membervaultActions,
 };

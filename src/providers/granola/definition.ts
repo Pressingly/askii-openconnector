@@ -38,5 +38,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.granola.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/granola.svg",
   actions: granolaActions,
 };

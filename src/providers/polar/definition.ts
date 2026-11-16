@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://polar.sh",
+  iconUrl: "https://static.oomol.com/logo/third-party/polar.svg",
   actions: polarActions,
 };

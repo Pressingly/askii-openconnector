@@ -43,5 +43,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.coinbase.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/coinbase.svg",
   actions: coinbaseActions,
 };

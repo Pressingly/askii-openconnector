@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://veriphone.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Veriphone.svg",
   actions: veriphoneActions,
 };

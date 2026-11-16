@@ -35,5 +35,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.checkout.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/checkout_com.svg",
   actions: checkoutComActions,
 };

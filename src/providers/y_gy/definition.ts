@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://app.y.gy",
+  iconUrl: "https://static.oomol.com/logo/third-party/y_gy.svg",
   actions: yGyActions,
 };

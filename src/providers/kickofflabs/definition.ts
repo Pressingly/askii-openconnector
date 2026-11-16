@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "kickofflabs",
   displayName: "KickoffLabs",
   homepageUrl: "https://kickofflabs.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/kickofflabs.png",
   categories: ["Marketing"],
   authTypes: ["api_key"],
   auth: [

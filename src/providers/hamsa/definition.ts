@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tryhamsa.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/hamsa.svg",
   actions: hamsaActions,
 };

@@ -21,5 +21,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.holded.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/holded.svg",
   actions: holdedActions,
 };

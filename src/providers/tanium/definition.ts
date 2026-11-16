@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.tanium.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/tanium.svg",
   actions: taniumActions,
 };

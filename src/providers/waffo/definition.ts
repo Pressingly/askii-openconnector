@@ -35,5 +35,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.waffo.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/waffo.svg",
   actions: waffoActions,
 };

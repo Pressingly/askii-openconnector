@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.hyperbrowser.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/hyperbrowser.svg",
   actions: hyperbrowserActions,
 };

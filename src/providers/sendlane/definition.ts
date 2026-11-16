@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.sendlane.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/sendlane.svg",
   actions: sendlaneActions,
 };

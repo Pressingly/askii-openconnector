@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.retellai.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/retell_ai.svg",
   actions: retellAiActions,
 };

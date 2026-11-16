@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://twenty.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/twenty_crm.svg",
   actions: twentyCrmActions,
 };

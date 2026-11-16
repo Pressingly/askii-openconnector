@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.dropcontact.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/dropcontact.svg",
   actions: dropcontactActions,
 };

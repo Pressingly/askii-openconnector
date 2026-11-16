@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.coderabbit.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/coderabbit.png",
   actions: coderabbitActions,
 };

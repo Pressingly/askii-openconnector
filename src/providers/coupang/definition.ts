@@ -52,5 +52,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.coupang.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/coupang.svg",
   actions: coupangActions,
 };

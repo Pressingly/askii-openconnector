@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://emelia.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/emelia.svg",
   actions: emeliaActions,
 };

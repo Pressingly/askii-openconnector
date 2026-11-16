@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://todoist.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Todoist.svg",
   actions: todoistActions,
 };

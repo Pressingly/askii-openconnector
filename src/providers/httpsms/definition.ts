@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://httpsms.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/httpsms.svg",
   actions: httpsmsActions,
 };

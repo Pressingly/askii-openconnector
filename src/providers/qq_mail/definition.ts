@@ -42,5 +42,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mail.qq.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/qq_mail.png",
   actions: qqMailActions,
 };

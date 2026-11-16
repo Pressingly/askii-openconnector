@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.textrazor.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/TextRazor.svg",
   actions: textrazorActions,
 };

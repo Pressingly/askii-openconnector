@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.wrike.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/wrike.svg",
   actions: wrikeActions,
 };

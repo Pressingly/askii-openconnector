@@ -27,5 +27,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.instabot.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/instabot.svg",
   actions: instabotActions,
 };

@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ghost.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/ghost.png",
   actions: ghostActions,
 };

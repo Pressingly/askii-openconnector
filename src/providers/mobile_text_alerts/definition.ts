@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mobile-text-alerts.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/mobile_text_alerts.svg",
   actions: mobileTextAlertsActions,
 };

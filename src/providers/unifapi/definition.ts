@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://unifapi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/unifapi.svg",
   actions: unifapiActions,
 };

@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.productboard.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/productboard.svg",
   actions: productboardActions,
 };

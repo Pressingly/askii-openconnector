@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.tremendous.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/tremendous.svg",
   actions: tremendousActions,
 };

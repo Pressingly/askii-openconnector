@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.leadboxer.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/leadboxer.png",
   actions: leadboxerActions,
 };

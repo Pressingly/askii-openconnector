@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://slickdeals.net/",
+  iconUrl: "https://static.oomol.com/logo/third-party/slickdeals.svg",
   actions: slickdealsActions,
 };

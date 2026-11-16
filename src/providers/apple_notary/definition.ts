@@ -43,5 +43,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://developer.apple.com/documentation/notaryapi",
+  iconUrl: "https://static.oomol.com/logo/third-party/apple_notary.svg",
   actions: appleNotaryActions,
 };

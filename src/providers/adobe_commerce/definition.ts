@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://business.adobe.com/products/magento/magento-commerce.html",
+  iconUrl: "https://static.oomol.com/logo/third-party/adobe_commerce.svg",
   actions: adobeCommerceActions,
 };

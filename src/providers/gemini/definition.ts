@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ai.google.dev/gemini-api",
+  iconUrl: "https://static.oomol.com/logo/third-party/Gemini.svg",
   actions: geminiActions,
 };

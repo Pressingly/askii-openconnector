@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fal.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/Fal.ai.svg",
   actions: falAiActions,
 };

@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.simla.com/en",
+  iconUrl: "https://static.oomol.com/logo/third-party/simla.svg",
   actions: simlaActions,
 };

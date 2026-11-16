@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.moosend.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/moosend.svg",
   actions: moosendActions,
 };

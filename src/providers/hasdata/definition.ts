@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://hasdata.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/hasdata.svg",
   actions: hasdataActions,
 };

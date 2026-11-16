@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.checklyhq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/checkly.png",
   actions: checklyActions,
 };

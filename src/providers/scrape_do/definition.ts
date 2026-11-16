@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://scrape.do",
+  iconUrl: "https://static.oomol.com/logo/third-party/scrape_do.svg",
   actions: scrapeDoActions,
 };

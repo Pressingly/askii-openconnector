@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.getgrist.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/grist.png",
   actions: gristActions,
 };

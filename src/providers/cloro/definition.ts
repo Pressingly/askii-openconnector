@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "cloro",
   displayName: "Cloro",
   homepageUrl: "https://cloro.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/cloro.svg",
   categories: ["AI", "Data"],
   authTypes: ["api_key"],
   auth: [

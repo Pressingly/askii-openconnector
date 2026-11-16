@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.shopify.com/partners",
+  iconUrl: "https://static.oomol.com/logo/third-party/shopify_partner.svg",
   actions: shopifyPartnerActions,
 };

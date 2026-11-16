@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://folk.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/folk.svg",
   actions: folkActions,
 };

@@ -25,5 +25,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://docs.qq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/tencent_docs.svg",
   actions: tencentDocsActions,
 };

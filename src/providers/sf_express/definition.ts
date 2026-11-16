@@ -71,5 +71,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://open.sf-express.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/sf_express.png",
   actions: sfExpressActions,
 };

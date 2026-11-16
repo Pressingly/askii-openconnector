@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.voiceflow.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/voiceflow.png",
   actions: voiceflowActions,
 };

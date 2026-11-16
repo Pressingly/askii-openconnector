@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "orbit",
   displayName: "Orbit",
   homepageUrl: "https://orbitsearch.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/orbit.png",
   categories: ["Data"],
   authTypes: ["api_key"],
   auth: [

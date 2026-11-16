@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://qieman.com/mcp/mcp-market",
+  iconUrl: "https://static.oomol.com/logo/third-party/yingmi_mcp.png",
   actions: yingmiMcpActions,
 };

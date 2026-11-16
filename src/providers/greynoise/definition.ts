@@ -14,5 +14,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["no_auth"],
   auth: [{ type: "no_auth" }],
   homepageUrl: "https://www.greynoise.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/greynoise.png",
   actions: greynoiseActions,
 };

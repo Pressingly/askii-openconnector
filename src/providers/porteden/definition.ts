@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "porteden",
   displayName: "PortEden",
   homepageUrl: "https://porteden.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/porteden.png",
   categories: ["Communication"],
   authTypes: ["api_key"],
   auth: [

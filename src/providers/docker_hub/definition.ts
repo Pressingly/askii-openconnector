@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://hub.docker.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Docker%20Hub.svg",
   actions: dockerHubActions,
 };

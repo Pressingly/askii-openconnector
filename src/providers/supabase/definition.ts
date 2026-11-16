@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://supabase.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Supabase.svg",
   actions: supabaseActions,
 };

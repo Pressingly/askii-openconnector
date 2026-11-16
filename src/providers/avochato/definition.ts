@@ -33,5 +33,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.avochato.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/avochato.svg",
   actions: avochatoActions,
 };

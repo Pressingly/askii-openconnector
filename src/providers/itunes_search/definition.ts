@@ -10,5 +10,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["no_auth"],
   auth: [{ type: "no_auth" }],
   homepageUrl: "https://performance-partners.apple.com/search-api",
+  iconUrl: "https://static.oomol.com/logo/third-party/itunes_search.svg",
   actions: itunesSearchActions,
 };

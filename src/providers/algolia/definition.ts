@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.algolia.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Algolia.svg",
   actions: algoliaActions,
 };

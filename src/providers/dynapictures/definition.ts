@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://dynapictures.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/dynapictures.svg",
   actions: dynapicturesActions,
 };

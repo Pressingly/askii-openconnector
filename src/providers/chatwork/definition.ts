@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://go.chatwork.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Chatwork.svg",
   actions: chatworkActions,
 };

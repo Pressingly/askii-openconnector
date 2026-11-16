@@ -44,5 +44,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://help.openalex.org/access/connector/",
+  iconUrl: "https://static.oomol.com/logo/third-party/openalex_mcp.svg",
   actions: openalexMcpActions,
 };

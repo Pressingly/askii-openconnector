@@ -63,5 +63,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.elastic.co/elasticsearch",
+  iconUrl: "https://static.oomol.com/logo/third-party/Elasticsearch.svg",
   actions: elasticsearchActions,
 };

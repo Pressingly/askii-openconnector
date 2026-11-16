@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.volcengine.com/product/doubao-voice",
+  iconUrl: "https://static.oomol.com/logo/third-party/doubao_speech.svg",
   actions: doubaoSpeechActions,
 };

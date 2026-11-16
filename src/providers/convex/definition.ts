@@ -27,5 +27,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.convex.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/Convex.svg",
   actions: convexActions,
 };

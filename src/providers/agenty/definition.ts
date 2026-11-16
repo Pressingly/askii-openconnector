@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://agenty.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Agenty.svg",
   actions: agentyActions,
 };

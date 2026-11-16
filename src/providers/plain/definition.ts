@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.plain.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/plain.svg",
   actions: plainActions,
 };

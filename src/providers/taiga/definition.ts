@@ -42,5 +42,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://taiga.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/taiga.svg",
   actions: taigaActions,
 };

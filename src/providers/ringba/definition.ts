@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ringba.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/ringba.svg",
   actions: ringbaActions,
 };

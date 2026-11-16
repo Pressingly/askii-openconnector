@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://document360.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/document360.png",
   actions: document360Actions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://moceanapi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/mocean.png",
   actions: moceanActions,
 };

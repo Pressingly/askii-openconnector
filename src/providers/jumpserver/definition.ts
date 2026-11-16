@@ -40,5 +40,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.jumpserver.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/jumpserver.svg",
   actions: jumpServerActions,
 };

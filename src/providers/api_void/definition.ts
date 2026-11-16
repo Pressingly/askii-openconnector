@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.apivoid.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/api_void.png",
   actions: apiVoidActions,
 };

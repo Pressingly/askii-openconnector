@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://qwen.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/qwen.svg",
   actions: qwenActions,
 };

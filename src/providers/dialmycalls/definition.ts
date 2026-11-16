@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.dialmycalls.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/dialmycalls.svg",
   actions: dialMyCallsActions,
 };

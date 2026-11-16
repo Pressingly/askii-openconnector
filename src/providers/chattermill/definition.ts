@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://chattermill.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/chattermill.svg",
   actions: chattermillActions,
 };

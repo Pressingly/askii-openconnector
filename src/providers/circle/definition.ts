@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://circle.so",
+  iconUrl: "https://static.oomol.com/logo/third-party/circle.svg",
   actions: circleActions,
 };

@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.knowbe4.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/knowbe4.png",
   actions: knowbe4Actions,
 };

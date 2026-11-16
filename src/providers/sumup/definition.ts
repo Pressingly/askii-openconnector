@@ -15,5 +15,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.sumup.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/sumup.svg",
   actions: sumupActions,
 };

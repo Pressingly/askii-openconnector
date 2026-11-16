@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://raygun.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/raygun.png",
   actions: raygunActions,
 };

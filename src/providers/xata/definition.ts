@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://xata.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/xata.svg",
   actions: xataActions,
 };

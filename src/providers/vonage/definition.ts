@@ -36,5 +36,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.vonage.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/vonage.svg",
   actions: vonageActions,
 };

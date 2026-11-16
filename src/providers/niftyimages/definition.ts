@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://niftyimages.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/niftyimages.png",
   actions: niftyimagesActions,
 };

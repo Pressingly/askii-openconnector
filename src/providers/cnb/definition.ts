@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "cnb",
   displayName: "CNB",
   homepageUrl: "https://cnb.cool/",
+  iconUrl: "https://static.oomol.com/logo/third-party/cnb.svg",
   categories: ["Developer Tools"],
   authTypes: ["api_key"],
   auth: [

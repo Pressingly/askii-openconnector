@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.leexi.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/leexi.svg",
   actions: leexiActions,
 };

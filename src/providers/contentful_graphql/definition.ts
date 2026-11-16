@@ -51,5 +51,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.contentful.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/contentful_graphql.svg",
   actions: contentfulGraphqlActions,
 };

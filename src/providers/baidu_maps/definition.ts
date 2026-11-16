@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://lbsyun.baidu.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/baidu_maps.png",
   actions: baiduMapsActions,
 };

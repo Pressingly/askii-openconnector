@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://bsky.social",
+  iconUrl: "https://static.oomol.com/logo/third-party/bluesky.png",
   actions: blueskyActions,
 };
