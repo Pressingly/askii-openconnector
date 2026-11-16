@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fiber.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/fiber_ai.svg",
   actions: fiberAiActions,
 };

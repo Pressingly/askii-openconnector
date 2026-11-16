@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://satismeter.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Satismeter.svg",
   actions: satismeterActions,
 };

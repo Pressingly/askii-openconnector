@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pushover.net",
+  iconUrl: "https://static.oomol.com/logo/third-party/Pushover.svg",
   actions: pushoverActions,
 };

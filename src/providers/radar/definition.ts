@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://radar.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/radar.svg",
   actions: radarActions,
 };

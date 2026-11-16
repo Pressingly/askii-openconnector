@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.docsautomator.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/docsautomator.png",
   actions: docsautomatorActions,
 };

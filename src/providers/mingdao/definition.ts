@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mingdao.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/mingdao.png",
   actions: mingdaoActions,
 };

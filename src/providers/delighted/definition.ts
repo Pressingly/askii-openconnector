@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://delighted.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Delighted.svg",
   actions: delightedActions,
 };

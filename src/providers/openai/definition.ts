@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://openai.com/api/",
+  iconUrl: "https://static.oomol.com/logo/third-party/OpenAI.svg",
   actions: openaiActions,
 };

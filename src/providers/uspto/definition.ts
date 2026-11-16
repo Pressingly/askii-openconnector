@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.uspto.gov/",
+  iconUrl: "https://static.oomol.com/logo/third-party/uspto.png",
   actions: usptoActions,
 };

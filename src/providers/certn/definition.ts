@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://certn.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/certn.svg",
   actions: certnActions,
 };

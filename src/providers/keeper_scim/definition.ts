@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.keepersecurity.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/keeper_scim.png",
   actions: keeperScimActions,
 };

@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "sendblue",
   displayName: "Sendblue",
   homepageUrl: "https://www.sendblue.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/sendblue.svg",
   categories: ["Communication", "Marketing"],
   authTypes: ["api_key"],
   auth: [

@@ -49,5 +49,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://appstoreconnect.apple.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/app_store_connect.png",
   actions: appStoreConnectActions,
 };

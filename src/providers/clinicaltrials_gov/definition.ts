@@ -8,5 +8,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["no_auth"],
   auth: [{ type: "no_auth" }],
   homepageUrl: "https://clinicaltrials.gov/",
+  iconUrl: "https://static.oomol.com/logo/third-party/clinicaltrials_gov.svg",
   actions: clinicalTrialsGovActions,
 };

@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "amazing_marvin",
   displayName: "Amazing Marvin",
   homepageUrl: "https://amazingmarvin.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/amazing_marvin.png",
   categories: ["Productivity"],
   authTypes: ["api_key"],
   auth: [

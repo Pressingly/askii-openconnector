@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.know-pa.cn/",
+  iconUrl: "https://static.oomol.com/logo/third-party/baixiao.png",
   actions: baixiaoActions,
 };

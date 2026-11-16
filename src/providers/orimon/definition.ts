@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "orimon",
   displayName: "Orimon",
   homepageUrl: "https://orimon.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/orimon.svg",
   categories: ["AI", "Communication"],
   authTypes: ["api_key"],
   auth: [

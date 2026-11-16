@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ixspy.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ixspy.png",
   actions: ixspyActions,
 };

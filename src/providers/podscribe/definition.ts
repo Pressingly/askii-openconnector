@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://podscribe.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/podscribe.svg",
   actions: podscribeActions,
 };

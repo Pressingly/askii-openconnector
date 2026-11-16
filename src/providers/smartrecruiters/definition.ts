@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.smartrecruiters.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/smartrecruiters.png",
   actions: smartrecruitersActions,
 };

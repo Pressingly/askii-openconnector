@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cufinder.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/cufinder.png",
   actions: cufinderActions,
 };

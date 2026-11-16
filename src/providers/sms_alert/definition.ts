@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.smsalert.co.in/",
+  iconUrl: "https://static.oomol.com/logo/third-party/sms_alert.jpg",
   actions: smsAlertActions,
 };

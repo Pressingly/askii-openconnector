@@ -24,5 +24,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://invoiceninja.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/invoice_ninja.png",
   actions: invoiceNinjaActions,
 };

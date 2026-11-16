@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://atlas.so",
+  iconUrl: "https://static.oomol.com/logo/third-party/atlas_so.svg",
   actions: atlasSoActions,
 };

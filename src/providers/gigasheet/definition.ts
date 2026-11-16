@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.gigasheet.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Gigasheet.svg",
   actions: gigasheetActions,
 };

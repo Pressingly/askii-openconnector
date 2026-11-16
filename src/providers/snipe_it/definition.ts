@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://snipeitapp.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/snipe_it.png",
   actions: snipeItActions,
 };

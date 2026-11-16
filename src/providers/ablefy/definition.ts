@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ablefy.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/ablefy.svg",
   actions: ablefyActions,
 };

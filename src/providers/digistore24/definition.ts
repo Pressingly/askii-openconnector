@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.digistore24.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/digistore24.svg",
   actions: digistore24Actions,
 };

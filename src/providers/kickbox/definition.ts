@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://kickbox.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Kickbox.svg",
   actions: kickboxActions,
 };

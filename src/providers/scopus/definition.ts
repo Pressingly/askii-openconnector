@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.scopus.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/scopus.svg",
   actions: scopusActions,
 };

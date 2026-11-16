@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.woot.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/woot.svg",
   actions: wootActions,
 };

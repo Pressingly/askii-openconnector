@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.asindataapi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/asin_data_api.png",
   actions: asinDataApiActions,
 };

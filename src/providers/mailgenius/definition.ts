@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mailgenius.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/mailgenius.png",
   actions: mailgeniusActions,
 };

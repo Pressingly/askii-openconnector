@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.taggun.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/taggun.png",
   actions: taggunActions,
 };

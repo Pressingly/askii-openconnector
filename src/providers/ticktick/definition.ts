@@ -25,5 +25,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ticktick.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/ticktick.svg",
   actions: ticktickActions,
 };

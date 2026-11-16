@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.elorus.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/elorus.svg",
   actions: elorusActions,
 };

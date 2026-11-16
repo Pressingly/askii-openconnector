@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.pivotaltracker.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/pivotal_tracker.svg",
   actions: pivotalTrackerActions,
 };

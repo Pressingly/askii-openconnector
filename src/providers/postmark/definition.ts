@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://postmarkapp.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Postmark.svg",
   actions: postmarkActions,
 };

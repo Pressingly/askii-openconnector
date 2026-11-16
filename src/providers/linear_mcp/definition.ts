@@ -43,5 +43,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://linear.app/docs/mcp",
+  iconUrl: "https://static.oomol.com/logo/third-party/linear_mcp.svg",
   actions: linearMcpActions,
 };

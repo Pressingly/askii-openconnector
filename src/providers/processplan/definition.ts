@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://processplan.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/processplan.jpeg",
   actions: processplanActions,
 };

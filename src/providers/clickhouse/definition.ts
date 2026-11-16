@@ -61,5 +61,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://clickhouse.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/clickhouse.svg",
   actions: clickhouseActions,
 };

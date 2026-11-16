@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mendeley.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/mendeley.svg",
   actions: mendeleyActions,
 };

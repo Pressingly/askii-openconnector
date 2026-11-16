@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://userflow.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/userflow.png",
   actions: userflowActions,
 };

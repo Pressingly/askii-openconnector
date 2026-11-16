@@ -43,5 +43,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.forcemanager.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/sage_sales_management.svg",
   actions: sageSalesManagementActions,
 };

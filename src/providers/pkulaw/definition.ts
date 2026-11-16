@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mcp.pkulaw.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/pkulaw.svg",
   actions: pkulawActions,
 };

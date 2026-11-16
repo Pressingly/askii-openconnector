@@ -21,5 +21,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://hoop.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/hoop.svg",
   actions: hoopActions,
 };

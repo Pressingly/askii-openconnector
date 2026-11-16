@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://verified.email",
+  iconUrl: "https://static.oomol.com/logo/third-party/verifiedemail.svg",
   actions: verifiedemailActions,
 };

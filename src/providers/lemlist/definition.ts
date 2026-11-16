@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.lemlist.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/lemlist.svg",
   actions: lemlistActions,
 };

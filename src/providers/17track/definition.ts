@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.17track.net/",
+  iconUrl: "https://static.oomol.com/logo/third-party/17track.svg",
   actions: seventeenTrackActions,
 };

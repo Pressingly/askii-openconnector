@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://workiom.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/workiom.png",
   actions: workiomActions,
 };

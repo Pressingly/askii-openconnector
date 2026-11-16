@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ipstack.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/ipstack.svg",
   actions: ipstackActions,
 };

@@ -40,5 +40,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://channels.weixin.qq.com/shop",
+  iconUrl: "https://static.oomol.com/logo/third-party/weixin_store.svg",
   actions: weixinStoreActions,
 };

@@ -42,5 +42,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://to-do.office.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/microsoft_todo.png",
   actions: microsoftTodoActions,
 };

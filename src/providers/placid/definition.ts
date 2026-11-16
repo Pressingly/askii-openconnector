@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://placid.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/placid.png",
   actions: placidActions,
 };

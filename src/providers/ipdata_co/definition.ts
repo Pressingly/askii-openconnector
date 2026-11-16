@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ipdata.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/ipdata_co.svg",
   actions: ipdataCoActions,
 };

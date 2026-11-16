@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.serphouse.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/serphouse.svg",
   actions: serphouseActions,
 };

@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://intrinio.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/intrinio.png",
   actions: intrinioActions,
 };

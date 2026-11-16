@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "investoday_mcp",
   displayName: "Investoday MCP",
   homepageUrl: "https://data-api.investoday.net/mcp",
+  iconUrl: "https://static.oomol.com/logo/third-party/investoday_mcp.png",
   categories: ["Finance", "Data"],
   authTypes: ["api_key"],
   auth: [

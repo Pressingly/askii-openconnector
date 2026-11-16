@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.docmosis.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/docmosis.png",
   actions: docmosisActions,
 };

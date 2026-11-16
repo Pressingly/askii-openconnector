@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://castingwords.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/castingwords.svg",
   actions: castingwordsActions,
 };

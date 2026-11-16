@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ortto.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/ortto.svg",
   actions: orttoActions,
 };

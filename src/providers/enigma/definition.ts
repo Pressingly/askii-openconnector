@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.enigma.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Enigma.svg",
   actions: enigmaActions,
 };

@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://stackoverflow.co/internal/",
+  iconUrl: "https://static.oomol.com/logo/third-party/stack_overflow_for_teams.svg",
   actions: stackOverflowForTeamsActions,
 };

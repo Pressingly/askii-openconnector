@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.feedier.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/feedier.svg",
   actions: feedierActions,
 };

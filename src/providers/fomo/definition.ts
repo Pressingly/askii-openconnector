@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fomo.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/fomo.svg",
   actions: fomoActions,
 };

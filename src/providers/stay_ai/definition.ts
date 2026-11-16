@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://stay.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/stay_ai.png",
   actions: stayAiActions,
 };

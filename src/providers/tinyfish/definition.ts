@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "tinyfish",
   displayName: "TinyFish",
   homepageUrl: "https://tinyfish.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/tinyfish.svg",
   categories: ["AI", "Data", "Data"],
   authTypes: ["api_key"],
   auth: [

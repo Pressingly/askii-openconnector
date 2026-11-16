@@ -36,6 +36,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://airtable.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Airtable.svg",
   actions: airtableActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

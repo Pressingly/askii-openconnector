@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://skyfire.xyz",
+  iconUrl: "https://static.oomol.com/logo/third-party/skyfire.png",
   actions: skyfireActions,
 };

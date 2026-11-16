@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://timebuzzer.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/timebuzzer.svg",
   actions: timebuzzerActions,
 };

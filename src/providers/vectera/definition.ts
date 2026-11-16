@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://go.vectera.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/vectera.svg",
   actions: vecteraActions,
 };

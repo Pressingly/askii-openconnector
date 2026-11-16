@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.practitest.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/practitest.png",
   actions: practitestActions,
 };

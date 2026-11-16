@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.nimble.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/nimble.svg",
   actions: nimbleActions,
 };

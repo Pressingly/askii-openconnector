@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.dixa.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/dixa.svg",
   actions: dixaActions,
 };

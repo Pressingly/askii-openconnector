@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://saascustomdomains.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/saas_custom_domains.svg",
   actions: saasCustomDomainsActions,
 };

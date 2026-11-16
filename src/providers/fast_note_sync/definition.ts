@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://github.com/haierkeys/fast-note-sync-service",
+  iconUrl: "https://static.oomol.com/logo/third-party/fast_note_sync.png",
   actions: fastNoteSyncActions,
 };

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://line.me",
+  iconUrl: "https://static.oomol.com/logo/third-party/line.png",
   actions: lineActions,
 };

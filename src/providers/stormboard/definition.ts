@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://stormboard.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/stormboard.png",
   actions: stormboardActions,
 };

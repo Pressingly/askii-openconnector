@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.theofficialboard.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/the_official_board.png",
   actions: theOfficialBoardActions,
 };

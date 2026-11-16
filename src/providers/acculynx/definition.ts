@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://acculynx.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/acculynx.svg",
   actions: acculynxActions,
 };

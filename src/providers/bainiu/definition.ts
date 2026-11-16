@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "bainiu",
   displayName: "Bainiu",
   homepageUrl: "https://api.bainiudata.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/bainiu.svg",
   categories: ["Data & Analytics"],
   authTypes: ["api_key"],
   auth: [

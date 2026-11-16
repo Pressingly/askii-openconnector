@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.shodan.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/shodan.png",
   actions: shodanActions,
 };

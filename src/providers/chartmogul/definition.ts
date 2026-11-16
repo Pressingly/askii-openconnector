@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://chartmogul.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/chartmogul.svg",
   actions: chartmogulActions,
 };

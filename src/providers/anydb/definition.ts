@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.anydb.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/anydb.svg",
   actions: anydbActions,
 };

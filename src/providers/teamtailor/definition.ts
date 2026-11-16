@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.teamtailor.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/teamtailor.svg",
   actions: teamtailorActions,
 };

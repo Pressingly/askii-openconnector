@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://metatraderapi.cloud/",
+  iconUrl: "https://static.oomol.com/logo/third-party/metatraderapi.png",
   actions: metatraderapiActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.perdoo.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/perdoo.svg",
   actions: perdooActions,
 };

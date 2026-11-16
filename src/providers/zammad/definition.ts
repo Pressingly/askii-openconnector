@@ -26,5 +26,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://zammad.com/en",
+  iconUrl: "https://static.oomol.com/logo/third-party/zammad.svg",
   actions: zammadActions,
 };

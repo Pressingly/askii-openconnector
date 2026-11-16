@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://capsulecrm.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/capsule_crm.svg",
   actions: capsuleCrmActions,
 };

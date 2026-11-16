@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://refiner.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Refiner.svg",
   actions: refinerActions,
 };

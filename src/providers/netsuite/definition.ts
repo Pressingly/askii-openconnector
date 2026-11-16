@@ -70,5 +70,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.netsuite.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/netsuite.svg",
   actions: netsuiteActions,
 };

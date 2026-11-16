@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "fxbaogao",
   displayName: "Fxbaogao",
   homepageUrl: "https://www.fxbaogao.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/fxbaogao.png",
   categories: ["Data & Analytics"],
   authTypes: ["api_key"],
   auth: [

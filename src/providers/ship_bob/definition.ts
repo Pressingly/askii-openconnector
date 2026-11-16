@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.shipbob.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ship_bob.png",
   actions: shipBobActions,
 };

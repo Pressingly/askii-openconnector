@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.talentlms.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/talentlms.svg",
   actions: talentlmsActions,
 };

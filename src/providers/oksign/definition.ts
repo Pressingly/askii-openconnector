@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.oksign.be/en/",
+  iconUrl: "https://static.oomol.com/logo/third-party/oksign.png",
   actions: oksignActions,
 };

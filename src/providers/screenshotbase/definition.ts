@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://screenshotbase.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/screenshotbase.svg",
   actions: screenshotbaseActions,
 };

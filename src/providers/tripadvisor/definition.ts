@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.tripadvisor.com/developers",
+  iconUrl: "https://static.oomol.com/logo/third-party/Tripadvisor.svg",
   actions: tripadvisorActions,
 };

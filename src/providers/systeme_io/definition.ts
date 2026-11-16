@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://systeme.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/systeme_io.svg",
   actions: systemeIoActions,
 };

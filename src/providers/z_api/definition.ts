@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.z-api.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/z_api.webp",
   actions: zApiActions,
 };

@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "StreamWish",
   description: "Video hosting, streaming, and media library management",
   homepageUrl: "https://streamwish.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/streamwish.svg",
   categories: ["Storage", "Design & Media"],
   authTypes: ["api_key"],
   auth: [

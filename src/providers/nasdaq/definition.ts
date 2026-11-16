@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://data.nasdaq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Nasdaq.png",
   actions: nasdaqActions,
 };

@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "nightfall_ai",
   displayName: "Nightfall AI",
   homepageUrl: "https://www.nightfall.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/nightfall_ai.svg",
   categories: ["Security & Identity", "Developer Tools"],
   authTypes: ["api_key"],
   auth: [

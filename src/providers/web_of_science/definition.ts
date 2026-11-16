@@ -7,6 +7,7 @@ const service = "web_of_science";
 export const provider: ProviderDefinition = {
   service,
   displayName: "Web of Science",
+  iconUrl: "https://static.oomol.com/logo/third-party/web_of_science.svg",
   description: "Search Web of Science documents and journals through the Clarivate Web of Science Starter API.",
   categories: ["Data"],
   authTypes: ["api_key"],

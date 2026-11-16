@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "magichour",
   displayName: "Magic Hour",
   homepageUrl: "https://magichour.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/magichour.svg",
   categories: ["AI", "Design & Media"],
   authTypes: ["api_key"],
   auth: [

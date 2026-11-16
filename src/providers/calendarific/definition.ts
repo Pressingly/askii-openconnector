@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://calendarific.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/calendarific.png",
   actions: calendarificActions,
 };

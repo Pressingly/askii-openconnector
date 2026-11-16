@@ -47,5 +47,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://wordpress.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/wordpress.png",
   actions: wordpressActions,
 };

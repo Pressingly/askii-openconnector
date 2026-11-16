@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.repairshopr.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/repairshopr.png",
   actions: repairshoprActions,
 };

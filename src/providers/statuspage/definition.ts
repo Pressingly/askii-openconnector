@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.atlassian.com/software/statuspage",
+  iconUrl: "https://static.oomol.com/logo/third-party/statuspage.svg",
   actions: statuspageActions,
 };

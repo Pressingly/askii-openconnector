@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://whop.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/whop.svg",
   actions: whopActions,
 };

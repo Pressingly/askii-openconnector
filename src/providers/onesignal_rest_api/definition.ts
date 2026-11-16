@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://onesignal.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/onesignal_rest_api.svg",
   actions: onesignalRestApiActions,
 };

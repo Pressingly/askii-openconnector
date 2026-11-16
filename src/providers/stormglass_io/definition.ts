@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://stormglass.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/stormglass_io.png",
   actions: stormglassIoActions,
 };

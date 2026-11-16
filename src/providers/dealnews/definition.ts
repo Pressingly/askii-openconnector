@@ -11,5 +11,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["no_auth"],
   auth: [{ type: "no_auth" }],
   homepageUrl: "https://www.dealnews.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/dealnews.svg",
   actions: dealNewsActions,
 };

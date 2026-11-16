@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "vaquill",
   displayName: "Vaquill",
   homepageUrl: "https://www.vaquill.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/vaquill.svg",
   categories: ["Data"],
   authTypes: ["api_key"],
   auth: [

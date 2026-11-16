@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://sendmator.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/sendmator.png",
   actions: sendmatorActions,
 };

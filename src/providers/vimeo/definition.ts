@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://vimeo.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/vimeo.svg",
   actions: vimeoActions,
 };

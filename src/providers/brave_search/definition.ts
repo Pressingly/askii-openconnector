@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://search.brave.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/brave_search.svg",
   actions: braveSearchActions,
 };

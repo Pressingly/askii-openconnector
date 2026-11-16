@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.smartsheet.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/smartsheet.svg",
   actions: smartsheetActions,
 };

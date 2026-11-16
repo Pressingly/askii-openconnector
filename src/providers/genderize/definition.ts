@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://genderize.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Genderize.svg",
   actions: genderizeActions,
 };

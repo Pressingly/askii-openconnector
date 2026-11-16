@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://positionstack.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/positionstack.png",
   actions: positionstackActions,
 };

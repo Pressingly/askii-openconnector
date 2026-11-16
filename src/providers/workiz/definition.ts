@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.workiz.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/workiz.svg",
   actions: workizActions,
 };

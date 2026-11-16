@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://bigml.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/bigml.svg",
   actions: bigmlActions,
 };

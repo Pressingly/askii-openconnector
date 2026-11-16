@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.feishu.cn",
+  iconUrl: "https://static.oomol.com/logo/third-party/feishu.svg",
   actions: feishuActions,
 };

@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://push.techulus.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/push_by_techulus.png",
   actions: pushByTechulusActions,
 };

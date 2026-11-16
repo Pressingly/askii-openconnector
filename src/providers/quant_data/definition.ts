@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://quantdata.us/",
+  iconUrl: "https://static.oomol.com/logo/third-party/quant_data.svg",
   actions: quantDataActions,
 };

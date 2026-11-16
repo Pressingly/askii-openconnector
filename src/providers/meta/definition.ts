@@ -40,5 +40,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://business.meta.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/meta.svg",
   actions: metaActions,
 };

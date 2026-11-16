@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://attio.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/attio.svg",
   actions: attioActions,
 };

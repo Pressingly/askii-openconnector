@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.pagerduty.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/pagerduty.svg",
   actions: pagerDutyActions,
 };

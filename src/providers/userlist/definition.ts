@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://userlist.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/userlist.svg",
   actions: userlistActions,
 };

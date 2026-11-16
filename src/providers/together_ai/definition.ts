@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.together.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/together_ai.svg",
   actions: togetherAiActions,
 };

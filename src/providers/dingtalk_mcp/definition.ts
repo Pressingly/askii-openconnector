@@ -27,5 +27,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.dingtalk.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/dingtalk_mcp.png",
   actions: dingTalkMcpActions,
 };

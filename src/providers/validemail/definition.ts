@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "validemail",
   displayName: "ValidEmail",
   homepageUrl: "https://www.validemail.net/",
+  iconUrl: "https://static.oomol.com/logo/third-party/validemail.png",
   categories: ["Marketing", "Developer Tools"],
   authTypes: ["api_key"],
   auth: [

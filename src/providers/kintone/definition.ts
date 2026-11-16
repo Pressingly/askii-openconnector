@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.kintone.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/kintone.svg",
   actions: kintoneActions,
 };

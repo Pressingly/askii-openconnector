@@ -51,5 +51,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://crisp.chat/",
+  iconUrl: "https://static.oomol.com/logo/third-party/crisp.svg",
   actions: crispActions,
 };

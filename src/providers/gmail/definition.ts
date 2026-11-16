@@ -59,6 +59,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mail.google.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Gmail.svg",
   actions: gmailActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://timelines.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/timelinesai.svg",
   actions: timelinesAiActions,
 };

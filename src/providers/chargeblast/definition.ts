@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.chargeblast.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/chargeblast.png",
   actions: chargeblastActions,
 };

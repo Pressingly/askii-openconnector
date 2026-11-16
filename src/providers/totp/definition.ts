@@ -10,6 +10,7 @@ const service = "totp";
 export const provider: ProviderDefinition = {
   service,
   displayName: "TOTP Authenticator",
+  iconUrl: "https://static.oomol.com/logo/third-party/totp.svg",
   description: "Store a website account and generate its current time-based one-time password locally.",
   categories: ["Security"],
   authTypes: ["custom_credential"],

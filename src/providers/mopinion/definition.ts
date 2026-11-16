@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mopinion.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Mopinion.svg",
   actions: mopinionActions,
 };

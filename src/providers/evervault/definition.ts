@@ -26,5 +26,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://evervault.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/evervault.svg",
   actions: evervaultActions,
 };

@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.paessler.com/prtg",
+  iconUrl: "https://static.oomol.com/logo/third-party/prtg_classic.svg",
   actions: prtgClassicActions,
 };

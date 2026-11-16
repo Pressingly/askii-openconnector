@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://financialmodelingprep.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/financial_modeling_prep.svg",
   actions: financialModelingPrepActions,
 };

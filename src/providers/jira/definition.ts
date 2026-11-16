@@ -56,5 +56,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.atlassian.com/software/jira",
+  iconUrl: "https://static.oomol.com/logo/third-party/Jira.svg",
   actions: jiraActions,
 };

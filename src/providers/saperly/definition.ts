@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "saperly",
   displayName: "Saperly",
   homepageUrl: "https://saperly.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/saperly.png",
   categories: ["Communication"],
   authTypes: ["api_key"],
   auth: [

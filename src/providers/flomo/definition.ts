@@ -37,5 +37,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://flomoapp.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/flomo.png",
   actions: flomoActions,
 };

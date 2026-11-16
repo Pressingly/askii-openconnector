@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.skyvern.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/skyvern.png",
   actions: skyvernActions,
 };

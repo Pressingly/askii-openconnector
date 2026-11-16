@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "navigatr",
   displayName: "Navigatr",
   homepageUrl: "https://www.navigatr.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/navigatr.svg",
   categories: ["Productivity"],
   authTypes: ["api_key"],
   auth: [

@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.coupontools.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/coupontools.png",
   actions: coupontoolsActions,
 };

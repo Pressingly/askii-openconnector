@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://stability.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/stabilityai.svg",
   actions: stabilityaiActions,
 };

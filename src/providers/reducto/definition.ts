@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://reducto.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/reducto.svg",
   actions: reductoActions,
 };

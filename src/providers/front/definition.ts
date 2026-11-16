@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://front.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/front.png",
   actions: frontActions,
 };

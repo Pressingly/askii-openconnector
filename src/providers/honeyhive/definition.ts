@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.honeyhive.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/honeyhive.png",
   actions: honeyhiveActions,
 };

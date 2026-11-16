@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.smartlead.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/smartlead_ai.png",
   actions: smartleadAiActions,
 };

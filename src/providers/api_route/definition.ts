@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.api-route.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/api_route.png",
   actions: apiRouteActions,
 };

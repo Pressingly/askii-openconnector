@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://paradym.id",
+  iconUrl: "https://static.oomol.com/logo/third-party/paradym.png",
   actions: paradymActions,
 };

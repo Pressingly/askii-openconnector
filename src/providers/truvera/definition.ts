@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://truvera.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/truvera.svg",
   actions: truveraActions,
 };

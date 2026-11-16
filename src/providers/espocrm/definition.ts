@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.espocrm.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Espocrm.svg",
   actions: espocrmActions,
 };

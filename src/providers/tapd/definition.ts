@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "tapd",
   displayName: "TAPD",
   homepageUrl: "https://www.tapd.cn/",
+  iconUrl: "https://static.oomol.com/logo/third-party/tapd.svg",
   categories: ["Productivity", "Developer Tools"],
   authTypes: ["api_key"],
   auth: [

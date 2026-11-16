@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mixmax.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/mixmax.svg",
   actions: mixmaxActions,
 };

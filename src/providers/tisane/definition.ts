@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tisane.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/tisane.svg",
   actions: tisaneActions,
 };

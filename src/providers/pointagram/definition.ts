@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "pointagram",
   displayName: "Pointagram",
   homepageUrl: "https://www.pointagram.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/pointagram.png",
   categories: ["Productivity"],
   authTypes: ["api_key"],
   auth: [

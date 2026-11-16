@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "viral_loops",
   displayName: "Viral Loops",
   homepageUrl: "https://viral-loops.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/viral_loops.svg",
   categories: ["Marketing"],
   authTypes: ["api_key"],
   auth: [

@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.adyntel.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/adyntel.png",
   actions: adyntelActions,
 };

@@ -6,6 +6,7 @@ export const provider: ProviderDefinition = {
   displayName: "StoreRocket",
   description: "Manage store locator projects and locations",
   homepageUrl: "https://storerocket.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/storerocket.svg",
   categories: ["Maps & Location"],
   authTypes: ["api_key"],
   auth: [

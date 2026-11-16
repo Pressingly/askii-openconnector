@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.boloforms.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Boloforms.svg",
   actions: boloformsActions,
 };

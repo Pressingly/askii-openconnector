@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://excalidraw.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/excalidraw_mcp.png",
   actions: excalidrawMcpActions,
 };

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.heartbeat.chat",
+  iconUrl: "https://static.oomol.com/logo/third-party/heartbeat.png",
   actions: heartbeatActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://trendshift.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/trendshift.svg",
   actions: trendshiftActions,
 };

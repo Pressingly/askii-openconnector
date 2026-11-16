@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://jiminny.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/jiminny.png",
   actions: jiminnyActions,
 };

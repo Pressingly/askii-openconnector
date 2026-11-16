@@ -37,5 +37,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.tickspot.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/tick.png",
   actions: tickActions,
 };

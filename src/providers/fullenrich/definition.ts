@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.fullenrich.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/fullenrich.svg",
   actions: fullenrichActions,
 };

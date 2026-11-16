@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://uniswap.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/uniswap_api.svg",
   actions: uniswapApiActions,
 };

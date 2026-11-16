@@ -58,5 +58,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: googleMeetHomepageUrl,
+  iconUrl: "https://static.oomol.com/logo/third-party/googlemeet.svg",
   actions: googleMeetActions,
 };

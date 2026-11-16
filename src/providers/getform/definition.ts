@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://forminit.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/getform.png",
   actions: getformActions,
 };

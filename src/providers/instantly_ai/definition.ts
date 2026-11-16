@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://instantly.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/instantly_ai.svg",
   actions: instantlyAiActions,
 };

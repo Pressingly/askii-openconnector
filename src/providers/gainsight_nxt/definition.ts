@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.gainsight.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/gainsight_nxt.svg",
   actions: gainsightNxtActions,
 };

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://clockify.me",
+  iconUrl: "https://static.oomol.com/logo/third-party/clockify.svg",
   actions: clockifyActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.chatpdf.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/chatpdf.svg",
   actions: chatpdfActions,
 };

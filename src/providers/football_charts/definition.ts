@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.football-charts.com/developers",
+  iconUrl: "https://static.oomol.com/logo/third-party/football_charts.png",
   actions: footballChartsActions,
 };

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.riddle.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/riddle_quiz_maker.svg",
   actions: riddleQuizMakerActions,
 };

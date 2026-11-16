@@ -67,5 +67,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.iyunbiao.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/iyunbiao.jpg",
   actions: iyunbiaoActions,
 };

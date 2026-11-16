@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.streak.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/streak.png",
   actions: streakActions,
 };

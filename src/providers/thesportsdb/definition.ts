@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "thesportsdb",
   displayName: "TheSportsDB",
   homepageUrl: "https://www.thesportsdb.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/thesportsdb.svg",
   categories: ["Data & Analytics"],
   authTypes: ["api_key"],
   auth: [

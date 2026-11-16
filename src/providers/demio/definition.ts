@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.demio.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/demio.svg",
   actions: demioActions,
 };

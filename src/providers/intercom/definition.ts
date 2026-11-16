@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.intercom.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/intercom.svg",
   actions: intercomActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://beebole.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/beebole.svg",
   actions: beeboleActions,
 };

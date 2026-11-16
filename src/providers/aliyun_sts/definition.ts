@@ -47,5 +47,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.alibabacloud.com/product/ram",
+  iconUrl: "https://static.oomol.com/logo/third-party/aliyun_sts.svg",
   actions: aliyunStsActions,
 };

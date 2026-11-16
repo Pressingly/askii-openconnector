@@ -71,5 +71,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.rfc-editor.org/rfc/rfc3501",
+  iconUrl: "https://static.oomol.com/logo/third-party/generic_imap.svg",
   actions: genericImapActions,
 };

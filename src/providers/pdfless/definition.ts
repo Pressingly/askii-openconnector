@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pdfless.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Pdfless.svg",
   actions: pdflessActions,
 };

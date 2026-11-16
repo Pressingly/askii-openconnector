@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://turso.tech",
+  iconUrl: "https://static.oomol.com/logo/third-party/turso.svg",
   actions: tursoActions,
 };

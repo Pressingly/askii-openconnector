@@ -15,5 +15,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://myotp.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/myotp_app.png",
   actions: myOtpAppActions,
 };

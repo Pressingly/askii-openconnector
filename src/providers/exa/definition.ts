@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://exa.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/Exa.svg",
   actions: exaActions,
 };

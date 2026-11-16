@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cloudconvert.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/CloudConvert.svg",
   actions: cloudconvertActions,
 };

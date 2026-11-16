@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://atmorouter.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/atmorouter.svg",
   actions: atmorouterActions,
 };

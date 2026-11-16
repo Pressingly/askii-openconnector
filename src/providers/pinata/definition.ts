@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pinata.cloud",
+  iconUrl: "https://static.oomol.com/logo/third-party/pinata.svg",
   actions: pinataActions,
 };

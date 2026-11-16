@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://rewiser.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/rewiser.svg",
   actions: rewiserActions,
 };

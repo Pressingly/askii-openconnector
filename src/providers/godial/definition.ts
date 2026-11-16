@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://godial.cc",
+  iconUrl: "https://static.oomol.com/logo/third-party/godial.png",
   actions: godialActions,
 };

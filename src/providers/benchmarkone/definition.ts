@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.benchmarkone.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/benchmarkone.svg",
   actions: benchmarkoneActions,
 };

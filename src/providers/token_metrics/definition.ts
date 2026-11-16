@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.tokenmetrics.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/token_metrics.png",
   actions: tokenMetricsActions,
 };

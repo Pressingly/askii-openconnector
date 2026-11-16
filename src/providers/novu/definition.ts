@@ -33,5 +33,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://novu.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/novu.svg",
   actions: novuActions,
 };

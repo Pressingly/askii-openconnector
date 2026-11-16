@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.wire2air.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/wire2air.jpeg",
   actions: wire2AirActions,
 };

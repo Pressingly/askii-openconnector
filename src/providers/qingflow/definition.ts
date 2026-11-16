@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://qingflow.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/qingflow.png",
   actions: qingflowActions,
 };

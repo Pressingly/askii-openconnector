@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "fundable",
   displayName: "Fundable",
   homepageUrl: "https://www.tryfundable.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/fundable.svg",
   categories: ["Data", "Finance"],
   authTypes: ["api_key"],
   auth: [

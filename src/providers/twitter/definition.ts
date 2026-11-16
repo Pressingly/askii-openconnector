@@ -84,5 +84,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://x.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Twitter.svg",
   actions: twitterActions,
 };

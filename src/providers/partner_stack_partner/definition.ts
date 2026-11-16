@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://partnerstack.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/partner_stack_partner.svg",
   actions: partnerStackPartnerActions,
 };

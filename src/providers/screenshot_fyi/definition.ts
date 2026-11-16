@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.screenshot.fyi",
+  iconUrl: "https://static.oomol.com/logo/third-party/Screenshot.fyi.svg",
   actions: screenshotFyiActions,
 };

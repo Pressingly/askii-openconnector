@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://dealroom.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/dealroom.png",
   actions: dealroomActions,
 };

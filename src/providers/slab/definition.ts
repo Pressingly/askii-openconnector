@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://slab.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/slab.svg",
   actions: slabActions,
 };

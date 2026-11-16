@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.neeto.com/neetocal",
+  iconUrl: "https://static.oomol.com/logo/third-party/neetocal.svg",
   actions: neetocalActions,
 };

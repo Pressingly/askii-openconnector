@@ -53,5 +53,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://workspace.google.com/products/slides/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Google%20Slides.svg",
   actions: googleSlidesActions,
 };

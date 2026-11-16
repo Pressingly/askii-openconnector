@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://addresszen.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/addresszen.svg",
   actions: addresszenActions,
 };

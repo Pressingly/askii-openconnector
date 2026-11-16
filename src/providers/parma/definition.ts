@@ -15,5 +15,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://parma.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/parma.png",
   actions: parmaActions,
 };

@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://vincario.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/vincario.svg",
   actions: vincarioActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://elevenlabs.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/ElevenLabs.svg",
   actions: elevenlabsActions,
 };

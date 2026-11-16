@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.peopledatalabs.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/peopledatalabs.png",
   actions: peopledatalabsActions,
 };

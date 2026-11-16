@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "easy_peasy_ai",
   displayName: "Easy-Peasy.AI",
   homepageUrl: "https://easy-peasy.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/easy_peasy_ai.png",
   categories: ["AI", "Marketing"],
   authTypes: ["api_key"],
   auth: [

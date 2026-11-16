@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://framejet.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/framejet.svg",
   actions: framejetActions,
 };

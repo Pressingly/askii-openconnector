@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://manus.im",
+  iconUrl: "https://static.oomol.com/logo/third-party/manus.svg",
   actions: manusActions,
 };

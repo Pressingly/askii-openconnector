@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://webinarjam.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/webinarjam.png",
   actions: webinarjamActions,
 };

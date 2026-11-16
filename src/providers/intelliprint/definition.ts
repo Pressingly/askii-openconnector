@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.intelliprint.net",
+  iconUrl: "https://static.oomol.com/logo/third-party/intelliprint.png",
   actions: intelliprintActions,
 };

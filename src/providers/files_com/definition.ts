@@ -33,5 +33,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.files.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/files_com.svg",
   actions: filesComActions,
 };

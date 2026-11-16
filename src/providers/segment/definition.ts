@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://segment.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/segment.svg",
   actions: segmentActions,
 };

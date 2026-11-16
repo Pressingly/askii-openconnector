@@ -19,6 +19,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://core.telegram.org/bots",
+  iconUrl: "https://static.oomol.com/logo/third-party/Telegram.svg",
   actions: telegramActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

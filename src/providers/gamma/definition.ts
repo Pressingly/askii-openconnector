@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://gamma.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/Gamma.svg",
   actions: gammaActions,
 };

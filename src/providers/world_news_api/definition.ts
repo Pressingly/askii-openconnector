@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://worldnewsapi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/world_news_api.svg",
   actions: worldNewsApiActions,
 };

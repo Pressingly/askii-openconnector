@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://baserow.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/baserow.svg",
   actions: baserowActions,
 };

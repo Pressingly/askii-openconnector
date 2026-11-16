@@ -42,5 +42,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mp.weixin.qq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/weixin_official_account.svg",
   actions: weixinOfficialAccountActions,
 };

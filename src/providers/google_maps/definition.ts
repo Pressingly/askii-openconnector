@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mapsplatform.google.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/google_maps.svg",
   actions: googleMapsActions,
 };

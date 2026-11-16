@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "issue_badge",
   displayName: "IssueBadge",
   homepageUrl: "https://issuebadge.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/issue_badge.png",
   categories: ["Productivity", "Communication"],
   authTypes: ["api_key"],
   auth: [

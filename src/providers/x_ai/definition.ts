@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://x.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/x_ai.svg",
   actions: xAiActions,
 };

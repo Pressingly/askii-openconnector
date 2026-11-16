@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://meraki.cisco.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/cisco_meraki.png",
   actions: ciscoMerakiActions,
 };

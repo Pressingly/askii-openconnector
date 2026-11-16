@@ -6,6 +6,7 @@ export const provider: ProviderDefinition = {
   service: "hrmos_kintai",
   displayName: "HRMOS Kintai",
   homepageUrl: "https://www.ieyasu.co/",
+  iconUrl: "https://static.oomol.com/logo/third-party/hrmos_kintai.svg",
   categories: ["Productivity"],
   authTypes: ["api_key"],
   auth: [

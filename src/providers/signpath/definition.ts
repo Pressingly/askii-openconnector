@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://signpath.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/signpath.svg",
   actions: signpathActions,
 };

@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://seqera.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Seqera.svg",
   actions: seqeraActions,
 };

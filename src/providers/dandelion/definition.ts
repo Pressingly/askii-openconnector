@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://dandelion.eu/",
+  iconUrl: "https://static.oomol.com/logo/third-party/dandelion.png",
   actions: dandelionActions,
 };

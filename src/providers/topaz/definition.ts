@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "Topaz",
   description: "AI image and video upscaling, enhancement and frame interpolation",
   homepageUrl: "https://www.topazlabs.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/topaz.svg",
   categories: ["Design & Media", "AI"],
   authTypes: ["api_key"],
   auth: [

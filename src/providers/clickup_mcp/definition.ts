@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+  iconUrl: "https://static.oomol.com/logo/third-party/clickup_mcp.svg",
   actions: clickupMcpActions,
 };

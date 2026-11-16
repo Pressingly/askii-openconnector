@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://imagekit.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/imagekit.svg",
   actions: imagekitActions,
 };

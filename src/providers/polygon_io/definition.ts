@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://massive.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/polygon_io.svg",
   actions: polygonIoActions,
 };

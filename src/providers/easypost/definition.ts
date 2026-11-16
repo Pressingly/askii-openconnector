@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.easypost.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/easypost.svg",
   actions: easypostActions,
 };

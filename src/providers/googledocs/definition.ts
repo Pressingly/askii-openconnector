@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://workspace.google.com/products/docs/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Google%20Docs.svg",
   actions: googledocsActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.moesif.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/moesif.svg",
   actions: moesifActions,
 };

@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mongodb.com/products/platform/atlas-database",
+  iconUrl: "https://static.oomol.com/logo/third-party/mongo_db_atlas_administration.svg",
   actions: mongoDbAtlasAdministrationActions,
 };

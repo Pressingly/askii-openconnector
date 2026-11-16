@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "snappy",
   displayName: "Snappy",
   homepageUrl: "https://www.snappy.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/snappy.svg",
   categories: ["Marketing"],
   authTypes: ["api_key"],
   auth: [

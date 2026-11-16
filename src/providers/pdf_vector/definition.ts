@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.pdfvector.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/pdf_vector.png",
   actions: pdfVectorActions,
 };

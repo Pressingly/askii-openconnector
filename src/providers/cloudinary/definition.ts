@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cloudinary.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Cloudinary.svg",
   actions: cloudinaryActions,
 };

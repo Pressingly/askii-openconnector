@@ -40,5 +40,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.typeform.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Typeform.svg",
   actions: typeformActions,
 };

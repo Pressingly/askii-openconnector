@@ -27,5 +27,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://sentry.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Sentry.svg",
   actions: sentryActions,
 };

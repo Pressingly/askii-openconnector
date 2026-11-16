@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fidel.uk",
+  iconUrl: "https://static.oomol.com/logo/third-party/flowiseai.jpg",
   actions: fidelApiActions,
 };

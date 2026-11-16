@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://centralstationcrm.de",
+  iconUrl: "https://static.oomol.com/logo/third-party/central_station_crm.svg",
   actions: centralStationCrmActions,
 };

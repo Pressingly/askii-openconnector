@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cursor.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/cursor.svg",
   actions: cursorActions,
 };

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fuyao.aicubes.cn/docs/",
+  iconUrl: "https://static.oomol.com/logo/third-party/hithink_finance.png",
   actions: hithinkFinanceActions,
 };

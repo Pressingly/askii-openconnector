@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://zixflow.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/zixflow.svg",
   actions: zixflowActions,
 };

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.getzep.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/zep.png",
   actions: zepActions,
 };

@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://chatbotkit.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Chatbotkit.svg",
   actions: chatbotkitActions,
 };

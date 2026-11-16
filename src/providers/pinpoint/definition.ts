@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.pinpointhq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/pinpoint.svg",
   actions: pinpointActions,
 };

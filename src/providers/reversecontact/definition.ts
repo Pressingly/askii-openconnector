@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.reversecontact.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/reversecontact.png",
   actions: reversecontactActions,
 };

@@ -24,5 +24,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.youtube.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/youtube.svg",
   actions: youtubeActions,
 };

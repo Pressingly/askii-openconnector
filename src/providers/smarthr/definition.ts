@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "SmartHR",
   categories: ["Productivity"],
   homepageUrl: "https://smarthr.jp/",
+  iconUrl: "https://static.oomol.com/logo/third-party/smarthr.svg",
   authTypes: ["api_key"],
   auth: [
     {

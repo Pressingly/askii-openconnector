@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "ploid",
   displayName: "Ploid",
   homepageUrl: "https://ploid.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/ploid.svg",
   categories: ["Data"],
   authTypes: ["api_key"],
   auth: [

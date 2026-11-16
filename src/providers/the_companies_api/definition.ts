@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "The Companies API",
   description: "Company enrichment and segmentation search",
   homepageUrl: "https://www.thecompaniesapi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/the_companies_api.svg",
   categories: ["Data & Analytics", "Marketing"],
   authTypes: ["api_key"],
   auth: [

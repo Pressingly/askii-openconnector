@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.accredible.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/accredible_certificates.png",
   actions: accredibleCertificatesActions,
 };

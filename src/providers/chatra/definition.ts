@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "Chatra",
   description: "Customer live chat, agent replies, and visitor management",
   homepageUrl: "https://chatra.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/chatra.svg",
   categories: ["Communication"],
   authTypes: ["api_key"],
   auth: [

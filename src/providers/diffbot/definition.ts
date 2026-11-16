@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.diffbot.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Diffbot.svg",
   actions: diffbotActions,
 };

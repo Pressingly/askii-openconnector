@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://elasticemail.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/elasticemail.svg",
   actions: elasticemailActions,
 };

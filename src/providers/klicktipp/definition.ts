@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.klicktipp.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/klicktipp.svg",
   actions: klicktippActions,
 };

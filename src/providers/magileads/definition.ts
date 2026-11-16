@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.magileads.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/magileads.svg",
   actions: magileadsActions,
 };

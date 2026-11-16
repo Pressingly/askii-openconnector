@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://rollbar.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/rollbar.svg",
   actions: rollbarActions,
 };

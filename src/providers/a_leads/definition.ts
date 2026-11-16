@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://a-leads.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/a_leads.svg",
   actions: aLeadsActions,
 };

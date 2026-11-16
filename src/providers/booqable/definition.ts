@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.booqable.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/booqable.svg",
   actions: booqableActions,
 };

@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.meetjamie.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/jamie.png",
   actions: jamieActions,
 };

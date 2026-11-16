@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.planhat.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/planhat.svg",
   actions: planhatActions,
 };

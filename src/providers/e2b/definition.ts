@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://e2b.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/e2b.svg",
   actions: e2bActions,
 };

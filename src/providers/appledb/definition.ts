@@ -15,5 +15,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["no_auth"],
   auth: [{ type: "no_auth" }],
   homepageUrl: "https://appledb.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/appledb.png",
   actions: appledbActions,
 };

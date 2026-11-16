@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.omise.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/omise.svg",
   actions: omiseActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://route4me.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/route4me.svg",
   actions: route4meActions,
 };

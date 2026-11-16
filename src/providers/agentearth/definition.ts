@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "agentearth",
   displayName: "AgentEarth",
   homepageUrl: "https://agentearth.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/agentearth.webp",
   categories: ["AI", "Developer Tools"],
   authTypes: ["api_key"],
   auth: [

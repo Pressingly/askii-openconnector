@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://formbricks.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/formbricks.svg",
   actions: formbricksActions,
 };

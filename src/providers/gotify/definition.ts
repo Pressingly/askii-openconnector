@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://gotify.net",
+  iconUrl: "https://static.oomol.com/logo/third-party/gotify.svg",
   actions: gotifyActions,
 };

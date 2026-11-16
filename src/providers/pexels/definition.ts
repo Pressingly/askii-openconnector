@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.pexels.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Pexels.svg",
   actions: pexelsActions,
 };

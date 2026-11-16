@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.sanity.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/sanity.svg",
   actions: sanityActions,
 };

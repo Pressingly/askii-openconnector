@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://lbs.qq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/tencent_maps.png",
   actions: tencentMapsActions,
 };

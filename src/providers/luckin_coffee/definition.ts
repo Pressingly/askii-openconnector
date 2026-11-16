@@ -24,5 +24,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://open.lkcoffee.com/mcp",
+  iconUrl: "https://static.oomol.com/logo/third-party/luckin_coffee.svg",
   actions: luckinCoffeeActions,
 };

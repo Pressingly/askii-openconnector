@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://hex.tech",
+  iconUrl: "https://static.oomol.com/logo/third-party/hex.svg",
   actions: hexActions,
 };

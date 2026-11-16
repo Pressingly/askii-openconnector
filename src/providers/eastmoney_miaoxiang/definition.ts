@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "eastmoney_miaoxiang",
   displayName: "Eastmoney Miaoxiang",
   homepageUrl: "https://ai.eastmoney.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/eastmoney_miaoxiang.svg",
   categories: ["Finance", "Data & Analytics"],
   authTypes: ["api_key"],
   auth: [

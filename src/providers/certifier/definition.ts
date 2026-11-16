@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://certifier.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Certifier.svg",
   actions: certifierActions,
 };

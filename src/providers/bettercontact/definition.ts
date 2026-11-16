@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://bettercontact.rocks",
+  iconUrl: "https://static.oomol.com/logo/third-party/bettercontact.svg",
   actions: bettercontactActions,
 };

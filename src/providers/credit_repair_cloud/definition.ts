@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.creditrepaircloud.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/credit_repair_cloud.svg",
   actions: creditRepairCloudActions,
 };

@@ -15,5 +15,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://handelsregister.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/handelsregister_ai.jpg",
   actions: handelsregisterAiActions,
 };

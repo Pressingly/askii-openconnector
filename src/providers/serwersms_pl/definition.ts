@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "serwersms_pl",
   displayName: "SerwerSMS.pl",
   homepageUrl: "https://serwersms.pl/",
+  iconUrl: "https://static.oomol.com/logo/third-party/serwersms_pl.svg",
   categories: ["Communication"],
   authTypes: ["api_key"],
   auth: [

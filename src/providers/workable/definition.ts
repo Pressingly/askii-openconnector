@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.workable.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/workable.svg",
   actions: workableActions,
 };

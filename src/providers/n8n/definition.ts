@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://n8n.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/n8n.svg",
   actions: n8nActions,
 };

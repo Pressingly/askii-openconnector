@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.permit.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/permit_io.svg",
   actions: permitIoActions,
 };

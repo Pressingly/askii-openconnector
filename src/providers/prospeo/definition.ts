@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://prospeo.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/prospeo.svg",
   actions: prospeoActions,
 };

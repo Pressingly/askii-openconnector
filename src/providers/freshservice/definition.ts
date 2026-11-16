@@ -42,5 +42,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.freshworks.com/freshservice/",
+  iconUrl: "https://static.oomol.com/logo/third-party/freshservice.svg",
   actions: freshserviceActions,
 };

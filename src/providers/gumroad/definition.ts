@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://gumroad.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/gumroad.png",
   actions: gumroadActions,
 };

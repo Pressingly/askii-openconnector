@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://voicemaker.in/",
+  iconUrl: "https://static.oomol.com/logo/third-party/voicemaker.svg",
   actions: voicemakerActions,
 };

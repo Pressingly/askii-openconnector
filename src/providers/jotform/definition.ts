@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.jotform.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Jotform.svg",
   actions: jotformActions,
 };

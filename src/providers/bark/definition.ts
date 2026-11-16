@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://bark.day.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/bark.png",
   actions: barkActions,
 };

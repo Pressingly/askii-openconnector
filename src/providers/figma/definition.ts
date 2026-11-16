@@ -36,5 +36,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.figma.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/figma.svg",
   actions: figmaActions,
 };

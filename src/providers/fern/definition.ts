@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fernhq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/fern.svg",
   actions: fernActions,
 };

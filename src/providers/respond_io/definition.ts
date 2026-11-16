@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://respond.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/respond_io.svg",
   actions: respondIoActions,
 };

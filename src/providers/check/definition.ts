@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.checkhq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/check.png",
   actions: checkActions,
 };

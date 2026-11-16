@@ -25,6 +25,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://stripe.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/stripe.svg",
   actions: stripeActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

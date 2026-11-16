@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fxmacrodata.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/fxmacrodata.png",
   actions: fxmacrodataActions,
 };

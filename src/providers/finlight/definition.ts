@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "finlight",
   displayName: "Finlight",
   homepageUrl: "https://finlight.me/",
+  iconUrl: "https://static.oomol.com/logo/third-party/finlight.png",
   categories: ["Finance", "Data & Analytics"],
   authTypes: ["api_key"],
   auth: [

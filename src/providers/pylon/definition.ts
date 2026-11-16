@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.usepylon.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/pylon.svg",
   actions: pylonActions,
 };

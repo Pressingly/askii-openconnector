@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://coinranking.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/coinranking.svg",
   actions: coinrankingActions,
 };

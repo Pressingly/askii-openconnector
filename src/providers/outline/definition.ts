@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.getoutline.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/outline.svg",
   actions: outlineActions,
 };

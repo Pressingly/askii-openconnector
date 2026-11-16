@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.griptape.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/griptape.svg",
   actions: griptapeActions,
 };

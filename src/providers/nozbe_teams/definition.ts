@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://nozbe.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/nozbe_teams.svg",
   actions: nozbeTeamsActions,
 };

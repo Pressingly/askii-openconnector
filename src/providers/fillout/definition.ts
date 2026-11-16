@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.fillout.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/fillout.svg",
   actions: filloutActions,
 };

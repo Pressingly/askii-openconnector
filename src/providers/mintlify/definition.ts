@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mintlify.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/mintlify.svg",
   actions: mintlifyActions,
 };

@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.arcgis.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/arcgis_online.svg",
   actions: arcgisOnlineActions,
 };

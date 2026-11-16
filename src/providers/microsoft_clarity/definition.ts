@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://clarity.microsoft.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/microsoft_clarity.png",
   actions: microsoftClarityActions,
 };

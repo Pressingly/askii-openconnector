@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "Artificial Analysis",
   description: "Independent AI model benchmarks, pricing and performance data",
   homepageUrl: "https://artificialanalysis.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/artificial_analysis.svg",
   categories: ["AI", "Data & Analytics"],
   authTypes: ["api_key"],
   auth: [

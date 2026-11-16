@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://solcast.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/solcast.svg",
   actions: solcastActions,
 };

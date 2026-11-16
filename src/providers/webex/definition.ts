@@ -36,5 +36,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.webex.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/webex.svg",
   actions: webexActions,
 };

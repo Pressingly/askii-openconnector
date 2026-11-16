@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cloud.laravel.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/laravel_cloud.svg",
   actions: laravelCloudActions,
 };

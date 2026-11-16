@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://snyk.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/snyk.svg",
   actions: snykActions,
 };

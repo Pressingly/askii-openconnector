@@ -44,5 +44,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.formsite.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/formsite.svg",
   actions: formsiteActions,
 };

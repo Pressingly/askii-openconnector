@@ -8,6 +8,7 @@ export const provider: ProviderDefinition = {
   description: "Create and edit knowledge articles, and publish saved revisions to an OOMOL team's knowledge base.",
   categories: ["Productivity", "Developer Tools"],
   homepageUrl: "https://knowledge-base.oomol.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/oomol_rag.svg",
   authTypes: ["api_key"],
   auth: [
     {

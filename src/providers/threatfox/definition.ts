@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://threatfox.abuse.ch",
+  iconUrl: "https://static.oomol.com/logo/third-party/threatfox.svg",
   actions: threatfoxActions,
 };

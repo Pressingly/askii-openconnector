@@ -44,5 +44,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fivetran.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/fivetran.svg",
   actions: fivetranActions,
 };

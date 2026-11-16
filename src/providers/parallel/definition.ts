@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://parallel.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/parallel.svg",
   actions: parallelActions,
 };

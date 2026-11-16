@@ -21,5 +21,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://typesafe.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/typesafe_ai.svg",
   actions: typesafeAiActions,
 };

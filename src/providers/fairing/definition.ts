@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fairing.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/fairing.svg",
   actions: fairingActions,
 };

@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://kernel.sh",
+  iconUrl: "https://static.oomol.com/logo/third-party/kernel.svg",
   actions: kernelActions,
 };

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.agentql.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/agentql.png",
   actions: agentqlActions,
 };

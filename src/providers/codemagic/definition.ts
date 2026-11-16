@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://codemagic.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Codemagic.svg",
   actions: codemagicActions,
 };

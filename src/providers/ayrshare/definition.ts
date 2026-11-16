@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ayrshare.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ayrshare.png",
   actions: ayrshareActions,
 };

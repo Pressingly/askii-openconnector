@@ -70,5 +70,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.datadoghq.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/datadog.png",
   actions: datadogActions,
 };

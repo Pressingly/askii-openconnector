@@ -27,5 +27,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.hubspot.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/HubSpot.svg",
   actions: hubspotActions,
 };

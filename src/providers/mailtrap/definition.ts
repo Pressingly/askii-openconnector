@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mailtrap.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Mailtrap.svg",
   actions: mailtrapActions,
 };

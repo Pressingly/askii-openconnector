@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://foursquare.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Foursquare.svg",
   actions: foursquareActions,
 };

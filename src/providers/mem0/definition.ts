@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mem0.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/Mem0.svg",
   actions: mem0Actions,
 };

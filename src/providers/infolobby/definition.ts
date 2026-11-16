@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://infolobby.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/infolobby.png",
   actions: infolobbyActions,
 };

@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "appgrowing_mcp",
   displayName: "AppGrowing Global MCP",
   homepageUrl: "https://appgrowing.net/",
+  iconUrl: "https://static.oomol.com/logo/third-party/appgrowing_mcp.svg",
   categories: ["Marketing", "Data & Analytics"],
   authTypes: ["api_key"],
   auth: [

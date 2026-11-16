@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://slite.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/slite.png",
   actions: sliteActions,
 };

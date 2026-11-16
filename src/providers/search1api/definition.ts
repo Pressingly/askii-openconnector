@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "search1api",
   displayName: "Search1API",
   homepageUrl: "https://s1.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/search1api.svg",
   categories: ["AI", "Data"],
   authTypes: ["api_key", "oauth2"],
   auth: [

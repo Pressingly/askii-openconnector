@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://renderform.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/renderform.svg",
   actions: renderformActions,
 };

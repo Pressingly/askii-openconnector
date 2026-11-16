@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://sendfox.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/sendfox.svg",
   actions: sendfoxActions,
 };

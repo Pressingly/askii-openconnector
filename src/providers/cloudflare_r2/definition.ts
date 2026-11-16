@@ -45,5 +45,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.cloudflare.com/developer-platform/products/r2/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Cloudflare.svg",
   actions: cloudflareR2Actions,
 };

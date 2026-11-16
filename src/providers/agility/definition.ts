@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://agilitycms.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/agility.svg",
   actions: agilityActions,
 };

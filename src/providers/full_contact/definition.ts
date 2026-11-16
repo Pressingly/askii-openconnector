@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.fullcontact.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/full_contact.svg",
   actions: fullContactActions,
 };

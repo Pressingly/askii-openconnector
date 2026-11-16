@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://viggle.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/viggle.png",
   actions: viggleActions,
 };

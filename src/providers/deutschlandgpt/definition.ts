@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.deutschlandgpt.de/",
+  iconUrl: "https://static.oomol.com/logo/third-party/deutschlandgpt.svg",
   actions: deutschlandgptActions,
 };

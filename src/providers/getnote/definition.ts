@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.biji.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/getnote.png",
   actions: getnoteActions,
 };

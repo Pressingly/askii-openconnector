@@ -55,5 +55,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://analytics.google.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/google_analytics.svg",
   actions: googleAnalyticsActions,
 };

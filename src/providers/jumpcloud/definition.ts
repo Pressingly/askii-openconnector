@@ -44,5 +44,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://jumpcloud.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/jumpcloud.png",
   actions: jumpcloudActions,
 };

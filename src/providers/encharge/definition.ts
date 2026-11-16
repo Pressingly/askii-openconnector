@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://encharge.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/encharge.png",
   actions: enchargeActions,
 };

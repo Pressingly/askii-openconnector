@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://dub.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/dub.svg",
   actions: dubActions,
 };

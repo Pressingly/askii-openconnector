@@ -67,5 +67,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://workspace.google.com/products/chat/",
+  iconUrl: "https://static.oomol.com/logo/third-party/googlechat.svg",
   actions: googleChatActions,
 };

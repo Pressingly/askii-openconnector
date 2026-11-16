@@ -43,5 +43,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.onepagecrm.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/one_page_crm.svg",
   actions: onePageCrmActions,
 };

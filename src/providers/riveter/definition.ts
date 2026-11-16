@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://riveterhq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/riveter.svg",
   actions: riveterActions,
 };

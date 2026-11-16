@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.upsales.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/upsales.svg",
   actions: upsalesActions,
 };

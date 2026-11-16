@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ipqualityscore.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ipqualityscore.svg",
   actions: ipqualityscoreActions,
 };

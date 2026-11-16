@@ -37,5 +37,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://dataforseo.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/dataforseo.png",
   actions: dataForSeoActions,
 };

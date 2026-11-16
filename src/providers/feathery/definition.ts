@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.feathery.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/feathery.png",
   actions: featheryActions,
 };

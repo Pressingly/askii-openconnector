@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://github.com/komari-monitor/komari",
+  iconUrl: "https://static.oomol.com/logo/third-party/komari.png",
   actions: komariActions,
 };

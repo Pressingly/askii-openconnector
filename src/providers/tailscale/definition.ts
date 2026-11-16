@@ -49,5 +49,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tailscale.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/tailscale.png",
   actions: tailscaleActions,
 };

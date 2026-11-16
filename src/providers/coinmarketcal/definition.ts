@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://coinmarketcal.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/CoinMarketCal.svg",
   actions: coinmarketcalActions,
 };

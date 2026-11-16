@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://gtmetrix.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/GTmetrix.svg",
   actions: gtmetrixActions,
 };

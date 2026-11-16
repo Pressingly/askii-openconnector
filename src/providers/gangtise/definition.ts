@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.gangtise.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/gangtise.png",
   actions: gangtiseActions,
 };

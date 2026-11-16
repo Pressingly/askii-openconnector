@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://clerk.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/clerk.svg",
   actions: clerkActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pdf.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/pdf_co.svg",
   actions: pdfCoActions,
 };

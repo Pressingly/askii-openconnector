@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://krispcall.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/krispcall.svg",
   actions: krispcallActions,
 };

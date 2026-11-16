@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://neon.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Neon.svg",
   actions: neonActions,
 };

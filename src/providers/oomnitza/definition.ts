@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.oomnitza.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/oomnitza.svg",
   actions: oomnitzaActions,
 };

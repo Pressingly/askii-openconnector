@@ -72,5 +72,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://posthog.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/PostHog.svg",
   actions: posthogActions,
 };

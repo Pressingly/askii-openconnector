@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "MrScraper",
   description: "Webpage HTML, Markdown, structured data extraction, and site URL discovery",
   homepageUrl: "https://mrscraper.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/mrscraper.svg",
   categories: ["Data & Analytics", "Developer Tools"],
   authTypes: ["api_key"],
   auth: [

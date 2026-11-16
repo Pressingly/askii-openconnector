@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.influxdata.com/products/influxdb-cloud/",
+  iconUrl: "https://static.oomol.com/logo/third-party/influxdb_cloud.svg",
   actions: influxdbCloudActions,
 };

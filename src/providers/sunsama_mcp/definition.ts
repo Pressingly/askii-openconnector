@@ -37,5 +37,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://help.sunsama.com/docs/integrations/mcp/",
+  iconUrl: "https://static.oomol.com/logo/third-party/sunsama_mcp.svg",
   actions: sunsamaMcpActions,
 };

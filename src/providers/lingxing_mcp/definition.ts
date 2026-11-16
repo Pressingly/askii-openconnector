@@ -42,5 +42,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.lingxing.com/help/article/mcp",
+  iconUrl: "https://static.oomol.com/logo/third-party/lingxing_mcp.png",
   actions: lingxingMcpActions,
 };

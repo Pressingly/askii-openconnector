@@ -43,5 +43,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ads.google.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Google%20Ads.svg",
   actions: googleAdsActions,
 };

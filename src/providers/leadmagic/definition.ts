@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://leadmagic.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/leadmagic.svg",
   actions: leadmagicActions,
 };

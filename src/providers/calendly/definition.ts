@@ -37,5 +37,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://calendly.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Calendly.svg",
   actions: calendlyActions,
 };

@@ -27,5 +27,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.maxio.com/product/advanced-billing",
+  iconUrl: "https://static.oomol.com/logo/third-party/chargify.svg",
   actions: chargifyActions,
 };

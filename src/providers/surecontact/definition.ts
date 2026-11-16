@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://surecontact.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/surecontact.svg",
   actions: surecontactActions,
 };

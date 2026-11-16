@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://harmonic.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/harmonic_ai.png",
   actions: harmonicAiActions,
 };

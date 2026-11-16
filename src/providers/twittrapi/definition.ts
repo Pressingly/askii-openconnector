@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://twittrapi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/twittrapi.svg",
   actions: twittrapiActions,
 };

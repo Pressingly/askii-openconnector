@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://brightdata.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/bright_data.png",
   actions: brightDataActions,
 };

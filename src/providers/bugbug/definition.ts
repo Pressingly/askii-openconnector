@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://bugbug.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Bugbug.png",
   actions: bugbugActions,
 };

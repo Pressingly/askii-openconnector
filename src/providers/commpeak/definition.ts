@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.commpeak.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/commpeak.svg",
   actions: commpeakActions,
 };

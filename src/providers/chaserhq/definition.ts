@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.chaserhq.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/chaserhq.jpg",
   actions: chaserhqActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://sevdesk.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/sevdesk.svg",
   actions: sevdeskActions,
 };

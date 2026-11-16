@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.bestbuy.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/bestbuy.png",
   actions: bestbuyActions,
 };

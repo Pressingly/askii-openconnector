@@ -55,5 +55,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://search.google.com/search-console",
+  iconUrl: "https://static.oomol.com/logo/third-party/google_search_console.svg",
   actions: googleSearchConsoleActions,
 };

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.sif.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/sif.png",
   actions: sifActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://promptlayer.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/promptlayer.png",
   actions: promptLayerActions,
 };

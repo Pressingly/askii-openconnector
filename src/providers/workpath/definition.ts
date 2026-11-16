@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.workpath.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/workpath.svg",
   actions: workpathActions,
 };

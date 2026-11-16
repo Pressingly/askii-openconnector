@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://vectorshift.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/vectorshift.png",
   actions: vectorshiftActions,
 };

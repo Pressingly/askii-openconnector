@@ -11,5 +11,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["no_auth"],
   auth: [{ type: "no_auth" }],
   homepageUrl: "https://docsend2pdf.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/docsend_2_pdf.png",
   actions: docsend2PdfActions,
 };

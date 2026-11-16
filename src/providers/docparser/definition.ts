@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://docparser.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Docparser.svg",
   actions: docparserActions,
 };

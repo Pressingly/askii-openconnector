@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://unthread.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/unthread.svg",
   actions: unthreadActions,
 };

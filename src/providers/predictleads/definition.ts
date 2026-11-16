@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://predictleads.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/predictleads.svg",
   actions: predictleadsActions,
 };

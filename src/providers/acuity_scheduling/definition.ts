@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://acuityscheduling.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/acuity_scheduling.png",
   actions: acuitySchedulingActions,
 };

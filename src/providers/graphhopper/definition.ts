@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.graphhopper.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/graphhopper.png",
   actions: graphhopperActions,
 };

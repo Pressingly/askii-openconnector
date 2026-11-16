@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.home-assistant.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/home_assistant.svg",
   actions: homeAssistantActions,
 };

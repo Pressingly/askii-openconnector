@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://textit.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/textit.webp",
   actions: textitActions,
 };

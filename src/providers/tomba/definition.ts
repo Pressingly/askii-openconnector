@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tomba.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/tomba.svg",
   actions: tombaActions,
 };

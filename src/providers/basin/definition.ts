@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://usebasin.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Basin.svg",
   actions: basinActions,
 };

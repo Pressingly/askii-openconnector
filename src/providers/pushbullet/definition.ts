@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.pushbullet.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Pushbullet.svg",
   actions: pushbulletActions,
 };

@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ambivo.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ambivo.png",
   actions: ambivoActions,
 };

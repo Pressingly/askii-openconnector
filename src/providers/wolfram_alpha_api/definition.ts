@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://products.wolframalpha.com/api/",
+  iconUrl: "https://static.oomol.com/logo/third-party/wolfram_alpha_api.svg",
   actions: wolframAlphaApiActions,
 };

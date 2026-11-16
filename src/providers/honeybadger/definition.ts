@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.honeybadger.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Honeybadger.svg",
   actions: honeybadgerActions,
 };

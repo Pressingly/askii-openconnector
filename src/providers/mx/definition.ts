@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mx.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/mx.svg",
   actions: mxActions,
 };

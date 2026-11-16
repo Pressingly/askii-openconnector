@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://what3words.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/what3words.png",
   actions: what3wordsActions,
 };

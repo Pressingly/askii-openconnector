@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.7shifts.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/7_shifts.png",
   actions: sevenShiftsActions,
 };

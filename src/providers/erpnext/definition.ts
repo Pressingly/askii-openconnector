@@ -40,5 +40,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://erpnext.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/erpnext.svg",
   actions: erpnextActions,
 };

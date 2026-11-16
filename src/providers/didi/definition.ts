@@ -8,6 +8,7 @@ export const provider: ProviderDefinition = {
   description: "Ride estimates, booking, order tracking, and maps",
   categories: ["Location"],
   homepageUrl: "https://mcp.didichuxing.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/didi.png",
   authTypes: ["api_key"],
   auth: [
     {

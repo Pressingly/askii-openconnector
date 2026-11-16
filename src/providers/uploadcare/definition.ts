@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://uploadcare.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/uploadcare.svg",
   actions: uploadcareActions,
 };

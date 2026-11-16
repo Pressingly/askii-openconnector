@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://1password.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/one_password_events.svg",
   actions: onePasswordEventsActions,
 };

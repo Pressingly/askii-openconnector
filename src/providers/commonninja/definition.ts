@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "commonninja",
   displayName: "Common Ninja",
   homepageUrl: "https://www.commoninja.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/commonninja.svg",
   categories: ["Developer Tools"],
   authTypes: ["api_key"],
   auth: [

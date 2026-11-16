@@ -52,5 +52,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.cyberark.com/resources/product-datasheets/cyberark-certificate-manager-self-hosted",
+  iconUrl: "https://static.oomol.com/logo/third-party/venafitlsprotectdatacenter.svg",
   actions: venafiTlsProtectDatacenterActions,
 };

@@ -33,5 +33,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.reddit.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/reddit.png",
   actions: redditActions,
 };

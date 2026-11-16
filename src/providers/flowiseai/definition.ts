@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://flowiseai.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/flowiseai.jpg",
   actions: flowiseaiActions,
 };

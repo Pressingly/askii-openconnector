@@ -186,6 +186,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://slack.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Slack.svg",
   actions: slackActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

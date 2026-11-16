@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://diffy.website/",
+  iconUrl: "https://static.oomol.com/logo/third-party/diffy.svg",
   actions: diffyActions,
 };

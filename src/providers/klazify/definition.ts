@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.klazify.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/klazify.svg",
   actions: klazifyActions,
 };

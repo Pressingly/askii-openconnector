@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://platerecognizer.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/platerecognizer.png",
   actions: platerecognizerActions,
 };

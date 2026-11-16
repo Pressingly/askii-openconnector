@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.teltel.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/teltel.svg",
   actions: teltelActions,
 };

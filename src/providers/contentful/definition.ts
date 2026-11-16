@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.contentful.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Contentful.svg",
   actions: contentfulActions,
 };

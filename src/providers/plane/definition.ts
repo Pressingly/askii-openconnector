@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://plane.so",
+  iconUrl: "https://static.oomol.com/logo/third-party/plane.svg",
   actions: planeActions,
 };

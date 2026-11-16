@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "Salesforce",
   categories: ["Productivity"],
   homepageUrl: "https://www.salesforce.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/salesforce.svg",
   authTypes: ["oauth2"],
   auth: [
     {

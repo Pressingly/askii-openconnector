@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.apollo.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Apollo.svg",
   actions: apolloActions,
 };

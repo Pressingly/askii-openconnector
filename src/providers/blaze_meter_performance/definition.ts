@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.blazemeter.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/blaze_meter_performance.svg",
   actions: blazeMeterPerformanceActions,
 };

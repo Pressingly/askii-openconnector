@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "tencent_meeting_mcp",
   displayName: "Tencent Meeting MCP",
   homepageUrl: "https://meeting.tencent.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/tencent_meeting_mcp.svg",
   categories: ["Communication", "Productivity"],
   authTypes: ["api_key"],
   auth: [

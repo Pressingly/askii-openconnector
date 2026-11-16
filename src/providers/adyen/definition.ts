@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.adyen.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/adyen.svg",
   actions: adyenActions,
 };

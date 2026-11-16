@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://sendbird.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Sendbird.svg",
   actions: sendbirdActions,
 };

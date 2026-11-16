@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.make.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/make.png",
   actions: makeActions,
 };

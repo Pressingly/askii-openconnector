@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tushare.pro",
+  iconUrl: "https://static.oomol.com/logo/third-party/tushare.png",
   actions: tushareActions,
 };

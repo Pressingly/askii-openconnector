@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ritekit.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ritekit.svg",
   actions: ritekitActions,
 };

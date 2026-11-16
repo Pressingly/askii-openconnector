@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://monday.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Monday.svg",
   actions: mondayActions,
 };

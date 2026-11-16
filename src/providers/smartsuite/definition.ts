@@ -27,5 +27,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.smartsuite.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/smartsuite.svg",
   actions: smartsuiteActions,
 };

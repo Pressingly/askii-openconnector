@@ -8,5 +8,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["no_auth"],
   auth: [{ type: "no_auth" }],
   homepageUrl: "https://www.who.int/data/gho",
+  iconUrl: "https://static.oomol.com/logo/third-party/who_gho.svg",
   actions: whoGhoActions,
 };

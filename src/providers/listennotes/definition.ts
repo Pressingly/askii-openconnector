@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.listennotes.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/listennotes.png",
   actions: listennotesActions,
 };

@@ -36,5 +36,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.bt.cn",
+  iconUrl: "https://static.oomol.com/logo/third-party/bt_mcp.png",
   actions: btMcpActions,
 };

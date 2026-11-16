@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.football-data.org/",
+  iconUrl: "https://static.oomol.com/logo/third-party/football_data.png",
   actions: footballDataActions,
 };

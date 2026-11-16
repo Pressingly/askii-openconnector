@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://replicate.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/replicate.png",
   actions: replicateActions,
 };

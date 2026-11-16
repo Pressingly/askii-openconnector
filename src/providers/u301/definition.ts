@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://u301.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/u301.svg",
   actions: u301Actions,
 };

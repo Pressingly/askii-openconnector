@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.zoom.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/zoom.svg",
   actions: zoomActions,
 };

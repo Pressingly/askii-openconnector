@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pdf-api.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/pdf_api_io.png",
   actions: pdfApiIoActions,
 };

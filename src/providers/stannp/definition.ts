@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.stannp.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/stannp.svg",
   actions: stannpActions,
 };

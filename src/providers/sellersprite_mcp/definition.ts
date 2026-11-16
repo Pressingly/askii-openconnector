@@ -15,5 +15,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://open.sellersprite.com/mcp",
+  iconUrl: "https://static.oomol.com/logo/third-party/sellersprite_mcp.svg",
   actions: sellerspriteMcpActions,
 };

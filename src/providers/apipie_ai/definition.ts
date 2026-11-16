@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://apipie.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/apipie_ai.png",
   actions: apipieAiActions,
 };

@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.phonely.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/phonely.png",
   actions: phonelyActions,
 };

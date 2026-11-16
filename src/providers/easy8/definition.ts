@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.easy8.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/easy8.svg",
   actions: easy8Actions,
 };

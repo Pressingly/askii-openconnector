@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://unsplash.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/unsplash.svg",
   actions: unsplashActions,
 };

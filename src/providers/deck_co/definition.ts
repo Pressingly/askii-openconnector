@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.deck.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/deck_co.png",
   actions: deckCoActions,
 };

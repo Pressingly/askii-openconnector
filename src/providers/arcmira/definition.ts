@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "Arcmira",
   categories: ["AI", "Data"],
   homepageUrl: "https://arcmira.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/arcmira.png",
   authTypes: ["api_key"],
   auth: [
     {

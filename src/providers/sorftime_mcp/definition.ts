@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.sorftime.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/sorftime_mcp.png",
   actions: sorftimeMcpActions,
 };

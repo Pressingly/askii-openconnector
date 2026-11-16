@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.helloleads.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/helloleads.png",
   actions: helloleadsActions,
 };

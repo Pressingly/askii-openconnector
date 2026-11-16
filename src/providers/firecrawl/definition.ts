@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.firecrawl.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/Firecrawl.svg",
   actions: firecrawlActions,
 };

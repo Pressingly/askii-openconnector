@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.lemonsqueezy.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Lemon%20Squeezy.svg",
   actions: lemonSqueezyActions,
 };

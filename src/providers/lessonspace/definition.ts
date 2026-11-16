@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.thelessonspace.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/lessonspace.svg",
   actions: lessonspaceActions,
 };

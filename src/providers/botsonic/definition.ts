@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://botsonic.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/botsonic.svg",
   actions: botsonicActions,
 };

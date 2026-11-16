@@ -39,5 +39,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://turbot.com/pipes",
+  iconUrl: "https://static.oomol.com/logo/third-party/turbot_pipes.svg",
   actions: turbotPipesActions,
 };

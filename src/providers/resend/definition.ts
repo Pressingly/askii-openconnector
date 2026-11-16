@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://resend.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Resend.svg",
   actions: resendActions,
 };

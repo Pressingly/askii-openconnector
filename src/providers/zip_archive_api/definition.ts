@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://archiveapi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/zip_archive_api.png",
   actions: zipArchiveApiActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://groq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/GroqCloud.svg",
   actions: groqcloudActions,
 };

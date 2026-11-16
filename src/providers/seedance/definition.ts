@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.volcengine.com/product/ark",
+  iconUrl: "https://static.oomol.com/logo/third-party/seedance.svg",
   actions: seedanceActions,
 };

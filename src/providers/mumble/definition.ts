@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mumble.co.il/",
+  iconUrl: "https://static.oomol.com/logo/third-party/mumble.svg",
   actions: mumbleActions,
 };

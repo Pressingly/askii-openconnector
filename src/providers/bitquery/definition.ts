@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://bitquery.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/bitquery.svg",
   actions: bitqueryActions,
 };

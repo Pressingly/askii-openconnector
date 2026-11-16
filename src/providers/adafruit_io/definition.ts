@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://io.adafruit.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/adafruit_io.svg",
   actions: adafruitIoActions,
 };

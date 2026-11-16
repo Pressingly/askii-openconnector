@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.confluent.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/confluent.svg",
   actions: confluentActions,
 };

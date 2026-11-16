@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://tikhub.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/tikhub.jpeg",
   actions: tikhubActions,
 };

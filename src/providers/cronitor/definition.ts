@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cronitor.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/cronitor.svg",
   actions: cronitorActions,
 };

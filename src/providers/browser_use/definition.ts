@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://browser-use.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/browser_use.svg",
   actions: browserUseActions,
 };

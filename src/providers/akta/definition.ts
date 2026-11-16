@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "akta",
   displayName: "Akta",
   homepageUrl: "https://akta.pro",
+  iconUrl: "https://static.oomol.com/logo/third-party/akta.png",
   categories: ["Data"],
   authTypes: ["api_key"],
   auth: [

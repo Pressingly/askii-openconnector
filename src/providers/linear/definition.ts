@@ -37,6 +37,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://linear.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/Linear.svg",
   actions: linearActions,
   triggers: [triggerSnapshot0_0, issueEventSnapshot],
   triggerPermissions,

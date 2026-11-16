@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://perigon.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/perigon.svg",
   actions: perigonActions,
 };

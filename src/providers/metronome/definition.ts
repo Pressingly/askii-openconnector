@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://metronome.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/metronome.svg",
   actions: metronomeActions,
 };

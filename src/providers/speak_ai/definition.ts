@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://speakai.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/speak_ai.png",
   actions: speakAiActions,
 };

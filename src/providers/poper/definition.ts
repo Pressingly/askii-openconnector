@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.poper.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/poper.png",
   actions: poperActions,
 };

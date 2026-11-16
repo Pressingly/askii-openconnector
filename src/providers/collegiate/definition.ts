@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.merriam-webster.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/collegiate.png",
   actions: collegiateActions,
 };

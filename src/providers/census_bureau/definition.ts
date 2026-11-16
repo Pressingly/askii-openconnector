@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.census.gov",
+  iconUrl: "https://static.oomol.com/logo/third-party/census_bureau.svg",
   actions: censusBureauActions,
 };

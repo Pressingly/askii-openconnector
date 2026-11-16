@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.walletap.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/walletap.svg",
   actions: walletapActions,
 };

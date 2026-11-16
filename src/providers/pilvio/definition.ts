@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://pilvio.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/pilvio.svg",
   actions: pilvioActions,
 };

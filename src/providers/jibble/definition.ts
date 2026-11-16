@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.jibble.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/jibble.svg",
   actions: jibbleActions,
 };

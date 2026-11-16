@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://railway.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/railway.png",
   actions: railwayActions,
 };

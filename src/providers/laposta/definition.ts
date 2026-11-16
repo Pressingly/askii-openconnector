@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://laposta.nl/",
+  iconUrl: "https://static.oomol.com/logo/third-party/laposta.svg",
   actions: lapostaActions,
 };

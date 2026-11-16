@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.vsco.co/workspace",
+  iconUrl: "https://static.oomol.com/logo/third-party/tave.png",
   actions: taveActions,
 };

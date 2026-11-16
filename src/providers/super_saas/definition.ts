@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.supersaas.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/super_saas.svg",
   actions: superSaasActions,
 };

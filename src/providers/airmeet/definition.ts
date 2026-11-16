@@ -39,5 +39,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.airmeet.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/airmeet.svg",
   actions: airmeetActions,
 };

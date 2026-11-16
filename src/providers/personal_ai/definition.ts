@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://personal.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/personal_ai.svg",
   actions: personalAiActions,
 };

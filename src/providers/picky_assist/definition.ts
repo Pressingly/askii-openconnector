@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "picky_assist",
   displayName: "Picky Assist",
   homepageUrl: "https://pickyassist.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/picky_assist.png",
   categories: ["Communication"],
   authTypes: ["api_key"],
   auth: [

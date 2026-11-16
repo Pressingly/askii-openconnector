@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ngrok.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Ngrok.svg",
   actions: ngrokActions,
 };

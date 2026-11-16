@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://chatarmin.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/chatarmin.svg",
   actions: chatarminActions,
 };

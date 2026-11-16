@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://baremetrics.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/baremetrics.png",
   actions: baremetricsActions,
 };

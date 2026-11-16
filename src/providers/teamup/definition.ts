@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.teamup.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/teamup.png",
   actions: teamupActions,
 };

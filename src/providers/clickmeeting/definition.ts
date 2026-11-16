@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://clickmeeting.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/clickmeeting.svg",
   actions: clickMeetingActions,
 };

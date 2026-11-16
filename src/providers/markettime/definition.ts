@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.markettime.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/markettime.svg",
   actions: markettimeActions,
 };

@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "kenjo",
   displayName: "Kenjo",
   homepageUrl: "https://www.kenjo.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/kenjo.svg",
   categories: ["Productivity"],
   authTypes: ["api_key"],
   auth: [

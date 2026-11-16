@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://console.oomol.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/oomol_console.svg",
   actions: oomolConsoleActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://updown.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Updown.io.svg",
   actions: updownIoActions,
 };

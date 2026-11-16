@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://axiom.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/axiom.png",
   actions: axiomActions,
 };

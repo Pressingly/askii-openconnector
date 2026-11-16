@@ -36,5 +36,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.litellm.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/litellm.png",
   actions: litellmActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.eagle-doc.com/en/products/eagle-doc-apis/",
+  iconUrl: "https://static.oomol.com/logo/third-party/eagle_doc.png",
   actions: eagleDocActions,
 };

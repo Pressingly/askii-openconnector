@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.getguru.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/guru.svg",
   actions: guruActions,
 };

@@ -50,5 +50,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.rocket.chat",
+  iconUrl: "https://static.oomol.com/logo/third-party/rocket_chat.png",
   actions: rocketChatActions,
 };

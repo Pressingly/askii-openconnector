@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://supadata.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/supadata.svg",
   actions: supadataActions,
 };

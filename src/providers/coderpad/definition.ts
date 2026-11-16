@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://coderpad.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/coderpad.svg",
   actions: coderpadActions,
 };

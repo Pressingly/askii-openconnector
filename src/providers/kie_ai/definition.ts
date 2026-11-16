@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://kie.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/kie_ai.png",
   actions: kieAiActions,
 };

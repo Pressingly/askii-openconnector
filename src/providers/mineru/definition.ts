@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mineru.net",
+  iconUrl: "https://static.oomol.com/logo/third-party/mineru.svg",
   actions: mineruActions,
 };

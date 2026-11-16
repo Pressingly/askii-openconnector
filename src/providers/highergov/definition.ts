@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.highergov.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/highergov.svg",
   actions: highergovActions,
 };

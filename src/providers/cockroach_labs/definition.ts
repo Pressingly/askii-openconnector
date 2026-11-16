@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.cockroachlabs.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/cockroach_labs.png",
   actions: cockroachLabsActions,
 };

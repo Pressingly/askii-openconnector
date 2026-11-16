@@ -50,5 +50,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://listmonk.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/listmonk.svg",
   actions: listmonkActions,
 };

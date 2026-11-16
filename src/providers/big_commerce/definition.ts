@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.bigcommerce.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/big_commerce.svg",
   actions: bigCommerceActions,
 };

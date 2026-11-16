@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.loomio.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/loomio.png",
   actions: loomioActions,
 };

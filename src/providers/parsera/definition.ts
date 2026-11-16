@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://parsera.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/parsera.png",
   actions: parseraActions,
 };

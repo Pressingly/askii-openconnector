@@ -94,5 +94,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mqtt.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/mqtt.svg",
   actions: mqttActions,
 };

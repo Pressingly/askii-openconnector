@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ticketsource.co.uk/",
+  iconUrl: "https://static.oomol.com/logo/third-party/ticket_source.svg",
   actions: ticketSourceActions,
 };

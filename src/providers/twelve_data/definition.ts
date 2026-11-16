@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://twelvedata.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Twelve%20Data.svg",
   actions: twelveDataActions,
 };

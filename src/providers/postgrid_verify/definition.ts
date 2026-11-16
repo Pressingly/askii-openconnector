@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.postgrid.com/address-verification/",
+  iconUrl: "https://static.oomol.com/logo/third-party/postgrid_verify.svg",
   actions: postgridVerifyActions,
 };

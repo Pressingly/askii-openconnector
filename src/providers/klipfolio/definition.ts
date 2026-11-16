@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.klipfolio.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/klipfolio.svg",
   actions: klipfolioActions,
 };

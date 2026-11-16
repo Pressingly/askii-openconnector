@@ -61,5 +61,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.bamboohr.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/bamboohr.png",
   actions: bamboohrActions,
 };

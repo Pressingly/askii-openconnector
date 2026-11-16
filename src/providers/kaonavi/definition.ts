@@ -6,6 +6,7 @@ export const provider: ProviderDefinition = {
   service: "kaonavi",
   displayName: "Kaonavi",
   homepageUrl: "https://www.kaonavi.jp/",
+  iconUrl: "https://static.oomol.com/logo/third-party/kaonavi.svg",
   categories: ["Productivity"],
   authTypes: ["custom_credential"],
   auth: [

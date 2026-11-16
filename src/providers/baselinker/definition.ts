@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://baselinker.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/baselinker.svg",
   actions: baseLinkerActions,
 };

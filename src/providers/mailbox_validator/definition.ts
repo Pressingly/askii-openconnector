@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mailboxvalidator.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/mailbox_validator.svg",
   actions: mailboxValidatorActions,
 };

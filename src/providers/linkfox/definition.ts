@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.linkfox.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/linkfox.svg",
   actions: linkfoxActions,
 };

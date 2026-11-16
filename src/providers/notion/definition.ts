@@ -39,6 +39,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.notion.so",
+  iconUrl: "https://static.oomol.com/logo/third-party/Notion.svg",
   actions: notionActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

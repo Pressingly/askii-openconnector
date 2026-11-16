@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://nextdns.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/next_dns.svg",
   actions: nextDnsActions,
 };

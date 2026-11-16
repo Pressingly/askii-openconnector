@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://gitee.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/gitee.svg",
   actions: giteeActions,
 };

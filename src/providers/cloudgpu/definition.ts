@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cloudgpu.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/cloudgpu.svg",
   actions: cloudgpuActions,
 };

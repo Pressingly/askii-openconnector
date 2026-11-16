@@ -44,6 +44,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://asana.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Asana.svg",
   actions: [
     ...asanaWorkspaceActions,
     ...asanaUserActions,

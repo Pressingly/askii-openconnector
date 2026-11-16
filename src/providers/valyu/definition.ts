@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://valyu.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/valyu.png",
   actions: valyuActions,
 };

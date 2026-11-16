@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://upstash.com/redis",
+  iconUrl: "https://static.oomol.com/logo/third-party/upstash_redis.png",
   actions: upstashRedisActions,
 };

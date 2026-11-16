@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://parseur.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/parseur.svg",
   actions: parseurActions,
 };

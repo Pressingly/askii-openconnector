@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://lightspeedvt.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/lightspeed_vt.png",
   actions: lightspeedVtActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://docraptor.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/docraptor.svg",
   actions: docraptorActions,
 };

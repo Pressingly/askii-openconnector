@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.loyjoy.com/en/",
+  iconUrl: "https://static.oomol.com/logo/third-party/loyjoy.svg",
   actions: loyjoyActions,
 };

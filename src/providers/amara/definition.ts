@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://amara.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/Amara.svg",
   actions: amaraActions,
 };

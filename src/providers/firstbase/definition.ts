@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.firstbase.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/firstbase.png",
   actions: firstbaseActions,
 };

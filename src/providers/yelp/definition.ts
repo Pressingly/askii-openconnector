@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.yelp.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/yelp.svg",
   actions: yelpActions,
 };

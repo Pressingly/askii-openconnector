@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.talenox.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/talenox.png",
   actions: talenoxActions,
 };

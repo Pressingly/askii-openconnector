@@ -62,6 +62,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.zendesk.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Zendesk.svg",
   actions: zendeskActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

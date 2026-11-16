@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://starton.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/starton.jpg",
   actions: startonActions,
 };

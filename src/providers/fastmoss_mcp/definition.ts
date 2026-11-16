@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "fastmoss_mcp",
   displayName: "FastMoss MCP",
   homepageUrl: "https://www.fastmoss.com/zh",
+  iconUrl: "https://static.oomol.com/logo/third-party/fastmoss_mcp.svg",
   categories: ["Data", "Marketing", "Cross-border Ecommerce"],
   authTypes: ["api_key"],
   auth: [

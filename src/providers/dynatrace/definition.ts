@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.dynatrace.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/dynatrace.svg",
   actions: dynatraceActions,
 };

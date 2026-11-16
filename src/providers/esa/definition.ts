@@ -35,5 +35,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://esa.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/esa.svg",
   actions: esaActions,
 };

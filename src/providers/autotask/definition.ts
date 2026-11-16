@@ -41,5 +41,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.datto.com/products/autotask-psa/",
+  iconUrl: "https://static.oomol.com/logo/third-party/autotask.svg",
   actions: autotaskActions,
 };

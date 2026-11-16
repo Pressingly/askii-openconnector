@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.browserless.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/browserless.svg",
   actions: browserlessActions,
 };

@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "weread",
   displayName: "WeRead",
   homepageUrl: "https://weread.qq.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/weread.png",
   categories: ["Productivity"],
   authTypes: ["api_key"],
   auth: [

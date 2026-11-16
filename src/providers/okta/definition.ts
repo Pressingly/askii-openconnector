@@ -84,5 +84,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.okta.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/okta.svg",
   actions: oktaActions,
 };

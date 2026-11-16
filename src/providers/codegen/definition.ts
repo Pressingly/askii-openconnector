@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://codegen.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/codegen.svg",
   actions: codegenActions,
 };

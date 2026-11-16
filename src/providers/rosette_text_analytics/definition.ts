@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.babelstreet.com/babel-street-insights",
+  iconUrl: "https://static.oomol.com/logo/third-party/rosette_text_analytics.svg",
   actions: rosetteTextAnalyticsActions,
 };

@@ -38,5 +38,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ima.qq.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/ima.svg",
   actions: imaActions,
 };

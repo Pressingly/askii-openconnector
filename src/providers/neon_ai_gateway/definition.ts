@@ -36,5 +36,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://neon.com/docs/ai-gateway/overview",
+  iconUrl: "https://static.oomol.com/logo/third-party/neon_ai_gateway.svg",
   actions: neonAiGatewayActions,
 };

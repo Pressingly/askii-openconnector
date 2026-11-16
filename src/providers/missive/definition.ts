@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://missiveapp.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/missive.svg",
   actions: missiveActions,
 };

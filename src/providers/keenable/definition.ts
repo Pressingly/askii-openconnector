@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://keenable.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/keenable.svg",
   actions: keenableActions,
 };

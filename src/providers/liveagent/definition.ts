@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.liveagent.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/liveagent.svg",
   actions: liveagentActions,
 };

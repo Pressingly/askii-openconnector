@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mailsoftly.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/mailsoftly.png",
   actions: mailsoftlyActions,
 };

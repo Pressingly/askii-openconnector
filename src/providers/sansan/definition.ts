@@ -6,6 +6,7 @@ export const provider: ProviderDefinition = {
   displayName: "Sansan",
   categories: ["Productivity", "Marketing"],
   homepageUrl: "https://jp.sansan.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/sansan.svg",
   authTypes: ["api_key"],
   auth: [
     {

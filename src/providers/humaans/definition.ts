@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://humaans.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/humaans.svg",
   actions: humaansActions,
 };

@@ -51,5 +51,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://workers.cloudflare.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Cloudflare.svg",
   actions: cloudflareWorkerActions,
 };

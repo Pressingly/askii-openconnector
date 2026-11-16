@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "keyzy",
   displayName: "KEYZY",
   homepageUrl: "https://www.keyzy.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/keyzy.svg",
   categories: ["Developer Tools"],
   authTypes: ["api_key"],
   auth: [

@@ -33,5 +33,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.drawio.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/drawio_mcp.svg",
   actions: drawioMcpActions,
 };

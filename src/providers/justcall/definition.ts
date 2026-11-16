@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://justcall.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/justcall.svg",
   actions: justCallActions,
 };

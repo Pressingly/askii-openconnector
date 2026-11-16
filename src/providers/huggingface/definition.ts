@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://huggingface.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/Hugging%20Face.svg",
   actions: huggingfaceActions,
 };

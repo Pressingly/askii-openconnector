@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://productfruits.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/product_fruits.svg",
   actions: productFruitsActions,
 };

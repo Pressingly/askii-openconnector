@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://boldsign.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/boldsign.svg",
   actions: boldSignActions,
 };

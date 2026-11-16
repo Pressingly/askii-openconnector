@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://callpod.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/pod_ai.png",
   actions: podAiActions,
 };

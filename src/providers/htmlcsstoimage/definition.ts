@@ -32,5 +32,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://htmlcsstoimage.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/htmlcsstoimage.svg",
   actions: htmlcsstoimageActions,
 };

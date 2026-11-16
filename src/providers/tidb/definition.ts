@@ -39,5 +39,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.pingcap.com/tidb/cloud/",
+  iconUrl: "https://static.oomol.com/logo/third-party/tidb.svg",
   actions: tidbActions,
 };

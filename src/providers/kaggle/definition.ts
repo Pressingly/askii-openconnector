@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.kaggle.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/kaggle.png",
   actions: kaggleActions,
 };

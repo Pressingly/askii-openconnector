@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.celigo.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Celigo.svg",
   actions: celigoActions,
 };

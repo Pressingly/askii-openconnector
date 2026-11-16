@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.chorus.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/chorus.svg",
   actions: chorusActions,
 };

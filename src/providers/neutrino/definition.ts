@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.neutrinoapi.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/neutrino.svg",
   actions: neutrinoActions,
 };

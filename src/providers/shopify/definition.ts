@@ -87,6 +87,7 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.shopify.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/shopify.svg",
   actions: shopifyActions,
   triggers: [triggerSnapshot0_0],
   triggerPermissions,

@@ -33,5 +33,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.box.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/box.svg",
   actions: boxActions,
 };

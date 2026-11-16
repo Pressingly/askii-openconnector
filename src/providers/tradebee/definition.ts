@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "tradebee",
   displayName: "Tradebee",
   homepageUrl: "https://www.tradebee.cn/",
+  iconUrl: "https://static.oomol.com/logo/third-party/tradebee.png",
   categories: ["Cross-border E-commerce"],
   authTypes: ["api_key"],
   auth: [

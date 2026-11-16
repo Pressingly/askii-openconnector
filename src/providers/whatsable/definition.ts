@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://whatsable.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/whatsable.svg",
   actions: whatsableActions,
 };

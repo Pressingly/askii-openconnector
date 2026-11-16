@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.helpscout.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/helpscout.svg",
   actions: helpscoutActions,
 };

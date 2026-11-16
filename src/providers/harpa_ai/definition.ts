@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://harpa.ai/",
+  iconUrl: "https://static.oomol.com/logo/third-party/harpa_ai.png",
   actions: harpaAiActions,
 };

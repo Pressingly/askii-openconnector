@@ -6,6 +6,7 @@ export const provider: ProviderDefinition = {
   service: "tendata",
   displayName: "Tendata",
   homepageUrl: "https://www.tendata.cn/",
+  iconUrl: "https://static.oomol.com/logo/third-party/tendata.png",
   categories: ["Data", "Cross-border ecommerce"],
   authTypes: ["api_key"],
   auth: [

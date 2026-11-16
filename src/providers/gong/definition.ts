@@ -53,5 +53,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.gong.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/gong.svg",
   actions: gongActions,
 };

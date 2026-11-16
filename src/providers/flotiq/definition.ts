@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "flotiq",
   displayName: "Flotiq",
   homepageUrl: "https://flotiq.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/flotiq.svg",
   categories: ["Documents & Content", "Developer Tools"],
   authTypes: ["api_key"],
   auth: [

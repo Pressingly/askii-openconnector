@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://docs.paperless-ngx.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/paperless_ngx.svg",
   actions: paperlessNgxActions,
 };

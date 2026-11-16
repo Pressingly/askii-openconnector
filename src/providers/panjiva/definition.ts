@@ -34,5 +34,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://panjiva.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/panjiva.svg",
   actions: panjivaActions,
 };

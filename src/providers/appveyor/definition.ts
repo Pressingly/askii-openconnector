@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.appveyor.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/appveyor.svg",
   actions: appveyorActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.all-hands.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/open_hands.png",
   actions: openHandsActions,
 };

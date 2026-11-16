@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://buttondown.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/buttondown.svg",
   actions: buttondownActions,
 };

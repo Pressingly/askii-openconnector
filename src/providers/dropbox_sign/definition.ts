@@ -38,5 +38,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://sign.dropbox.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/dropbox_sign.svg",
   actions: dropboxSignActions,
 };

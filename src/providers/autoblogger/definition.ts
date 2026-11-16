@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://autoblogging.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/autoblogger.png",
   actions: autobloggerActions,
 };

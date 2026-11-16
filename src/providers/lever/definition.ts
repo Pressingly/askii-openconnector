@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.lever.co",
+  iconUrl: "https://static.oomol.com/logo/third-party/lever.svg",
   actions: leverActions,
 };

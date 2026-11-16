@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://screendesk.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/screendesk.svg",
   actions: screendeskActions,
 };

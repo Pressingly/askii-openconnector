@@ -27,5 +27,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://surveymethods.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/surveymethods.svg",
   actions: surveyMethodsActions,
 };

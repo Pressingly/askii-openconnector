@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "Numverify",
   description: "International phone number validation and dialing information",
   homepageUrl: "https://numverify.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/numverify.svg",
   categories: ["Data & Analytics", "Communication"],
   authTypes: ["api_key"],
   auth: [

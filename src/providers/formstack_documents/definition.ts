@@ -35,5 +35,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://forms.formstack.com/products/documents",
+  iconUrl: "https://static.oomol.com/logo/third-party/formstack_documents.svg",
   actions: formstackDocumentsActions,
 };

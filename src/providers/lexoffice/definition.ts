@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://office.lexware.de/",
+  iconUrl: "https://static.oomol.com/logo/third-party/lexoffice.svg",
   actions: lexofficeActions,
 };

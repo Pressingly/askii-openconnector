@@ -59,5 +59,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://mixpanel.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/mixpanel.png",
   actions: mixpanelActions,
 };

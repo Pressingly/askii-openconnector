@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.recall.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/Recall.ai.svg",
   actions: recallaiActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.bigdatacloud.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/BigDataCloud.svg",
   actions: bigDataCloudActions,
 };

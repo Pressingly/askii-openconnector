@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://cheaperinference.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/cheaperinference.svg",
   actions: cheaperinferenceActions,
 };

@@ -53,5 +53,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.altiria.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/altiria.png",
   actions: altiriaActions,
 };

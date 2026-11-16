@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.xero.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/xero.svg",
   actions: xeroActions,
 };

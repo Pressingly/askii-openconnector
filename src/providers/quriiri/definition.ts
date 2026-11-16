@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://quriiri.fi/",
+  iconUrl: "https://static.oomol.com/logo/third-party/quriiri.png",
   actions: quriiriActions,
 };

@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://plisio.net",
+  iconUrl: "https://static.oomol.com/logo/third-party/plisio.png",
   actions: plisioActions,
 };

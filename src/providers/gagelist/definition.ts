@@ -35,5 +35,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://gagelist.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/gagelist.png",
   actions: gagelistActions,
 };

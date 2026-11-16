@@ -55,5 +55,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://ark.xiaohongshu.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/xiaohongshu_store.jpg",
   actions: xiaohongshuStoreActions,
 };

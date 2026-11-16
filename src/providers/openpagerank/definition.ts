@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://openpagerank.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/openpagerank.webp",
   actions: openPageRankActions,
 };

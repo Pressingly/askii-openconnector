@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.webshare.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/webshare.svg",
   actions: webshareActions,
 };

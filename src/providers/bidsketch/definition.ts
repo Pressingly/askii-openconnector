@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.bidsketch.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/bidsketch.svg",
   actions: bidsketchActions,
 };

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://onfleet.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/onfleet.png",
   actions: onfleetActions,
 };

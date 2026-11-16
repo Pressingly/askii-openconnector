@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://simplybook.me/",
+  iconUrl: "https://static.oomol.com/logo/third-party/simplybook_me.svg",
   actions: simplybookMeActions,
 };

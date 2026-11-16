@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://seatable.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/seatable.svg",
   actions: seatableActions,
 };

@@ -51,5 +51,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://vtex.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/vtex.svg",
   actions: vtexActions,
 };

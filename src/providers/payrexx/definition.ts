@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://payrexx.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/payrexx.svg",
   actions: payrexxActions,
 };

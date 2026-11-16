@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.subvisory.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/subvisory.svg",
   actions: subvisoryActions,
 };

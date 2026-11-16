@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.nocrm.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/NoCRM.io.svg",
   actions: nocrmIoActions,
 };

@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "humor_api",
   displayName: "Humor API",
   homepageUrl: "https://humorapi.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/humor_api.svg",
   categories: ["Design & Media"],
   authTypes: ["api_key"],
   auth: [

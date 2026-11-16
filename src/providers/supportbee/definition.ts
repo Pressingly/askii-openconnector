@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://supportbee.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/supportbee.png",
   actions: supportbeeActions,
 };

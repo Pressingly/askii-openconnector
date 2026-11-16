@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.pinecone.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/pinecone.svg",
   actions: pineconeActions,
 };

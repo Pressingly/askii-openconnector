@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.talenthr.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/Talenthr.svg",
   actions: talenthrActions,
 };

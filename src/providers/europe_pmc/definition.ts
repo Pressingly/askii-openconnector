@@ -8,5 +8,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["no_auth"],
   auth: [{ type: "no_auth" }],
   homepageUrl: "https://europepmc.org/",
+  iconUrl: "https://static.oomol.com/logo/third-party/europe_pmc.svg",
   actions: europePmcActions,
 };

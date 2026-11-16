@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://canny.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/Canny.svg",
   actions: cannyActions,
 };

@@ -7,6 +7,7 @@ export const provider: ProviderDefinition = {
   displayName: "G2",
   description: "Explore products, reviews and buying signals; manage Activate and research boards",
   homepageUrl: "https://www.g2.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/g2.svg",
   categories: ["Data & Analytics", "Marketing"],
   authTypes: ["api_key"],
   auth: [

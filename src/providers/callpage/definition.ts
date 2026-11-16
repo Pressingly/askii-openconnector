@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.callpage.io",
+  iconUrl: "https://static.oomol.com/logo/third-party/callpage.svg",
   actions: callpageActions,
 };

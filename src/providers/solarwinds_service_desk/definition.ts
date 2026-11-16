@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "solarwinds_service_desk",
   displayName: "SolarWinds Service Desk",
   homepageUrl: "https://www.solarwinds.com/service-desk",
+  iconUrl: "https://static.oomol.com/logo/third-party/solarwinds_service_desk.svg",
   categories: ["Productivity"],
   authTypes: ["api_key"],
   auth: [

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://getyoutubetranscript.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/getyoutubetranscript.png",
   actions: getyoutubetranscriptActions,
 };

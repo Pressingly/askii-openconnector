@@ -8,7 +8,7 @@ explained in the Askii spec `docs/superpowers/specs/2026-11-12-openconnector-int
 
 - Base: upstream tag `v1.9.9`, branch `askii/v1.9.9`.
 - Releases: `v<upstream>-askii.<n>`, for example `v1.9.9-askii.1`.
-- Every patch is one commit with its tests, and is opt-in by env var. With the var unset the
+- Every behavior patch is one commit with its tests, and is opt-in by env var (patch 6 is catalog data only). With the var unset the
   fork behaves like upstream and the upstream tests pass with only test-store additions (patch 2
   adds `create` to the test connection stores).
 - Generic patches (1, 2, maybe 4) are offered upstream. When upstream accepts one, it leaves the
@@ -23,6 +23,7 @@ explained in the Askii spec `docs/superpowers/specs/2026-11-12-openconnector-int
 | 3   | Signed, short-lived file URLs: when `OOMOL_CONNECT_FILE_URL_SECRET` is set, every `downloadUrl` carries `exp` and an HMAC `sig`, and `GET /api/files/:id` rejects unsigned, tampered or expired requests with `403`.                                                                                                                     | In `v1.9.9-askii.1`                            |
 | 4   | Grant-filtered connection listing in SQL (`WHERE id IN (...)`, decrypt only what is returned), SQLite and Postgres stores.                                                                                                                                                                                                               | Planned: before Askii ships the discovery mode |
 | 5   | Cross-replica refresh lock (`pg_advisory_xact_lock` on the connection id around token refresh).                                                                                                                                                                                                                                          | Planned: when Askii runs 2 or more replicas    |
+| 6   | Provider icon links: each provider definition without its own `iconUrl` gets the link from oomol's public app list (`https://connector.oomol.com/public/v1/apps?locale=en`), images on `static.oomol.com`. 1,681 providers; 3 have no icon there. To refresh, re-read that list and add `iconUrl` to definitions still missing one.      | On `askii/v1.9.9`, next tag                    |
 
 Rate limiting is not in the fork; Askii does it.
 

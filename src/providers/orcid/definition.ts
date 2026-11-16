@@ -16,5 +16,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://orcid.org/",
+  iconUrl: "https://static.oomol.com/logo/third-party/orcid.svg",
   actions: orcidActions,
 };

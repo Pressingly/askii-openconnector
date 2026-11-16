@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.anthropic.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/anthropic.svg",
   actions: anthropicActions,
 };

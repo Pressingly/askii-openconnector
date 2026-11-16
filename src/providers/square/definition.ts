@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://squareup.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/square.svg",
   actions: squareActions,
 };

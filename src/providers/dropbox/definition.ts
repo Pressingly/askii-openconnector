@@ -26,5 +26,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.dropbox.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/Dropbox.svg",
   actions: dropboxActions,
 };

@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.bannerbear.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/bannerbear.svg",
   actions: bannerbearActions,
 };

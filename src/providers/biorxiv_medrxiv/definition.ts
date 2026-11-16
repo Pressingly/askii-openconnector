@@ -11,5 +11,6 @@ export const provider: ProviderDefinition = {
   authTypes: ["no_auth"],
   auth: [{ type: "no_auth" }],
   homepageUrl: "https://www.biorxiv.org/",
+  iconUrl: "https://static.oomol.com/logo/third-party/biorxiv_medrxiv.png",
   actions: biorxivMedrxivActions,
 };

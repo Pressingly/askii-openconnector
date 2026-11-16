@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://fellow.app",
+  iconUrl: "https://static.oomol.com/logo/third-party/fellow.svg",
   actions: fellowActions,
 };

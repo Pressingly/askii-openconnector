@@ -22,5 +22,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.icypeas.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/icypeas.png",
   actions: icypeasActions,
 };

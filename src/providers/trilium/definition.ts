@@ -29,5 +29,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://triliumnotes.org",
+  iconUrl: "https://static.oomol.com/logo/third-party/trilium.svg",
   actions: triliumActions,
 };

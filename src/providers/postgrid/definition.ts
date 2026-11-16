@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.postgrid.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/postgrid.svg",
   actions: postgridActions,
 };

@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://faktoora.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/faktoora.svg",
   actions: faktooraActions,
 };

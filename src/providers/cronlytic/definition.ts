@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "cronlytic",
   displayName: "Cronlytic",
   homepageUrl: "https://www.cronlytic.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/cronlytic.png",
   categories: ["Developer Tools"],
   authTypes: ["api_key"],
   auth: [

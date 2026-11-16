@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mailwizz.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/mailwizz.svg",
   actions: mailWizzActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.statsig.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/statsig.svg",
   actions: statsigActions,
 };

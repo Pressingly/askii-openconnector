@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.paloaltonetworks.com/network-security/next-gen-trust-security/certificate-manager",
+  iconUrl: "https://static.oomol.com/logo/third-party/venafitlsprotectcloud.svg",
   actions: venafiTlsProtectCloudActions,
 };

@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.openstatus.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/openstatus.svg",
   actions: openstatusActions,
 };

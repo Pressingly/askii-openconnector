@@ -5,6 +5,7 @@ export const provider: ProviderDefinition = {
   service: "gildata",
   displayName: "Gildata Data Map",
   homepageUrl: "https://www.gildata.com/products/datamap",
+  iconUrl: "https://static.oomol.com/logo/third-party/gildata.png",
   categories: ["Finance", "Data"],
   authTypes: ["api_key"],
   auth: [

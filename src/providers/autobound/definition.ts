@@ -20,5 +20,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.autobound.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/autobound.png",
   actions: autoboundActions,
 };

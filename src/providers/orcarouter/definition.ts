@@ -23,5 +23,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.orcarouter.ai",
+  iconUrl: "https://static.oomol.com/logo/third-party/orcarouter.png",
   actions: orcarouterActions,
 };

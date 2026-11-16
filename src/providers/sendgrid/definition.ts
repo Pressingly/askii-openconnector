@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://sendgrid.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/SendGrid.svg",
   actions: sendgridActions,
 };

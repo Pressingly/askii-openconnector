@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://dadata.ru",
+  iconUrl: "https://static.oomol.com/logo/third-party/dadata_ru.svg",
   actions: dadataRuActions,
 };

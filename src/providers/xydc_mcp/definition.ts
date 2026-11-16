@@ -17,5 +17,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://platform.xydc.com/mcp",
+  iconUrl: "https://static.oomol.com/logo/third-party/xydc_mcp.svg",
   actions: xydcMcpActions,
 };
