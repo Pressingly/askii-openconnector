@@ -47,5 +47,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://developer.amazonservices.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/amazon_sp_api.svg",
   actions: amazonSpApiActions,
 };

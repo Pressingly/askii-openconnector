@@ -28,5 +28,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://karbonhq.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/karbon.svg",
   actions: karbonActions,
 };

@@ -38,5 +38,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://shop.tiktok.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/tiktok_shop.svg",
   actions: actions,
 };

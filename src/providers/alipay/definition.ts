@@ -62,5 +62,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.alipay.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/alipay.svg",
   actions: alipayActions,
 };

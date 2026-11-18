@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.mamopay.com/",
+  iconUrl: "https://static.oomol.com/logo/third-party/mamo_business.svg",
   actions: actions,
 };

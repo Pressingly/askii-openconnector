@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.ebay.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/ebay.svg",
   actions: ebayActions,
 };
