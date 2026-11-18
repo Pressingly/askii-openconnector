@@ -25,5 +25,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://treg.to",
+  iconUrl: "https://static.oomol.com/logo/third-party/treg.svg",
   actions: tregActions,
 };

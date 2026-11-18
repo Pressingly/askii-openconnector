@@ -19,5 +19,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://uberllm.dev",
+  iconUrl: "https://static.oomol.com/logo/third-party/uberllm.svg",
   actions: uberllmActions,
 };

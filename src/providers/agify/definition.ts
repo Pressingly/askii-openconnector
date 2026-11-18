@@ -18,5 +18,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://agify.io/",
+  iconUrl: "https://static.oomol.com/logo/third-party/agify.svg",
   actions: agifyActions,
 };

@@ -31,5 +31,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.larksuite.com",
+  iconUrl: "https://static.oomol.com/logo/third-party/lark.png",
   actions: larkActions,
 };

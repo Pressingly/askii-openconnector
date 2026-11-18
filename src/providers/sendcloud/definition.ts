@@ -30,5 +30,6 @@ export const provider: ProviderDefinition = {
     },
   ],
   homepageUrl: "https://www.sendcloud.net/",
+  iconUrl: "https://static.oomol.com/logo/third-party/sendcloud.svg",
   actions: sendcloudActions,
 };
